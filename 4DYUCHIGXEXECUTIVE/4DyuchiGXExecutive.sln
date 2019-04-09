@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXExecutive", "4DyuchiGXExecutive.vcproj", "{3CE5EC7B-175A-46BA-8BD7-6E1791580996}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DYUCHIGXEXECUTIVE\\
+		SolutionUniqueID = {F50485D7-61C1-4DEF-801E-004D28857ADF}
+		SccProjectUniqueName1 = 4DyuchiGXExecutive.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DYUCHIGXEXECUTIVE\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3CE5EC7B-175A-46BA-8BD7-6E1791580996}.Debug.ActiveCfg = Debug|Win32
+		{3CE5EC7B-175A-46BA-8BD7-6E1791580996}.Debug.Build.0 = Debug|Win32
+		{3CE5EC7B-175A-46BA-8BD7-6E1791580996}.Release.ActiveCfg = Release|Win32
+		{3CE5EC7B-175A-46BA-8BD7-6E1791580996}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

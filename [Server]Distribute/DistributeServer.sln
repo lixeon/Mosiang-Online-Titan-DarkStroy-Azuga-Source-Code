@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DistributeServer", "DistributeServer.vcproj", "{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Server]Distribute\\
+		SolutionUniqueID = {15B7B32A-CF0E-4D47-9491-A2127EFA9024}
+		SccProjectUniqueName1 = DistributeServer.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Server]Distribute\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_CHINA = Debug_CHINA
+		Debug_HK = Debug_HK
+		Debug_JAPAN = Debug_JAPAN
+		Debug_TL = Debug_TL
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug.ActiveCfg = Debug|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug.Build.0 = Debug|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_CHINA.ActiveCfg = Debug_CHINA|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_CHINA.Build.0 = Debug_CHINA|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_HK.ActiveCfg = Debug_HK|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_HK.Build.0 = Debug_HK|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_JAPAN.ActiveCfg = Debug_JAPAN|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_JAPAN.Build.0 = Debug_JAPAN|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_TL.ActiveCfg = Debug_TL|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Debug_TL.Build.0 = Debug_TL|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Release.ActiveCfg = Release|Win32
+		{CB4B94E4-1B91-4B07-AC1F-5097500FDD53}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

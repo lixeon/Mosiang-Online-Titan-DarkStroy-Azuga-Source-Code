@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiFilePack - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/4DyuchiFilePack.res" /d "_DEBUG" /d "_AFXDLL" "D:\4dyuchigx\4DyuchiFilePack\4DyuchiFilePack.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/4DyuchiFilePack.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DyuchiFilePack\4DyuchiFilePack.cpp"
+"D:\4dyuchigx\4DyuchiFilePack\4DyuchiFilePackDlg.cpp"
+"D:\4dyuchigx\4DyuchiFilePack\ListBoxContainer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/4DyuchiFilePack.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DyuchiFilePack\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP46.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP47.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/4DyuchiFilePack.pdb" /debug /machine:I386 /out:"../../4DyuchiGX/4DyuchiGXTools/4DyuchiFilePack.exe" /pdbtype:sept 
+.\Debug\4DyuchiFilePack.obj
+.\Debug\4DyuchiFilePackDlg.obj
+.\Debug\ListBoxContainer.obj
+.\Debug\StdAfx.obj
+.\Debug\4DyuchiFilePack.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP47.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+4DyuchiFilePack.cpp
+4DyuchiFilePackDlg.cpp
+ListBoxContainer.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+4DyuchiFilePack.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

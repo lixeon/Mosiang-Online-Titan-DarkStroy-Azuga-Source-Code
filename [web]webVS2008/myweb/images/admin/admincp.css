@@ -1,0 +1,436 @@
+body, td{
+	margin: 0px;
+	font: 12px Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+html, body {
+	scrollbar-face-color: #15A3D9;
+	scrollbar-highlight-color: #555555;
+	scrollbar-3dlight-color: #555555;
+	scrollbar-darkshadow-color: #60B7DE;
+	scrollbar-shadow-color: #555555;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-track-color: #A4D6EA;
+	background: #dae6f3;
+}
+
+input, textarea, select {
+	margin: 5px 0px;
+	border: 1px solid #6699CC;
+	font-size: 13px;
+	line-height: 1.3em;
+	color: #006699;
+	background: #FFFFFF;
+}
+form {
+	margin: 0px;
+}
+textarea {
+	overflow: auto;
+}
+.checkbox, .radio {
+	border: 0px;
+	background: none;
+	vertical-align: middle;
+	height: 16px;
+}
+
+a {
+	text-decoration: none; 
+	color: #555555
+}
+a:hover {
+	text-decoration: underline;
+}
+.cpoptext {
+	font-family: Tahoma, Verdana;
+	background-color: #FFFFCC;
+	color: #000000;
+	border: 1px #000000 solid;
+	font-size: 12px;
+	padding-right: 4px;
+	padding-left: 4px;
+	line-height: 18px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	visibility: hidden;
+	filter: Alpha(Opacity=80);
+}
+
+/* ====================================================== */
+/* ===========logo============== */
+.logo {
+	width: 168px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.logoimg {
+	display: block;
+	width: 33px;
+	height: 33px;
+	float: left;
+	padding-right: 8px;
+}
+
+.editiontext {
+	padding-top: 4px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* ====================================================== */
+/* ===========主菜單標籤============== */
+.topmenubg {
+	background: url(bg_header.gif) repeat-x;
+}
+.topmenu {
+	height: 38px;
+	float: left;
+	min-width: 600px;
+	width: 600px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #555555;
+	margin-top: 24px;
+}
+.topmenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.topmenu li {
+	float: left;
+	border: solid 1px #43809C;
+	border-bottom: none;
+	list-style-type: none;
+	margin-right: 1px;
+	margin-top: 2px;
+}
+
+.topmenu span {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	background: url(bg_menu2.gif);
+	height: 25px;
+	line-height: 25px;
+	border: solid 1px #FFFFFF;
+	border-bottom: none;
+	color: #555555;
+}
+
+/* ===========當前鏈接標籤============== */
+#menuon {
+	margin-top: 0px;
+	height: 30px;
+	line-height: 30px;
+	border: solid 1px #525C3D;
+	border-bottom: none;
+	background: url(bg_menu.gif);
+}
+
+#menuon span {
+	padding-top: 1px;
+	background: url(bg_menu.gif);
+	border: solid 1px #FFFFFF;
+	height: 27px;
+	border-bottom: none;
+}
+#menuon span a {
+	color: #003366;
+}
+
+/* ====================================================== */
+/* ===========左側菜單============== */
+.leftmenulist {
+	margin: 2px;
+	border: 1px solid #525C3D;
+	width: 134px;
+}
+
+.leftmenutext td {
+	background: url(bg_list.gif) repeat-x;
+	line-height: 16px;
+	height: 31px !important;
+	> height: 30px !important;
+	height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-left: 4px;
+	border-bottom: 1px solid #BBDCF1;
+}
+
+.leftmenutext a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.leftmenutd td {
+	background: #FFFFFF;
+}
+
+.leftmenuinfo {
+	margin-left: 8px;
+	margin-bottom: 10px;
+	width: 116px;
+}
+
+.leftmenuinfo td{
+	height: 1.8em;
+	line-height: 1.6em;
+	border-bottom: solid 1px #A3CEEB;
+	text-indent: 8px;
+}
+/* ====================================================== */
+/* ===========主內容顯示表格============== */
+
+.guide td {
+	border: 1px solid #1598CB;
+	background-color: #FBFFE1;
+	line-height: 1.2em;
+	height: 28px;
+	text-indent: 20px;
+	color: #FF6600;
+}
+
+.tableborder {
+	outline: 1px solid #525C3D;
+	border: 0px!important;
+	> border: 1px solid #525C3D !important;
+	border: 1px solid #525C3D;
+	empty-cells: show;
+	border-collapse: separate !important;
+	> border-collapse: collapse !important;
+	border-collapse: collapse;
+}
+
+.tableborder td {
+	border-bottom: 1px solid #BBDCF1;
+	line-height: 1.5em;
+	height: 2em;
+	padding-left: 12px;
+	background: #FFFFFF;
+}
+.tableborder td ul, .tableborder td ul li {
+	line-height: 22px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.tableborder td img {
+	margin-top: 8px;
+}
+.category td {
+	color: #333333;
+	background-color: #F0F0F0;
+}
+
+td.altbg1, .altbg1 td {background: #F1F5F8;}
+td.altbg2, .altbg2 td {background: #FFFFFF;}
+.header td {
+	background: url(bg_list.gif) repeat-x;
+	line-height: 16px;
+	height: 31px !important;
+	> height: 30px !important;
+	height: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-bottom: 1px solid #525C3D;
+}
+
+.header a{
+	color: #FFFFFF;
+}
+
+/* ====================================================== */
+/* ===========按鈕式樣============== */
+
+.button {
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 6px;
+	color: #000;
+	background: url(bg_button.gif) repeat-x;
+
+	/*for Mozilla*/
+ 	outline: 1px solid #1590BE ;
+	border: 1px solid #FFFFFF !important;
+	height: 24px !important;
+	line-height: 22px !important;
+
+	/*for IE7*/
+	> border: 1px solid #1590BE !important;
+	> height: 26px !important;
+	> line-height: 20px !important;
+
+	/*for IE*/
+	border: 1px solid #1590BE ;
+	height: 26px;
+	line-height: 20px;
+}
+/* ====================================================== */
+/* ===========footer============== */
+
+.footer {
+	height: 20px;
+	margin: 20px;
+	text-align: center;
+}
+/* ====================================================== */
+/* ==========page分頁=========== */
+
+.p_bar {
+	margin: 1px 0px;
+	clear: both;
+	width: 100%;
+	height: 22px;
+	padding-top: 3px;
+	padding-bottom: 1px !important;
+}
+.p_bar a {
+	float: left;
+	padding: 1px 4px;
+	font-size: 12px;
+	text-decoration: none;
+}
+.p_input {
+	border: 0px;
+	padding: 0px;
+	width: 40px;
+	height: 18px !important;
+	> height: 15px !important;
+	height: 15px;
+	margin: 0px;
+	background: #FFFFFF;
+}
+.p_total {
+	background-color: #F5FBFF;
+	border: 1px solid #6699CC;
+	border-right: 0px solid #6699CC;
+	font-weight: bold;
+}
+.p_pages {
+	background-color: #F5FBFF;
+	border: 1px solid #6699CC;
+	margin-right:1px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.p_num {
+	background-color: #FFFFFF;
+	border: 1px solid #A3C2E0;
+	margin-right:1px;
+	vertical-align: middle;
+}
+a:hover.p_num {
+	background-color: #F5FBFF;
+	border: 1px solid #6699CC;
+	text-decoration: none;
+}
+.p_redirect {
+	background-color: #FFFFFF;
+	border: 1px solid #A3C2E0;
+	margin-right:1px;
+	font-size: 12px !important;
+	font-size: 13px;
+}
+a:hover.p_redirect {
+	background-color: #F5FBFF;
+	border: 1px solid #0099FF;
+	text-decoration: none;
+}
+.p_curpage {
+	margin-right:1px;
+	border: 1px solid #A3C2E0;
+	vertical-align: middle;
+	background-color: #FBFFE1;
+	color: #FF6600;
+	font-weight: bold;
+}
+/* ====================================================== */
+/* ==========日曆=========== */
+
+.calendar_expire, .calendar_expire a:link, .calendar_expire a:visited {
+	color: #999999;
+}
+.calendar_default, .calendar_default a:link, .calendar_default a:visited {
+	color: #000000;
+}
+.calendar_checked, .calendar_checked a:link, .calendar_checked a:visited {
+	color: #FF0000;
+}
+.calendar_today, .calendar_today a:link, .calendar_today a:visited {
+	color: #00BB00;
+}
+.calendar_header td{
+	width: 30px;
+	height: 20px;
+}
+#calendar_year {
+	display: none;
+	line-height: 130%;
+	background: #FFFFFF;
+	position: absolute;
+	z-index: 10;
+}
+#calendar_year .col {
+	float: left;
+	background: #FFFFFF;
+	margin-left: 1px;
+	border: 1px solid #86B9D6;
+	padding: 4px;
+}
+#calendar_month {
+	display: none;
+	background: #FFFFFF;
+	line-height: 130%;
+	border: 1px solid #86B9D6;
+	padding: 4px;
+	position: absolute;
+	z-index: 11;
+}
+
+/* ====================================================== */
+/* ==========其他=========== */
+
+.formulaeditor {
+	margin: 5px 0px;
+	width: 90%;
+	border: 1px solid #6699CC;
+}
+
+.formulaeditor div{
+	padding: 2px;
+}
+
+.formulaeditor textarea{
+	border: 0px;
+	border-top: 1px solid #6699CC;
+	margin: 0px;
+	padding: 0px;
+}
+
+.formulaeditor a {
+	border: 1px solid #6699CC;
+	padding: 2px;
+	background: #FFFFFF;
+	line-height: 25px;
+}
+
+.process {
+	width: 400px;
+	height: 40px;
+	background: url(process.gif) repeat-x;
+	text-align:left;
+	border: 1px solid #000000;
+}
+
+.processbg {
+	width: 402px;
+	height: 40px;
+	line-height:
+	40px;text-align:center;
+	color:#fff;
+	background: url(processbg.gif) -0% 0 no-repeat;
+}

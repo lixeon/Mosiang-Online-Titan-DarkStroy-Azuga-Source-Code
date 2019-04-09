@@ -1,0 +1,257 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DS_RMTool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"..\Obj\DSRMTool\Debug/DS_RMTool.res" /d "_DEBUG" "D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\DS_RMTool.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CF.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"..\Obj\DSRMTool\Debug/" /Fp"..\Obj\DSRMTool\Debug/DS_RMTool.pch" /Yu"stdafx.h" /Fo"..\Obj\DSRMTool\Debug/" /Fd"..\Obj\DSRMTool\Debug/" /FD /GZ /c 
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\ChildFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\DS_RMToolDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\DS_RMToolView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MunpaInfo.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MunpaDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MunpaFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MunpaView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\GameLogDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\GameLogFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\GameLogView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\OperLogDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\OperLogFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\OperLogView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\StatisticsDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\StatisticsFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\StatisticsView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\AdminInfo.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\IpInfo.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\AdminDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\AdminFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\AdminView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\Operater.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\CharacterInfo.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\CharacterDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\CharacterFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\CharacterView.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\BaseDoc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\CommonRMControl.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\PropertyList.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\RMListCtrl.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\StandingDlg.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\AbilityDlg.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\ItemDlg.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MugongDlg.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\DS_RMTool.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\LDPropSheet.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MainFrm.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Ability\AbilityCommonHeader.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Ability\AbilityInfo.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Header\TargetList\TargetData.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Header\TargetList\TargetList.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Header\TargetList\TargetListIterator.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Header\CommonCalcFunc.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MHFile.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\ResourceManager.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\RMNetwork.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\ChangeManager.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\ChangeValue.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\MASInfoManager.cpp"
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\commondbmsgparser.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"..\Obj\DSRMTool\Debug/" /Fp"..\Obj\DSRMTool\Debug/DS_RMTool.pch" /Yc"stdafx.h" /Fo"..\Obj\DSRMTool\Debug/" /Fd"..\Obj\DSRMTool\Debug/" /FD /GZ /c 
+"D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D1.tmp" with contents
+[
+yhlibrary.lib ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\Obj\DSRMTool\Debug/DS_RMTool.pdb" /map:"..\Obj\DSRMTool\Debug/DS_RMTool.map" /debug /machine:I386 /out:"..\DSRMTool\DS_RMTool.exe" /pdbtype:sept 
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChildFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMToolDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMToolView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaInfo.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminInfo.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\IpInfo.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\Operater.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterInfo.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterView.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\BaseDoc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CommonRMControl.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\PropertyList.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\RMListCtrl.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StandingDlg.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityDlg.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ItemDlg.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MugongDlg.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMTool.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\LDPropSheet.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MainFrm.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StdAfx.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityCommonHeader.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityInfo.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetData.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetList.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetListIterator.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CommonCalcFunc.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MHFile.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ResourceManager.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\RMNetwork.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChangeManager.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChangeValue.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MASInfoManager.obj"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMTool.res"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\commondbmsgparser.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D1.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DS_RMToolDoc.cpp
+DS_RMToolView.cpp
+MunpaInfo.cpp
+MunpaDoc.cpp
+MunpaFrm.cpp
+MunpaView.cpp
+GameLogDoc.cpp
+GameLogFrm.cpp
+GameLogView.cpp
+OperLogDoc.cpp
+OperLogFrm.cpp
+OperLogView.cpp
+StatisticsDoc.cpp
+StatisticsFrm.cpp
+StatisticsView.cpp
+AdminInfo.cpp
+IpInfo.cpp
+AdminDoc.cpp
+AdminFrm.cpp
+Generating Code...
+Compiling...
+AdminView.cpp
+Operater.cpp
+CharacterInfo.cpp
+CharacterDoc.cpp
+CharacterFrm.cpp
+CharacterView.cpp
+BaseDoc.cpp
+CommonRMControl.cpp
+PropertyList.cpp
+RMListCtrl.cpp
+StandingDlg.cpp
+AbilityDlg.cpp
+ItemDlg.cpp
+MugongDlg.cpp
+DS_RMTool.cpp
+LDPropSheet.cpp
+MainFrm.cpp
+AbilityCommonHeader.cpp
+AbilityInfo.cpp
+D:\eSofnet\DarkStory0727\CloseBeta040810\[CC]Ability\AbilityInfo.cpp(7) : fatal error C1083: Cannot open include file: 'MHFile.h': No such file or directory
+TargetData.cpp
+Generating Code...
+Compiling...
+TargetList.cpp
+TargetListIterator.cpp
+CommonCalcFunc.cpp
+MHFile.cpp
+ResourceManager.cpp
+RMNetwork.cpp
+ChangeManager.cpp
+ChangeValue.cpp
+MASInfoManager.cpp
+commondbmsgparser.cpp
+D:\eSofnet\DarkStory0727\CloseBeta040810\[Tool]DS_RMTool\commondbmsgparser.cpp(2) : fatal error C1083: Cannot open include file: '.\module\DataBase.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D2.tmp" with contents
+[
+/nologo /o"..\Obj\DSRMTool\Debug/DS_RMTool.bsc" 
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StdAfx.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChildFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMToolDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMToolView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaInfo.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MunpaView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\GameLogView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\OperLogView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StatisticsView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminInfo.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\IpInfo.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AdminView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\Operater.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterInfo.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CharacterView.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\BaseDoc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CommonRMControl.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\PropertyList.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\RMListCtrl.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\StandingDlg.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityDlg.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ItemDlg.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MugongDlg.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\DS_RMTool.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\LDPropSheet.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MainFrm.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityCommonHeader.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityInfo.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetData.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetList.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\TargetListIterator.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\CommonCalcFunc.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MHFile.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ResourceManager.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\RMNetwork.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChangeManager.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\ChangeValue.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\MASInfoManager.sbr"
+"\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\commondbmsgparser.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D2.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '\eSofnet\DarkStory0727\CloseBeta040810\Obj\DSRMTool\Debug\AbilityInfo.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+DS_RMTool.exe - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

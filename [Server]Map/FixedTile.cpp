@@ -1,0 +1,25 @@
+// FixedTile.cpp: implementation of the CFixedTile class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "FixedTile.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CFixedTile::CFixedTile()
+{
+
+}
+
+CFixedTile::~CFixedTile()
+{
+
+}
+
+void CFixedTile::InitTileAttrib(FIXEDTILE_ATTR Attr)
+{
+	m_FixedAttr.uFixedAttr = Attr.uFixedAttr;
+}

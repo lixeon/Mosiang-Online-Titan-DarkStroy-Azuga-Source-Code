@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiGXExecutive - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13E.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MY4DYUCHIGXEXECUTIVE_EXPORTS" /FR"Release/" /Fp"Release/4DyuchiGXExecutive.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\4dyuchigx\4DYUCHIGXEXECUTIVE\GXObject.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x65000000" /dll /incremental:no /pdb:"../../4DyuchiDLL/4DyuchiGX_Release/4DyuchiGXExecutive.pdb" /map:"../../4DyuchiDLL/4DyuchiGX_Release/4DyuchiGXExecutive.map" /debug /machine:I386 /def:".\4DyuchiGXEXECUTIVE.def" /out:"../../4DyuchiDLL/4DyuchiGX_Release/4DyuchiGXExecutive.dll" /implib:"Release/4DyuchiGXExecutive.lib" 
+.\Release\dllmain.obj
+.\Release\factory.obj
+.\Release\GXDefault.obj
+.\Release\AAEllipsoidCollisionTest.obj
+.\Release\CollisionTestMovingEllipsoidMeetTriangle.obj
+.\Release\CollisionTestMovingSphereMeetTriangle.obj
+.\Release\DummyCollisionTest.obj
+.\Release\SphereCollisionTest.obj
+.\Release\MStaticObjectTree.obj
+.\Release\CheckClock.obj
+.\Release\Logger.obj
+.\Release\MClipper.obj
+.\Release\Myself97Common.obj
+.\Release\TriangleLib.obj
+.\Release\map.obj
+.\Release\executive.obj
+.\Release\GXDecal.obj
+.\Release\GXEventTriggerObject.obj
+.\Release\GXHFieldMapObject.obj
+.\Release\GXLight.obj
+.\Release\GXMapObject.obj
+.\Release\GXObject.obj
+.\Release\GXStaticMapObject.obj
+.\Release\ShadeManager.obj
+.\Release\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP13F.tmp"
+<h3>Output Window</h3>
+Compiling...
+GXObject.cpp
+Linking...
+   Creating library Release/4DyuchiGXExecutive.lib and object Release/4DyuchiGXExecutive.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP144.tmp" with contents
+[
+/nologo /o"Release/4DyuchiGXExecutive.bsc" 
+.\Release\dllmain.sbr
+.\Release\factory.sbr
+.\Release\GXDefault.sbr
+.\Release\AAEllipsoidCollisionTest.sbr
+.\Release\CollisionTestMovingEllipsoidMeetTriangle.sbr
+.\Release\CollisionTestMovingSphereMeetTriangle.sbr
+.\Release\DummyCollisionTest.sbr
+.\Release\SphereCollisionTest.sbr
+.\Release\MStaticObjectTree.sbr
+.\Release\CheckClock.sbr
+.\Release\Logger.sbr
+.\Release\MClipper.sbr
+.\Release\Myself97Common.sbr
+.\Release\TriangleLib.sbr
+.\Release\map.sbr
+.\Release\executive.sbr
+.\Release\GXDecal.sbr
+.\Release\GXEventTriggerObject.sbr
+.\Release\GXHFieldMapObject.sbr
+.\Release\GXLight.sbr
+.\Release\GXMapObject.sbr
+.\Release\GXObject.sbr
+.\Release\GXStaticMapObject.sbr
+.\Release\ShadeManager.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP144.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+4DyuchiGXExecutive.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

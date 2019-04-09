@@ -1,0 +1,25 @@
+; v0 - light vector in tangent space
+; v1 - half vector in tangent space
+; c0 1.0,0.0,0.0,alpha
+; c1 1.0,1.0,1.0,threadsold alpha
+
+
+ps.1.1
+tex t0					; color map
+tex t1					; normal map
+tex t2					; reflect map
+
+
+
+
+
+dp3	r0,t1_bx2,v1_bx2	; dot(normal,half)
+
+mul r1,r0,r0;			; raise it to 32nd power
+mul r0,r1,r1; 
+mul r1,r0,r0;
+mul r0,r1,r1;
+
+dp3 r1, t1_bx2, v0_bx2 ; dot(normal,light) 
+mad r0, t0, r1, r0 
+

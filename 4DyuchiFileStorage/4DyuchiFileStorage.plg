@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiFileStorage - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9.tmp" with contents
+[
+/nologo /MT /W3 /GX /Zi /O2 /Ob2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MY4DYUCHIFILESTORAGE_EXPORTS" /FR"Release/" /Fp"Release/4DyuchiFileStorage.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp"
+"D:\4dyuchigx\4DyuchiFileStorage\dllmain.cpp"
+"D:\4dyuchigx\4DyuchiFileStorage\factory.cpp"
+"D:\4dyuchigx\4DyuchiFileStorage\PackFile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6A9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6AA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x67000000" /dll /incremental:no /pdb:"D:\4dyuchiDLL/4Dyuchigx_Release/4DyuchiFileStorage.pdb" /map:"D:\4dyuchiDLL/4Dyuchigx_Release/4DyuchiFileStorage.map" /debug /machine:I386 /def:".\4DyuchiFileStorage.def" /out:"D:\4dyuchiDLL/4Dyuchigx_Release/4DyuchiFileStorage.dll" /implib:"Release/4DyuchiFileStorage.lib" 
+.\Release\CoStorage.obj
+.\Release\dllmain.obj
+.\Release\factory.obj
+.\Release\PackFile.obj
+.\Release\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP6AA.tmp"
+<h3>Output Window</h3>
+Compiling...
+CoStorage.cpp
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(251) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(263) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(290) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(301) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(469) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(747) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(1069) : warning C4102: 'lb_check_string' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\CoStorage.cpp(1190) : warning C4102: 'lb_call' : unreferenced label
+dllmain.cpp
+factory.cpp
+PackFile.cpp
+D:\4dyuchigx\4DyuchiFileStorage\PackFile.cpp(222) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\PackFile.cpp(261) : warning C4102: 'lb_fail_create_file' : unreferenced label
+D:\4dyuchigx\4DyuchiFileStorage\PackFile.cpp(258) : warning C4102: 'lb_return' : unreferenced label
+Linking...
+   Creating library Release/4DyuchiFileStorage.lib and object Release/4DyuchiFileStorage.exp
+
+
+
+<h3>Results</h3>
+4DyuchiFileStorage.dll - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>

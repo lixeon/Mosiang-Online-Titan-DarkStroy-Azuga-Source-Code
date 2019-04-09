@@ -1,0 +1,1450 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DS_RMTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\bitmap3.bmp"
+IDB_LOGO                BITMAP  DISCARDABLE     "res\\Main.bmp"
+IDB_RMTOOLBAR           BITMAP  DISCARDABLE     "res\\toolbar.bmp"
+IDR_RMTOOLBAR           BITMAP  DISCARDABLE     "res\\rmtoolba.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DS_RMTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DS_RMTool Info"
+FONT 10, "Arial"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "DS_RMTool Version 2004.09.01",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2004",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ACCOUNTINFO DIALOGEX 0, 0, 583, 364
+STYLE WS_CHILD | WS_CAPTION
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Search",IDC_STATIC,3,3,266,66,BS_FLAT
+    PUSHBUTTON      "Search",IDC_USERBTN_SEARCH,143,49,85,14
+    GROUPBOX        "User Info",IDC_STATIC,3,74,266,129,BS_FLAT
+    EDITTEXT        IDC_USER_PWD,57,102,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_ID,57,86,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_NAME,57,118,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_BIRTH,57,182,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_MAIL,57,166,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_IDCARD,57,134,66,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_PHONE,57,150,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_LOGOUT,195,102,66,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_USER_LOGIN,195,86,66,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Account ID : ",IDC_STATIC,10,88,43,8
+    RTEXT           "PassWord : ",IDC_STATIC,10,104,43,8
+    RTEXT           "Card ID : ",IDC_STATIC,10,135,43,8
+    RTEXT           "Phone : ",IDC_STATIC,10,151,43,8
+    RTEXT           "E_Mail : ",IDC_STATIC,10,167,43,8
+    RTEXT           "Name : ",IDC_STATIC,10,120,43,8
+    RTEXT           "Connect : ",IDC_STATIC,136,87,51,8
+    RTEXT           "Disconnect : ",IDC_STATIC,136,103,51,8
+    RTEXT           "Create Date : ",IDC_STATIC,10,183,43,8
+    RTEXT           "UserLevel : ",IDC_STATIC,147,157,38,8
+    EDITTEXT        IDC_USER_LEVEL,200,154,55,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         138,IDC_USER_STATUS,"Static",SS_BITMAP | WS_BORDER,232,
+                    119,30,16
+    CONTROL         "From User ID",IDC_RADIO_USERID,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,16,28,85,8
+    CONTROL         "From Character Name",IDC_RADIO_CHARNAME,"Button",
+                    BS_AUTORADIOBUTTON,16,41,85,8
+    EDITTEXT        IDC_EDIT_SEARCH,143,32,85,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Kind",IDC_STATIC,9,15,122,41
+    LTEXT           "*Search String : ",IDC_STATIC,143,20,85,8
+    GROUPBOX        "Recover && CharacterCreateInfo",IDC_STATIC,279,3,301,
+                    358,BS_FLAT
+    EDITTEXT        IDC_EDIT_RECOVER,413,51,65,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_DELETE,314,51,65,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "---->",IDC_STATIC,387,52,19,9
+    LTEXT           "*Deleted Character",IDC_STATIC,314,35,65,8
+    LTEXT           "*Recover Character",IDC_STATIC,413,35,65,8
+    PUSHBUTTON      "Check",IDC_BTN_CHECKNAME,490,50,66,14,WS_DISABLED
+    PUSHBUTTON      "Recover",IDC_BTN_RECOVER,490,69,66,14,WS_DISABLED
+    CONTROL         "List",IDC_LIST_CHARINFO,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,3,212,266,149
+    GROUPBOX        "Recover",IDC_STATIC,288,19,282,71
+    COMBOBOX        IDC_COMBO_USERLEVEL,147,175,63,217,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Change UserLevel",IDC_STATIC,137,138,125,56
+    PUSHBUTTON      "Change",IDC_BUTTON_CHANGE_USERLEVEL,215,174,40,13,
+                    WS_DISABLED
+    CONTROL         "List",IDC_LIST_CHAR,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,288,101,282,247
+END
+
+IDD_DLG_LOGIN DIALOG DISCARDABLE  0, 0, 167, 205
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Login Dialog"
+FONT 10, "Arial"
+BEGIN
+    EDITTEXT        IDC_OPER_ID,58,143,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OPER_PSW,58,163,79,12,ES_PASSWORD | ES_AUTOHSCROLL
+    PUSHBUTTON      "O K",IDC_BT_OK,34,191,41,11
+    PUSHBUTTON      "CANCEL",IDC_BT_CANCEL,90,191,41,11
+    RTEXT           "ID :",IDC_STATIC,19,145,28,10,SS_CENTERIMAGE
+    RTEXT           "PASS :",IDC_STATIC,19,165,28,10,SS_CENTERIMAGE
+    CONTROL         155,IDC_STATIC,"Static",SS_BITMAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN,3,3,161,82
+    COMBOBOX        IDC_COMBO_SELECTSERVER,58,105,79,129,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,128,161,56
+    GROUPBOX        "Select Server",IDC_STATIC,3,91,161,34
+END
+
+IDD_CHAR_PAGE DIALOGEX 0, 0, 602, 451
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Character Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Character Info",IDC_STATIC,3,3,192,445,BS_FLAT
+    GROUPBOX        "Inventory",IDC_STATIC,204,3,195,182,BS_FLAT
+    GROUPBOX        "WareHouse",IDC_STATIC,204,192,195,158,BS_FLAT
+    GROUPBOX        "Skill",IDC_STATIC,405,3,194,182,BS_FLAT
+    GROUPBOX        "Ability",IDC_STATIC,405,192,194,158,BS_FLAT
+    EDITTEXT        IDC_CHAR_NAME,60,14,83,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_LEVEL,42,46,32,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_STEP,111,46,32,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_EXP,42,63,101,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_MUNPA,39,79,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_MUNPAPOS,138,79,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_NICK,60,30,83,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_MINCHUB,49,142,36,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_CHERYUK,49,174,36,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_POINT,99,239,44,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_DEFENSE,138,190,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_LIFE,138,174,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_MANA,138,206,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_ATTACK,138,111,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_SIMMAK,49,206,36,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_GENGOL,49,111,36,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_FAME,39,95,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Name :    ",IDC_STATIC,11,17,28,8
+    LTEXT           "Level : ",IDC_STATIC,11,49,25,8
+    LTEXT           "Step : ",IDC_STATIC,83,49,21,8
+    LTEXT           "Exp : ",IDC_STATIC,11,66,21,8
+    LTEXT           "Guild : ",IDC_STATIC,11,82,23,8
+    RTEXT           "Position : ",IDC_STATIC,93,81,42,8
+    LTEXT           "NickName : ",IDC_STATIC,11,31,42,8
+    LTEXT           "Fame : ",IDC_STATIC,11,95,26,8
+    LTEXT           "Physique :",IDC_STATIC,11,111,36,8
+    LTEXT           "Agility :",IDC_STATIC,11,142,36,8
+    LTEXT           "Strength :",IDC_STATIC,11,174,36,8
+    LTEXT           "Heart :",IDC_STATIC,11,206,36,8
+    LTEXT           "Point : ",IDC_STATIC,74,238,23,8
+    RTEXT           "Attack : ",IDC_STATIC,93,111,42,8
+    RTEXT           "Defense : ",IDC_STATIC,93,190,42,8
+    RTEXT           "Life : ",IDC_STATIC,93,174,42,8
+    RTEXT           "Mana : ",IDC_STATIC,93,206,42,8
+    LTEXT           "Fire Resist",IDC_STATIC,11,258,36,8
+    LTEXT           "Water Resist",IDC_STATIC,11,273,45,8
+    LTEXT           "Tree Resist",IDC_STATIC,11,288,45,8
+    LTEXT           "Iron Resist",IDC_STATIC,103,258,36,8
+    EDITTEXT        IDC_CHAR_WRESI,57,271,37,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_GRESI,147,255,37,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_TRESI,57,287,37,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_FRESI,57,255,37,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Save",IDC_CHARACTER_BTN_SAVE,405,358,194,16,WS_DISABLED
+    CONTROL         "",IDC_BTN_INVENOBJ1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,80,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,80,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,80,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,80,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,80,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,92,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,92,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,92,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,92,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,92,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ11,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,104,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ12,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,104,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ13,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,104,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ14,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,104,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ15,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,104,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ16,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,116,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ17,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,116,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ18,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,116,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ19,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,116,35,11
+    CONTROL         "",IDC_BTN_INVENOBJ20,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,116,35,11
+    COMBOBOX        IDC_INVEN_COMBO,213,64,35,44,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Money : ",IDC_STATIC,295,133,29,9
+    EDITTEXT        IDC_CHAR_INVENMONEY,331,132,61,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_BTN_WEAROBJ1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,17,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,227,32,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,273,32,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,47,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,17,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,17,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,32,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,32,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,47,35,11
+    CONTROL         "",IDC_BTN_WEAROBJ10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,47,35,11
+    CTEXT           "Money : ",IDC_STATIC,294,297,29,9
+    EDITTEXT        IDC_CHAR_PYOGUKMONEY,331,295,61,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_PYOGUK_COMBO,213,204,35,69,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_CHARACTER_BTN_ADDPYOGUK,252,203,32,13
+    CONTROL         "",IDC_BTN_PYOGUK1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,219,35,11
+    CONTROL         "",IDC_BTN_PYOGUK2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,219,35,11
+    CONTROL         "",IDC_BTN_PYOGUK3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,219,35,11
+    CONTROL         "",IDC_BTN_PYOGUK4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,219,35,11
+    CONTROL         "",IDC_BTN_PYOGUK5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,219,35,11
+    CONTROL         "",IDC_BTN_PYOGUK6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,231,35,11
+    CONTROL         "",IDC_BTN_PYOGUK7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,231,35,11
+    CONTROL         "",IDC_BTN_PYOGUK8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,231,35,11
+    CONTROL         "",IDC_BTN_PYOGUK9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,231,35,11
+    CONTROL         "",IDC_BTN_PYOGUK10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,231,35,11
+    CONTROL         "",IDC_BTN_PYOGUK11,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,243,35,11
+    CONTROL         "",IDC_BTN_PYOGUK12,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,243,35,11
+    CONTROL         "",IDC_BTN_PYOGUK13,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,243,35,11
+    CONTROL         "",IDC_BTN_PYOGUK14,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,243,35,11
+    CONTROL         "",IDC_BTN_PYOGUK15,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,243,35,11
+    CONTROL         "",IDC_BTN_PYOGUK16,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,255,35,11
+    CONTROL         "",IDC_BTN_PYOGUK17,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,255,35,11
+    CONTROL         "",IDC_BTN_PYOGUK18,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,255,35,11
+    CONTROL         "",IDC_BTN_PYOGUK19,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,255,35,11
+    CONTROL         "",IDC_BTN_PYOGUK20,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,255,35,11
+    CONTROL         "",IDC_BTN_PYOGUK21,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,267,35,11
+    CONTROL         "",IDC_BTN_PYOGUK22,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,267,35,11
+    CONTROL         "",IDC_BTN_PYOGUK23,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,267,35,11
+    CONTROL         "",IDC_BTN_PYOGUK24,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,267,35,11
+    CONTROL         "",IDC_BTN_PYOGUK25,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,267,35,11
+    CONTROL         "",IDC_BTN_PYOGUK26,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,279,35,11
+    CONTROL         "",IDC_BTN_PYOGUK27,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,279,35,11
+    CONTROL         "",IDC_BTN_PYOGUK28,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,279,35,11
+    CONTROL         "",IDC_BTN_PYOGUK29,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,279,35,11
+    CONTROL         "",IDC_BTN_PYOGUK30,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,279,35,11
+    CONTROL         "",IDC_BTN_SKILL1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,36,35,11
+    CONTROL         "",IDC_BTN_SKILL2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,36,35,11
+    CONTROL         "",IDC_BTN_SKILL3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,36,35,11
+    CONTROL         "",IDC_BTN_SKILL4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,36,35,11
+    CONTROL         "",IDC_BTN_SKILL5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,36,35,11
+    CONTROL         "",IDC_BTN_SKILL6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,48,35,11
+    CONTROL         "",IDC_BTN_SKILL7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,48,35,11
+    CONTROL         "",IDC_BTN_SKILL8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,48,35,11
+    CONTROL         "",IDC_BTN_SKILL9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,48,35,11
+    CONTROL         "",IDC_BTN_SKILL10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,48,35,11
+    CONTROL         "",IDC_BTN_SKILL11,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,60,35,11
+    CONTROL         "",IDC_BTN_SKILL12,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,60,35,11
+    CONTROL         "",IDC_BTN_SKILL13,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,60,35,11
+    CONTROL         "",IDC_BTN_SKILL14,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,60,35,11
+    CONTROL         "",IDC_BTN_SKILL15,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,60,35,11
+    CONTROL         "",IDC_BTN_SKILL16,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,72,35,11
+    CONTROL         "",IDC_BTN_SKILL17,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,72,35,11
+    CONTROL         "",IDC_BTN_SKILL18,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,72,35,11
+    CONTROL         "",IDC_BTN_SKILL19,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,72,35,11
+    CONTROL         "",IDC_BTN_SKILL20,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,72,35,11
+    CONTROL         "",IDC_BTN_JINBUB1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,125,35,11
+    CONTROL         "",IDC_BTN_JINBUB2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,125,35,11
+    CONTROL         "",IDC_BTN_JINBUB3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,125,35,11
+    CONTROL         "",IDC_BTN_JINBUB4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,125,35,11
+    CONTROL         "",IDC_BTN_JINBUB5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,125,35,11
+    CONTROL         "",IDC_BTN_ABLITY1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,226,35,11
+    CONTROL         "",IDC_BTN_ABLITY2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,226,35,11
+    CONTROL         "",IDC_BTN_ABLITY3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,226,35,11
+    CONTROL         "",IDC_BTN_ABLITY4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,226,35,11
+    CONTROL         "",IDC_BTN_ABLITY5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,226,35,11
+    COMBOBOX        IDC_ABILITY_COMBO,413,207,35,69,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_BTN_ABLITY6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,238,35,11
+    CONTROL         "",IDC_BTN_ABLITY7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,238,35,11
+    CONTROL         "",IDC_BTN_ABLITY8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,238,35,11
+    CONTROL         "",IDC_BTN_ABLITY9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,238,35,11
+    CONTROL         "",IDC_BTN_ABLITY10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,238,35,11
+    CONTROL         "",IDC_BTN_ABLITY11,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,250,35,11
+    CONTROL         "",IDC_BTN_ABLITY12,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,250,35,11
+    CONTROL         "",IDC_BTN_ABLITY13,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,250,35,11
+    CONTROL         "",IDC_BTN_ABLITY14,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,250,35,11
+    CONTROL         "",IDC_BTN_ABLITY15,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,250,35,11
+    CONTROL         "",IDC_BTN_ABLITY16,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,262,35,11
+    CONTROL         "",IDC_BTN_ABLITY17,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,262,35,11
+    CONTROL         "",IDC_BTN_ABLITY18,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,262,35,11
+    CONTROL         "",IDC_BTN_ABLITY19,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,262,35,11
+    CONTROL         "",IDC_BTN_ABLITY20,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,262,35,11
+    CONTROL         "",IDC_BTN_ABLITY21,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,274,35,11
+    CONTROL         "",IDC_BTN_ABLITY22,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,274,35,11
+    CONTROL         "",IDC_BTN_ABLITY23,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,274,35,11
+    CONTROL         "",IDC_BTN_ABLITY24,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,274,35,11
+    CONTROL         "",IDC_BTN_ABLITY25,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,274,35,11
+    CONTROL         "",IDC_BTN_ABLITY26,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,286,35,11
+    CONTROL         "",IDC_BTN_ABLITY27,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,286,35,11
+    CONTROL         "",IDC_BTN_ABLITY28,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,286,35,11
+    CONTROL         "",IDC_BTN_ABLITY29,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,286,35,11
+    CONTROL         "",IDC_BTN_ABLITY30,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,286,35,11
+    CONTROL         "",IDC_BTN_ABLITY31,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,298,35,11
+    CONTROL         "",IDC_BTN_ABLITY32,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,298,35,11
+    CONTROL         "",IDC_BTN_ABLITY33,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,298,35,11
+    CONTROL         "",IDC_BTN_ABLITY34,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,298,35,11
+    CONTROL         "",IDC_BTN_ABLITY35,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,298,35,11
+    CONTROL         "",IDC_BTN_ABLITY36,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,310,35,11
+    CONTROL         "",IDC_BTN_ABLITY37,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,310,35,11
+    CONTROL         "",IDC_BTN_ABLITY38,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,310,35,11
+    CONTROL         "",IDC_BTN_ABLITY39,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,310,35,11
+    CONTROL         "",IDC_BTN_ABLITY40,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,310,35,11
+    RTEXT           "Point : ",IDC_STATIC,514,334,30,9
+    EDITTEXT        IDC_CHAR_ABILITYPOINT,548,332,44,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    LTEXT           "* Normal *",IDC_STATIC,413,19,46,9
+    LTEXT           "* Special *",IDC_STATIC,413,107,46,9
+    RTEXT           "Bad Fame : ",IDC_STATIC,93,95,42,8
+    EDITTEXT        IDC_CHAR_BADFAME,138,95,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Critical : ",IDC_STATIC,93,127,42,8
+    RTEXT           "Long Attack : ",IDC_STATIC,93,143,42,8
+    RTEXT           "Range : ",IDC_STATIC,93,158,42,8
+    EDITTEXT        IDC_CHAR_CRITICAL,138,127,46,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_LONGATTACK,138,142,46,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_CHAR_RANGE,138,158,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Shield : ",IDC_STATIC,93,222,42,8
+    EDITTEXT        IDC_CHAR_SHIELD,138,222,46,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "Earth Resist",IDC_STATIC,97,273,42,8
+    EDITTEXT        IDC_CHAR_TORESI,147,271,37,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "Quest",IDC_STATIC,204,358,195,34,BS_FLAT
+    PUSHBUTTON      "View QuestInfo",IDC_QUESTINFO,316,369,76,16
+    GROUPBOX        "LoginPoint",IDC_STATIC,9,303,176,49
+    LTEXT           "Current LoginPoint: ",IDC_STATIC,27,316,74,8
+    EDITTEXT        IDC_CHAR_LOGINPOINT,127,314,47,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_LOGINPOINT,27,334,74,129,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Change",IDC_BUTTON_CHANGE_LOGINPOINT,127,334,47,12,
+                    WS_DISABLED
+    CONTROL         "",IDC_BTNINVEN_ERROR1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,156,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,156,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,156,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,156,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,156,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,168,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,168,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,168,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,168,35,11
+    CONTROL         "",IDC_BTNINVEN_ERROR10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,168,35,11
+    CONTROL         "",IDC_BTN_SKILLERROR1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,413,159,35,11
+    CONTROL         "",IDC_BTN_SKILLERROR2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,449,159,35,11
+    CONTROL         "",IDC_BTN_SKILLERROR3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,485,159,35,11
+    CONTROL         "",IDC_BTN_SKILLERROR4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,521,159,35,11
+    CONTROL         "",IDC_BTN_SKILLERROR5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,557,159,35,11
+    CONTROL         "",IDC_BTN_WAREERROR1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,213,322,35,11
+    CONTROL         "",IDC_BTN_WAREERROR2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,249,322,35,11
+    CONTROL         "",IDC_BTN_WAREERROR3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,285,322,35,11
+    CONTROL         "",IDC_BTN_WAREERROR4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,321,322,35,11
+    CONTROL         "",IDC_BTN_WAREERROR5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_TABSTOP,357,322,35,11
+    CONTROL         "Recover",IDC_BTN_INVEN_RECOVER,"Button",BS_OWNERDRAW | 
+                    BS_FLAT | WS_TABSTOP,213,133,35,11
+END
+
+IDD_GUILD_PAGE_MUNPA DIALOGEX 0, 0, 602, 383
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Guild Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SEARCH_MUNPA,64,17,61,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_NAME,70,56,61,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_MUNJU,70,71,61,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_BIRTH,70,86,61,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_COUNT,70,116,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_FAME,70,131,61,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MUNPA_MONEY,263,185,70,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_MUNPA_NAMELIST,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,349,5,248,349,WS_EX_STATICEDGE
+    GROUPBOX        "Info",IDC_STATIC,5,43,135,163,BS_FLAT
+    RTEXT           "Master Name : ",IDC_STATIC,11,73,49,8
+    RTEXT           "Name : ",IDC_STATIC,11,58,49,8
+    RTEXT           "Create Date :",IDC_STATIC,11,88,49,8
+    RTEXT           "Number : ",IDC_STATIC,11,118,49,8
+    RTEXT           "Fame : ",IDC_STATIC,11,133,49,8
+    GROUPBOX        "Search",IDC_STATIC,5,5,335,32,BS_FLAT
+    RTEXT           "*Guild Name : ",IDC_STATIC,12,19,48,8
+    PUSHBUTTON      "Search",IDC_BUTTON_SEARCH,139,17,47,12
+    GROUPBOX        "WareHouse",IDC_STATIC,146,43,195,163,BS_FLAT
+    GROUPBOX        "Etc",IDC_STATIC,5,215,336,163
+    CONTROL         "",IDC_BTN_MUNPA1,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,72,35,11
+    COMBOBOX        IDC_MUNPA_CBTAB,154,55,35,59,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_BTN_MUNPA2,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,72,35,11
+    CONTROL         "",IDC_BTN_MUNPA3,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,72,35,11
+    CONTROL         "",IDC_BTN_MUNPA4,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,72,35,11
+    CONTROL         "",IDC_BTN_MUNPA5,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,72,35,11
+    CONTROL         "",IDC_BTN_MUNPA6,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,84,35,11
+    CONTROL         "",IDC_BTN_MUNPA7,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,84,35,11
+    CONTROL         "",IDC_BTN_MUNPA8,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,84,35,11
+    CONTROL         "",IDC_BTN_MUNPA9,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,84,35,11
+    CONTROL         "",IDC_BTN_MUNPA10,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,84,35,11
+    CONTROL         "",IDC_BTN_MUNPA11,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,96,35,11
+    CONTROL         "",IDC_BTN_MUNPA12,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,96,35,11
+    CONTROL         "",IDC_BTN_MUNPA13,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,96,35,11
+    CONTROL         "",IDC_BTN_MUNPA14,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,96,35,11
+    CONTROL         "",IDC_BTN_MUNPA15,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,96,35,11
+    CONTROL         "",IDC_BTN_MUNPA16,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,108,35,11
+    CONTROL         "",IDC_BTN_MUNPA17,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,108,35,11
+    CONTROL         "",IDC_BTN_MUNPA18,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,108,35,11
+    CONTROL         "",IDC_BTN_MUNPA19,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,108,35,11
+    CONTROL         "",IDC_BTN_MUNPA20,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,108,35,11
+    CONTROL         "",IDC_BTN_MUNPA21,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,120,35,11
+    CONTROL         "",IDC_BTN_MUNPA22,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,120,35,11
+    CONTROL         "",IDC_BTN_MUNPA23,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,120,35,11
+    CONTROL         "",IDC_BTN_MUNPA24,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,120,35,11
+    CONTROL         "",IDC_BTN_MUNPA25,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,120,35,11
+    CONTROL         "",IDC_BTN_MUNPA26,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,132,35,11
+    CONTROL         "",IDC_BTN_MUNPA27,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,132,35,11
+    CONTROL         "",IDC_BTN_MUNPA28,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,132,35,11
+    CONTROL         "",IDC_BTN_MUNPA29,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,132,35,11
+    CONTROL         "",IDC_BTN_MUNPA30,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,132,35,11
+    CONTROL         "",IDC_BTN_MUNPA31,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,144,35,11
+    CONTROL         "",IDC_BTN_MUNPA32,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,144,35,11
+    CONTROL         "",IDC_BTN_MUNPA33,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,144,35,11
+    CONTROL         "",IDC_BTN_MUNPA34,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,144,35,11
+    CONTROL         "",IDC_BTN_MUNPA35,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,144,35,11
+    CONTROL         "",IDC_BTN_MUNPA36,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,156,35,11
+    CONTROL         "",IDC_BTN_MUNPA37,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,156,35,11
+    CONTROL         "",IDC_BTN_MUNPA38,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,156,35,11
+    CONTROL         "",IDC_BTN_MUNPA39,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,156,35,11
+    CONTROL         "",IDC_BTN_MUNPA40,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,156,35,11
+    CONTROL         "",IDC_BTN_MUNPA41,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,154,168,35,11
+    CONTROL         "",IDC_BTN_MUNPA42,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,190,168,35,11
+    CONTROL         "",IDC_BTN_MUNPA43,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,226,168,35,11
+    CONTROL         "",IDC_BTN_MUNPA44,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,262,168,35,11
+    CONTROL         "",IDC_BTN_MUNPA45,"Button",BS_OWNERDRAW | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,298,168,35,11
+    RTEXT           "Money : ",IDC_STATIC,203,187,51,8
+    PUSHBUTTON      "Save",IDC_MUNPA_SAVE,349,363,248,15,WS_DISABLED
+    EDITTEXT        IDC_MUNPA_LOCATION,70,101,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Map :",IDC_STATIC,11,103,49,8
+    EDITTEXT        IDC_MUNPA_KIND,70,146,61,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Kind : ",IDC_STATIC,11,148,49,8
+    EDITTEXT        IDC_MUNPA_LEVEL,70,161,61,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "Level : ",IDC_STATIC,11,163,49,8
+END
+
+IDD_ADMIN_PAGE_ID DIALOG DISCARDABLE  0, 0, 278, 278
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Admin Info"
+FONT 10, "Arial"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,5,5,268,268,BS_FLAT
+    CONTROL         "List1",IDC_OPER_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,12,17,254,144
+    GROUPBOX        "Operator Profile",IDC_STATIC,13,167,254,78
+    RTEXT           "Name :",IDC_STATIC,23,184,53,9
+    RTEXT           "ID :",IDC_STATIC,23,198,53,9
+    RTEXT           "Password :",IDC_STATIC,23,212,53,9
+    RTEXT           "RePassword :",IDC_STATIC,23,226,53,9
+    EDITTEXT        IDC_OPER_NAME,81,182,68,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_OPER_ID,81,196,68,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_OPER_PASS,81,210,68,12,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_OPER_REPASS,81,224,68,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "Power",IDC_STATIC,170,178,89,59
+    CONTROL         "Master",IDC_OPER_POWER_MASTER,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,183,188,52,8
+    CONTROL         "Monitor",IDC_OPER_POWER_MONITOR,"Button",
+                    BS_AUTORADIOBUTTON,183,200,52,8
+    CONTROL         "Patroller",IDC_OPER_POWER_PATROLLER,"Button",
+                    BS_AUTORADIOBUTTON,183,212,52,8
+    CONTROL         "Auditor",IDC_OPER_POWER_AUDITOR,"Button",
+                    BS_AUTORADIOBUTTON,183,224,52,8
+    PUSHBUTTON      "New Operator",IDC_OPER_NEW,140,251,55,14,WS_DISABLED
+    PUSHBUTTON      "Delete Operator",IDC_OPER_DEL,212,251,55,14,WS_DISABLED
+END
+
+IDD_GUILD_SHEET DIALOG DISCARDABLE  0, 0, 600, 360
+STYLE WS_CHILD
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "",IDC_PROPSHEET,"Static",SS_BLACKFRAME,0,0,42,25
+END
+
+IDD_ADMIN_SHEET DIALOG DISCARDABLE  0, 0, 280, 250
+STYLE WS_CHILD
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "",IDC_ADMIN_PROPSHEET,"Static",SS_BLACKFRAME,0,0,42,25
+END
+
+IDD_ADMIN_PAGE_IP DIALOG DISCARDABLE  0, 0, 278, 278
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Ip Info"
+FONT 10, "Arial"
+BEGIN
+    PUSHBUTTON      "Regist IP",IDC_BTN_NEWIP,212,30,48,12,WS_DISABLED
+    PUSHBUTTON      "Delete IP",IDC_BTN_IPDEL,212,246,48,12,WS_DISABLED
+    CONTROL         "List1",IDC_IPINFO_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,17,68,242,172
+    GROUPBOX        "Insert New IP",IDC_STATIC,11,16,255,33
+    CONTROL         "IPAddress1",IDC_IPINFO_NEWIP,"SysIPAddress32",
+                    WS_DISABLED | WS_TABSTOP,17,31,188,11
+    GROUPBOX        "Regist IP",IDC_STATIC,11,55,255,209
+    GROUPBOX        "",IDC_STATIC,5,5,268,268,BS_FLAT
+END
+
+IDD_DLG_ITEM DIALOGEX 0, 0, 226, 298
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Item Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Kind",IDC_STATIC,0,0,226,32,BS_LEFT | BS_FLAT
+    CONTROL         "Weapon",IDC_RADIO_WEAPON,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,15,39,8
+    CONTROL         "Clothes",IDC_RADIO_DEFFEN,"Button",BS_AUTORADIOBUTTON,
+                    47,15,37,8
+    CONTROL         "Accessory",IDC_RADIO_ACCESSORY,"Button",
+                    BS_AUTORADIOBUTTON,86,15,44,8
+    CONTROL         "Etc",IDC_RADIO_ETC,"Button",BS_AUTORADIOBUTTON,135,15,
+                    23,8
+    COMBOBOX        IDC_COMBO_EXTYPE,163,13,57,105,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_GROUP
+    GROUPBOX        "",IDC_STATIC,0,35,226,82,BS_FLAT
+    CTEXT           "Basic Data",IDC_STATIC,6,43,214,11,0,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_BASIC,6,56,214,56,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,0,120,226,152,BS_FLAT
+    CONTROL         "Option Data",IDC_CHECK_EXDATA,"Button",BS_AUTOCHECKBOX | 
+                    BS_CENTER | WS_TABSTOP,6,129,214,11,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_EXBASIC,6,144,106,121,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_EXATTR,114,144,106,121,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "Change",IDC_BUTTON_EDIT,132,282,45,13
+    PUSHBUTTON      "Delete",IDC_BUTTON_DEL,181,282,45,13
+END
+
+IDD_DLG_SKILL DIALOGEX 0, 0, 157, 203
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Skill Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Kind",IDC_STATIC,0,0,156,31,BS_LEFT | BS_FLAT
+    CONTROL         "O-Skill",IDC_RADIO_WMUGONG,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,15,36,8
+    CONTROL         "I-Skill",IDC_RADIO_IMUGONG,"Button",BS_AUTORADIOBUTTON,
+                    51,15,36,8
+    COMBOBOX        IDC_COMBO_MUTYPE,98,12,52,105,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_GROUP
+    GROUPBOX        "",IDC_STATIC,0,29,156,151,BS_FLAT
+    CTEXT           "Basic Data",IDC_STATIC,7,40,143,11,0,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST_BASIC,7,52,143,121,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "Change",IDC_BUTTON_MU_EDIT,65,188,44,14
+    PUSHBUTTON      "Delete",IDC_BUTTON_MU_DEL,113,188,44,14
+END
+
+IDD_DLG_ABILITY DIALOGEX 0, 0, 135, 131
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ability Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Change",IDC_BUTTON_AB_EDIT,91,117,44,14
+    LISTBOX         IDC_LIST_ABILITY,5,21,124,84,LBS_OWNERDRAWVARIABLE | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CTEXT           "Ability Data",IDC_STATIC,5,9,124,11,0,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,0,0,135,111,BS_FLAT
+END
+
+IDD_DLG_QUEST DIALOGEX 0, 0, 248, 227
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Quest Info"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "List2",IDC_QUEST_LISTCTRL,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,15,40,216,148
+    GROUPBOX        "",IDC_STATIC,3,0,242,224,BS_FLAT
+    LTEXT           "*Character Name : ",IDC_STATIC,9,11,63,8
+    EDITTEXT        IDC_QUEST_CHARNAME,77,9,103,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Delete",IDC_QUEST_DELETE,180,205,59,13,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,9,29,230,168
+END
+
+IDD_DLG_SUBQUEST DIALOG DISCARDABLE  0, 0, 149, 199
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SubQuest Info"
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "List1",IDC_SUBQUEST_LISTCTRL,"SysListView32",LVS_REPORT | 
+                    LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,3,3,143,193
+END
+
+IDD_LOG_PAGE_ITEMMONEY DIALOGEX 0, 0, 655, 451
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "ItemMoney Log"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "List2",IDC_LISTCTRL_ITEMMONEYLOG,"SysListView32",
+                    LVS_REPORT | WS_BORDER | WS_TABSTOP,0,2,498,447
+    CONTROL         "Character Name",IDC_CHECK_LOG_CHARNAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,516,99,65,8
+    CONTROL         "Item Name",IDC_CHECK_LOG_ITEMNAME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,516,147,50,8
+    CONTROL         "Item DB Index",IDC_CHECK_LOG_DBIDX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,516,130,63,8
+    EDITTEXT        IDC_EDIT_LOG_CHARNAME,588,97,56,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_DISABLED | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_LOG_DBIDX,588,129,56,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER | WS_DISABLED | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "Search Condition",IDC_STATIC,506,83,149,85,BS_FLAT
+    CONTROL         "One Day",IDC_CHECK_LOG_ONEDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,515,17,45,8
+    PUSHBUTTON      "Search",IDC_BUTTON_LOG_SEARCH,506,231,149,18
+    COMBOBOX        IDC_COMBO_LOG_ITEMNAME,577,145,68,240,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Viewer",IDC_STATIC,506,175,149,50,BS_FLAT
+    COMBOBOX        IDC_COMBO_VIEWER_HOW,577,186,68,196,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "*Select How : ",IDC_STATIC,518,189,47,8
+    PUSHBUTTON      "Option",IDC_BUTTON_VIEWEROPTION,577,205,68,12,
+                    WS_DISABLED
+    GROUPBOX        "Date",IDC_STATIC,506,2,149,73,BS_FLAT
+    LTEXT           "*Character Idx",IDC_STATIC,525,114,54,8
+    EDITTEXT        IDC_EDIT_CHARIDX,588,113,56,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "SaveToFile",IDC_BTN_SAVETOFILE,506,256,149,18
+    LTEXT           "*Start Date : ",IDC_STATIC,515,33,44,8
+    LTEXT           "*End Date : ",IDC_STATIC,515,53,44,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_APPCANPARSE | 
+                    WS_TABSTOP,572,31,73,13
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | 
+                    WS_TABSTOP,572,51,73,13
+END
+
+IDD_DLG_ITEMMONEY_VIEWER_OPTION DIALOG DISCARDABLE  0, 0, 355, 45
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ViewerOption"
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "ItemDBIdx",IDC_CHECK_1,"Button",BS_AUTOCHECKBOX | 
+                    WS_GROUP | WS_TABSTOP,9,11,52,8
+    CONTROL         "ItemName",IDC_CHECK_2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,65,11,46,8
+    CONTROL         "ItemDur",IDC_CHECK_3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,11,38,8
+    CONTROL         "How",IDC_CHECK_4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    153,11,55,8
+    CONTROL         "CurrentOwner",IDC_CHECK_5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,210,11,57,8
+    CONTROL         "Money",IDC_CHECK_7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,314,11,37,8
+    CONTROL         "BeforeOwner",IDC_CHECK_8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,9,25,52,8
+    CONTROL         "Money",IDC_CHECK_10,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,113,25,38,8
+    CONTROL         "ChangeValue",IDC_CHECK_11,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,153,26,55,8
+    CONTROL         "LogDate",IDC_CHECK_12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,210,26,41,8
+    CONTROL         "FromPos",IDC_CHECK_13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,269,26,43,8
+    CONTROL         "ToPos",IDC_CHECK_14,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,314,26,37,8
+    GROUPBOX        "",IDC_STATIC,3,0,349,42,BS_FLAT
+    CONTROL         "CharIdx",IDC_CHECK_6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,269,11,36,8
+    CONTROL         "CharIdx",IDC_CHECK_9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,65,25,35,8
+END
+
+IDD_LOG_SHEET DIALOG DISCARDABLE  0, 0, 660, 400
+STYLE WS_CHILD
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "",IDC_PROPSHEET,"Static",SS_BLACKFRAME,0,0,42,25
+END
+
+IDD_CHAR_SHEET DIALOG DISCARDABLE  0, 0, 610, 400
+STYLE WS_CHILD
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "",IDC_PROPSHEET,"Static",SS_BLACKFRAME,0,0,42,25
+END
+
+IDD_LOG_PAGE_TOTAL DIALOGEX 0, 0, 655, 451
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Total Log"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LISTCTRL_TOTALLOG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,0,2,498,447
+    CONTROL         "One Day",IDC_CHECK_LOG_ONEDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,515,17,45,8
+    PUSHBUTTON      "Search",IDC_BUTTON_LOG_SEARCH,506,246,149,18
+    GROUPBOX        "Search Condition",IDC_STATIC,506,82,149,159,BS_FLAT
+    EDITTEXT        IDC_EDIT_LOG_CHARNAME,589,97,56,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "*Character Name : ",IDC_STATIC,516,99,64,8
+    GROUPBOX        "Date",IDC_STATIC,505,2,149,72,BS_FLAT
+    GROUPBOX        "Type",IDC_STATIC,516,132,131,101
+    LTEXT           "*Character Idx : ",IDC_STATIC,516,115,64,8
+    EDITTEXT        IDC_EDIT_CHARIDX,589,113,56,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Character Log",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,531,144,102,10
+    CONTROL         "ExpPoint Log",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    531,156,102,10
+    CONTROL         "Skill Log",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,531,
+                    168,102,10
+    CONTROL         "SkillExp Log",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,
+                    531,180,102,10
+    CONTROL         "Money Log",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,531,
+                    192,102,10
+    CONTROL         "MoneyWrong Log",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,
+                    531,204,102,10
+    CONTROL         "Ability Log",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,531,
+                    216,102,10
+    PUSHBUTTON      "SaveToFile",IDC_BTN_SAVETOFILE,506,270,149,18
+    LTEXT           "*Start Date : ",IDC_STATIC,515,33,44,8
+    LTEXT           "*End Date : ",IDC_STATIC,515,53,44,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_APPCANPARSE | 
+                    WS_TABSTOP,572,31,73,13
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | 
+                    WS_TABSTOP,572,51,73,13
+END
+
+IDD_LOG_PAGE_ETC DIALOGEX 0, 0, 655, 451
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Etc Log"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_LISTCTRL_ETCLOG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,0,2,498,447
+    CONTROL         "One Day",IDC_CHECK_LOG_ONEDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,515,16,45,8
+    GROUPBOX        "Search Condition",IDC_STATIC,506,80,149,99,BS_FLAT
+    EDITTEXT        IDC_EDIT_LOG_CHARNAME,589,95,56,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "*Character Name : ",IDC_STATIC,516,97,64,8
+    GROUPBOX        "Date",IDC_STATIC,505,2,149,72,BS_FLAT
+    LTEXT           "*Character Idx : ",IDC_STATIC,516,113,64,8
+    EDITTEXT        IDC_EDIT_CHARIDX,589,111,56,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "Search",IDC_BUTTON_LOG_SEARCH,506,188,149,18
+    GROUPBOX        "Type",IDC_STATIC,516,130,131,41
+    CONTROL         "Cheat Log",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,531,142,102,10
+    CONTROL         "Hacking Log",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,531,
+                    154,102,10
+    PUSHBUTTON      "SaveToFile",IDC_BTN_SAVETOFILE,506,215,149,18
+    LTEXT           "*Start Date : ",IDC_STATIC,515,33,44,8
+    LTEXT           "*End Date : ",IDC_STATIC,515,53,44,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_APPCANPARSE | 
+                    WS_TABSTOP,572,31,73,13
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | 
+                    WS_TABSTOP,572,51,73,13
+END
+
+IDD_DLG_PROGRESS DIALOGEX 0, 0, 151, 32
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,50,22,50,10
+    CTEXT           "Now Receiving From DataBase!!\nPlease Wait A Moment!!",
+                    IDC_STATIC,0,0,151,19
+END
+
+IDD_LOG_PAGE_OPER DIALOG DISCARDABLE  0, 0, 655, 451
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "Operator Log"
+FONT 10, "Arial"
+BEGIN
+    CONTROL         "List1",IDC_LISTCTRL_OPERLOG,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,0,2,498,447
+    GROUPBOX        "Date",IDC_STATIC,505,2,149,72,BS_FLAT
+    CONTROL         "One Day",IDC_CHECK_LOG_ONEDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,515,16,45,8
+    LTEXT           "*Start Date : ",IDC_STATIC,515,33,44,8
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_APPCANPARSE | 
+                    WS_TABSTOP,572,31,73,13
+    LTEXT           "*End Date : ",IDC_STATIC,515,53,44,8
+    CONTROL         "DateTimePicker2",IDC_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_DISABLED | 
+                    WS_TABSTOP,572,51,73,13
+    GROUPBOX        "Search Condition",IDC_STATIC,506,80,149,49,BS_FLAT
+    CONTROL         "All Log",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,513,95,52,10
+    CONTROL         "Operator Name",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    513,110,63,9
+    EDITTEXT        IDC_EDIT_OPERNAME,584,108,62,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    GROUPBOX        "Select Log View",IDC_STATIC,506,136,149,63,BS_FLAT
+    CONTROL         "All Log",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,514,149,54,9
+    CONTROL         "GMTool Log",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,514,
+                    163,54,9
+    CONTROL         "RMTool Log",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,514,
+                    180,54,9
+    COMBOBOX        IDC_COMBO_GMLOG,575,161,72,145,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_RMLOG,575,179,72,165,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Search",IDC_BUTTON_LOG_SEARCH,506,210,149,18
+END
+
+IDD_DLG_ITEM_RECOVER DIALOGEX 0, 0, 163, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Item Recover Dlg"
+FONT 10, "Arial", 0, 0, 0x1
+BEGIN
+    LTEXT           "*ITEM ",IDC_STATIC,13,10,41,12,0,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_ITEM,67,10,85,173,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "*ITEM NUM",IDC_STATIC,13,29,41,12,0,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_ITEM_NUM,67,29,85,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "",IDC_STATIC,2,0,159,49,BS_FLAT
+    PUSHBUTTON      "Add",IDC_BUTTON_ITEM_RECOVER,52,52,58,12
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DS_RMTool MFC ?? ????\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DS_RMTool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DS_RMTool.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "DS_RMTool ?? ????\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ACCOUNTINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 580
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 361
+    END
+
+    IDD_DLG_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 164
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_CHAR_PAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 599
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 448
+    END
+
+    IDD_GUILD_PAGE_MUNPA, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 597
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 378
+    END
+
+    IDD_ADMIN_PAGE_ID, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 273
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_GUILD_SHEET, DIALOG
+    BEGIN
+        RIGHTMARGIN, 598
+        BOTTOMMARGIN, 358
+    END
+
+    IDD_ADMIN_SHEET, DIALOG
+    BEGIN
+        RIGHTMARGIN, 279
+    END
+
+    IDD_ADMIN_PAGE_IP, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 273
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_DLG_ITEM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 296
+    END
+
+    IDD_DLG_SKILL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DLG_ABILITY, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_DLG_QUEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 245
+        BOTTOMMARGIN, 224
+    END
+
+    IDD_DLG_SUBQUEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 146
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_LOG_PAGE_ITEMMONEY, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 449
+    END
+
+    IDD_DLG_ITEMMONEY_VIEWER_OPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 352
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_CHAR_SHEET, DIALOG
+    BEGIN
+        RIGHTMARGIN, 606
+        BOTTOMMARGIN, 399
+    END
+
+    IDD_LOG_PAGE_TOTAL, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 449
+    END
+
+    IDD_LOG_PAGE_ETC, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 449
+    END
+
+    IDD_LOG_PAGE_OPER, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 449
+    END
+
+    IDD_DLG_ITEM_RECOVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 161
+        BOTTOMMARGIN, 64
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_RMTOOLBAR TOOLBAR DISCARDABLE  30, 30
+BEGIN
+    BUTTON      ID_USERINFO
+    BUTTON      ID_MUNPAINFO
+    BUTTON      ID_LOG
+    BUTTON      ID_ADMIN
+    BUTTON      ID_OPERLOG
+    BUTTON      65535
+    BUTTON      65535
+    BUTTON      65535
+    BUTTON      65535
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "DS_RMTool"
+    IDR_DS_RMTTYPE          "Account Info"
+    IDR_DS_ADMINTYPE        "GM Info"
+    IDR_DS_MUNPA            "Guild Info"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "DS_RMTool"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_DS_LOG              "Log Viewer"
+    IDR_DS_OPERLOG          "Operator Log Viewer"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_USERINFO             "Tool\nUser Info"
+    ID_MUNPAINFO            "Tool\nGuild Info"
+    ID_LOG                  "Tool\nGame Log"
+    ID_ADMIN                "Tool\nAdministrator"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_OPERLOG              "Tool\nOperator Log"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\DS_RMTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

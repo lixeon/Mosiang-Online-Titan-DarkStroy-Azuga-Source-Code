@@ -1,0 +1,26 @@
+// IntroReplayDlg.cpp: implementation of the CIntroReplayDlg class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "IntroReplayDlg.h"
+#include "WindowIDEnum.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CIntroReplayDlg::CIntroReplayDlg()
+{
+
+}
+
+CIntroReplayDlg::~CIntroReplayDlg()
+{
+
+}
+
+void CIntroReplayDlg::Linking()
+{
+
+}

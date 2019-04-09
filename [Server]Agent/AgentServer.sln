@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AgentServer", "AgentServer.vcproj", "{517698C9-FF3A-4D06-B801-1FE1DE5C566A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Server]Agent\\
+		SolutionUniqueID = {6E2C534E-B353-4C0F-AEDC-404F37EB8BF1}
+		SccProjectUniqueName1 = AgentServer.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Server]Agent\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_CHINA = Debug_CHINA
+		Debug_JAPAN = Debug_JAPAN
+		Debug_TL = Debug_TL
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug.ActiveCfg = Debug|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug.Build.0 = Debug|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_CHINA.ActiveCfg = Debug_CHINA|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_CHINA.Build.0 = Debug_CHINA|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_JAPAN.ActiveCfg = Debug_JAPAN|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_JAPAN.Build.0 = Debug_JAPAN|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_TL.ActiveCfg = Debug_TL|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Debug_TL.Build.0 = Debug_TL|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Release.ActiveCfg = Release|Win32
+		{517698C9-FF3A-4D06-B801-1FE1DE5C566A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

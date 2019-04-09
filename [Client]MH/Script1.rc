@@ -1,0 +1,814 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GMDIALOG$(_GMTOOL_) DIALOGEX 0, 0, 50, 253
+#else
+IDD_GMDIALOG DIALOGEX 0, 0, 50, 253
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GMTool"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CHECKBOX        "Move",IDC_GM_MNBTN_MOVE,1,10,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Where",IDC_GM_MNBTN_WHERE,1,26,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Item && Skill",IDC_GM_MNBTN_ITEM,1,42,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Hide",IDC_GM_MNBTN_HIDE,1,58,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Chat",IDC_GM_MNBTN_CHAT,1,74,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "PK",IDC_GM_MNBTN_PK,1,90,48,14,BS_PUSHLIKE | BS_FLAT | 
+                    NOT WS_TABSTOP
+    CHECKBOX        "Disconnect",IDC_GM_MNBTN_DISCON,1,106,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Block",IDC_GM_MNBTN_BLOCK,1,122,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Mob",IDC_GM_MNBTN_REGEN,1,138,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Counsel",IDC_GM_MNBTN_COUNSEL,1,154,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Notice",IDC_GM_MNBTN_NOTICE,1,170,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Event",IDC_GM_MNBTN_EVENT,1,186,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Event Map",IDC_GM_MNBTN_EVENTMAP,1,202,48,14,
+                    BS_PUSHLIKE | BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "Event Notify",IDC_GM_MNBTN_EVENTNOTIFY,1,218,48,14,
+                    BS_PUSHLIKE | BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "",IDC_GM_MNBTN_NONE,1,4,48,4,BS_PUSHLIKE | BS_FLAT | 
+                    NOT WS_TABSTOP
+    CHECKBOX        "Weather",IDC_GM_MNBTN_WEATHER,1,234,48,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_MOVE_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 153, 93
+#else
+IDD_GM_MOVE_DIALOG DIALOGEX 0, 0, 153, 93
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "GM",IDC_GMMOVE_BTN_ME,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,6,6,23,13
+    CONTROL         "User",IDC_GMMOVE_BTN_USER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,32,6,23,13
+    CONTROL         "XY",IDC_GMMOVE_BTN_XY,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT | WS_GROUP,6,27,38,
+                    13
+    CONTROL         "Character",IDC_GMMOVE_BTN_NAME,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,42,38,13
+    CONTROL         "Map",IDC_GMMOVE_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,6,57,38,13
+    EDITTEXT        IDC_GMMOVE_EDT_USER,58,7,88,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMMOVE_EDT_X,46,28,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMMOVE_EDT_Y,97,28,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMMOVE_EDT_NAME,46,43,100,12,ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "MOVE",IDC_GMMOVE_OK,4,76,108,13,BS_FLAT | WS_GROUP | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMMOVE_CANCEL,115,76,33,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,146,23
+    GROUPBOX        "",IDC_STATIC,3,20,146,53
+    COMBOBOX        IDC_GMMOVE_CMB_MAP,46,57,71,123,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMMOVE_CMB_CHANNEL,117,57,30,75,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_CHAT_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 159, 149
+#else
+IDD_GM_CHAT_DIALOG DIALOGEX 0, 0, 159, 149
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "User",IDC_GMCHAT_BTN_USER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,7,6,30,13
+    CONTROL         "Map",IDC_GMCHAT_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,6,21,30,13
+    EDITTEXT        IDC_GMCHAT_EDT_USER,40,7,78,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMCHAT_CMB_MAP,40,22,80,155,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMCHAT_CMB_CHANNEL,121,22,31,87,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Lookup",IDC_GMCHAT_BTN_LOOKUP,121,6,31,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    CONTROL         "Forbid Chat",IDC_GMCHAT_BTN_NOCHAT,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_GROUP,7,
+                    43,144,13
+    CONTROL         "Permit Chat",IDC_GMCHAT_BTN_ALLOW,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,7,111,144,13
+    CONTROL         "Auto Off",IDC_GMCHAT_BTN_AUTO,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_DISABLED | 
+                    WS_GROUP,7,59,69,13
+    CONTROL         "Manual Off",IDC_GMCHAT_BTN_MANUAL,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_DISABLED,
+                    82,59,69,13
+    CONTROL         "DateTimePicker2",IDC_GMCHAT_DATE_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | WS_DISABLED | WS_GROUP,7,75,144,13
+    CONTROL         "DateTimePicker1",IDC_GMCHAT_TIME_TIME,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | WS_DISABLED,7,89,144,13
+    DEFPUSHBUTTON   "APPLY",IDC_GMCHAT_BTN_APPLY,7,132,102,13,BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMCHAT_BTN_CANCEL,112,132,39,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,4,0,152,38
+    GROUPBOX        "",IDC_STATIC,4,36,152,70
+    GROUPBOX        "",IDC_STATIC,4,104,152,23
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_DISCON_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 134, 68
+#else
+IDD_GM_DISCON_DIALOG DIALOGEX 0, 0, 134, 68
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "User",IDC_GMDISCON_BTN_USER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT | WS_GROUP,6,7,38,
+                    13
+    CONTROL         "Map",IDC_GMDISCON_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,6,22,38,13
+    EDITTEXT        IDC_GMDISCON_EDT_CHAR,47,7,79,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER | WS_GROUP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMDISCON_CMB_MAP,47,22,80,155,CBS_DROPDOWN | 
+                    CBS_SORT | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Except Myself",IDC_GMDISCON_BTN_EXCEPTSELF,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED,47,36,61,10
+    DEFPUSHBUTTON   "APPLY",IDC_GMDISCON_BTN_APPLY,5,51,86,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMDISCON_BTN_CANCEL,95,51,33,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,127,48
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_BLOCK_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 161, 133
+#else
+IDD_GM_BLOCK_DIALOG DIALOGEX 0, 0, 161, 133
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "User",IDC_GMBLOCK_BTN_USER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,6,7,30,14
+    EDITTEXT        IDC_GMBLOCK_EDT_CHAR,39,8,82,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Block",IDC_GMBLOCK_BTN_BLOCK,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT | WS_GROUP,6,29,149,13
+    CONTROL         "UnBlock",IDC_GMBLOCK_BTN_UNBLOCK,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,96,149,13
+    CONTROL         "Auto Off",IDC_GMBLOCK_BTN_AUTO,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_DISABLED | 
+                    WS_GROUP,6,44,73,13
+    CONTROL         "Manual Off",IDC_GMBLOCK_BTN_MANUAL,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_DISABLED,
+                    82,44,73,13
+    CONTROL         "DateTimePicker2",IDC_GMBLOCK_DATE_DATE,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_LONGDATEFORMAT | 
+                    WS_DISABLED | WS_GROUP,6,60,149,13
+    CONTROL         "DateTimePicker1",IDC_GMBLOCK_TIME_TIME,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_DISABLED | 0x8,6,74,149,13
+    DEFPUSHBUTTON   "APPLY",IDC_GMBLOCK_BTN_APPLY,4,116,111,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMBLOCK_BTN_CANCEL,118,116,39,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,22,155,68
+    GROUPBOX        "",IDC_STATIC,3,0,155,24
+    GROUPBOX        "",IDC_STATIC,3,89,155,23
+    PUSHBUTTON      "Lookup",IDC_GMBLOCK_BTN_LOOKUP,124,7,31,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_HIDE_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 136, 80
+#else
+IDD_GM_HIDE_DIALOG DIALOGEX 0, 0, 136, 80
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "GM",IDC_GMHIDE_BTN_ME,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,6,6,23,13
+    CONTROL         "User",IDC_GMHIDE_BTN_USER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,32,6,23,13
+    EDITTEXT        IDC_GMHIDE_EDT_USER,58,7,69,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,3,0,128,23
+    CONTROL         "Hide",IDC_GMHIDE_BTN_HIDE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT | WS_GROUP,6,47,59,
+                    13
+    CONTROL         "Show",IDC_GMHIDE_BTN_SHOW,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,68,47,59,13
+    GROUPBOX        "",IDC_STATIC,3,40,128,23
+    DEFPUSHBUTTON   "APPLY",IDC_GMHIDE_BTN_APPLY,4,64,90,13,BS_FLAT | 
+                    WS_GROUP | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMHIDE_BTN_CANCEL,97,64,33,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    COMBOBOX        IDC_GMHIDE_CMB_CHANNEL,31,27,30,75,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,4,20,59,23
+    CONTROL         "NPC",IDC_GMHIDE_BTN_NPC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,6,26,23,13
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_WHERE_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 130, 80
+#else
+IDD_GM_WHERE_DIALOG DIALOGEX 0, 0, 130, 80
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_GMWHERE_EDT_USER,39,8,83,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    CHECKBOX        "User",IDC_GMWHERE_BTN_USER,6,7,30,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,124,24
+    DEFPUSHBUTTON   "WHERE",IDC_GMWHERE_BTN_WHERE,4,64,86,13,BS_FLAT | 
+                    WS_GROUP | NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMWHERE_BTN_CANCEL,93,64,33,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_GMWHERE_EDT_X,39,45,40,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMWHERE_EDT_Y,83,45,40,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMWHERE_EDT_MAP,39,29,66,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,3,21,124,40
+    CHECKBOX        "Map",IDC_GMWHERE_BTN_MAP,6,28,30,14,BS_PUSHLIKE | 
+                    BS_FLAT | NOT WS_TABSTOP
+    CHECKBOX        "XY",IDC_GMWHERE_BTN_XY,6,44,30,14,BS_PUSHLIKE | BS_FLAT | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_GMWHERE_EDT_CHANNEL,108,29,15,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_ITEM_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 183, 199
+#else
+IDD_GM_ITEM_DIALOG DIALOGEX 0, 0, 183, 199
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         " Weapon",IDC_GMITEM_BTN_WEAPON,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT | WS_GROUP,6,15,48,13
+    CONTROL         "Clothes",IDC_GMITEM_BTN_CLOTHES,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,31,48,13
+    CONTROL         "Accessory",IDC_GMITEM_BTN_ACCESSORY,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,47,48,13
+    CONTROL         "Skill Book",IDC_GMITEM_BTN_SKILLBOOK,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,63,48,13
+    CONTROL         "Potion",IDC_GMITEM_BTN_POTION,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,6,79,48,13
+    CONTROL         "Etc.",IDC_GMITEM_BTN_ETC,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,6,95,48,13
+    CONTROL         "Money",IDC_GMITEM_BTN_MONEY,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,6,111,48,13
+    CONTROL         "Skill",IDC_GMITEM_BTN_SKILL,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,7,143,48,13
+    CONTROL         "Ability",IDC_GMITEM_BTN_ABILITY,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,7,159,48,13
+    COMBOBOX        IDC_GMITEM_CMB_WEAPON,57,15,95,216,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_WEAPONGRADE,154,15,24,111,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_CLOTHES,57,31,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_CLOTHESGRADE,154,31,24,107,
+                    CBS_DROPDOWNLIST | CBS_SORT | WS_DISABLED | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_ACCESSORY,57,47,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_SKILLBOOK,57,63,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_POTION,58,78,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMITEM_EDT_POTION,154,79,24,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin2",IDC_GMITEM_SPN_POTION,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,166,78,10,14
+    COMBOBOX        IDC_GMITEM_CMB_ETC,57,95,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMITEM_EDT_ETC,154,95,24,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | WS_DISABLED
+    CONTROL         "Spin2",IDC_GMITEM_SPN_ETC,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | WS_DISABLED,166,94,10,14
+    EDITTEXT        IDC_GMITEM_EDT_MONEY,57,112,95,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMITEM_CMB_SKILL,57,143,95,216,CBS_DROPDOWN | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMITEM_CMB_SKILLSUNG,154,143,24,112,CBS_DROPDOWNLIST | 
+                    WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMITEM_EDT_ABILITY,57,160,95,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "GET",IDC_GMITEM_BTN_GET,4,182,122,13,BS_FLAT | WS_GROUP | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMITEM_BTN_CANCEL,129,182,50,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Inventory Item && Money",IDC_STATIC,3,3,177,124
+    GROUPBOX        "Skill && Ability",IDC_STATIC,3,131,177,45
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_REGEN_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 175, 173
+#else
+IDD_GM_REGEN_DIALOG DIALOGEX 0, 0, 175, 173
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "Manual Regen",IDC_GMREGEN_BTN_MODEDIRECT,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT | WS_GROUP,7,7,160,13
+    CONTROL         "File Regen",IDC_GMREGEN_BTN_MODEFILE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,7,93,160,13
+    CONTROL         "Mob Delete",IDC_GMREGEN_BTN_DELETE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_MULTILINE | 
+                    BS_FLAT,7,133,160,13
+    COMBOBOX        IDC_GMREGEN_CMB_MOBNAME,24,23,80,155,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMREGEN_EDT_MOBNUM,137,23,30,12,ES_RIGHT | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMREGEN_CMB_MAP,24,38,80,155,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMREGEN_EDT_X,24,54,21,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMREGEN_EDT_Y,48,54,21,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMREGEN_EDT_RAD,137,54,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMREGEN_CMB_ITEM,24,69,80,193,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_GMREGEN_EDT_ITEM,137,69,30,12,ES_RIGHT | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMREGEN_EDT_FILE,34,109,133,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "APPLY",IDC_GMREGEN_BTN_APPLY,4,156,129,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMREGEN_BTN_CANCEL,137,156,33,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,168,86
+    GROUPBOX        "",IDC_STATIC,3,86,168,40
+    GROUPBOX        "",IDC_STATIC,3,126,168,24
+    LTEXT           "Mob",IDC_STATIC,8,25,14,8,NOT WS_GROUP
+    LTEXT           "Map",IDC_STATIC,8,40,14,8,NOT WS_GROUP
+    LTEXT           "Pos",IDC_STATIC,8,56,15,8,NOT WS_GROUP
+    LTEXT           "Item",IDC_STATIC,8,71,15,8,NOT WS_GROUP
+    PUSHBUTTON      "My",IDC_GMREGEN_BTN_MYPOS,74,54,29,12,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Open",IDC_GMREGEN_BTN_OPEN,6,109,25,12,BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    LTEXT           "Rad(m)",IDC_STATIC,111,56,24,8,NOT WS_GROUP
+    LTEXT           "Channel",IDC_STATIC,108,41,26,8,NOT WS_GROUP
+    LTEXT           "Count",IDC_STATIC,116,25,18,8,NOT WS_GROUP
+    LTEXT           "Drop(%)",IDC_STATIC,108,71,28,8,NOT WS_GROUP
+    COMBOBOX        IDC_GMREGEN_CMB_CHANNEL,137,38,31,87,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_PK_DIALOG$(_GMTOOL_) DIALOG  0, 0, 160, 76
+#else
+IDD_GM_PK_DIALOG DIALOG  0, 0, 160, 76
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial"
+BEGIN
+    CONTROL         "Map",IDC_GMPK_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,7,7,30,13
+    COMBOBOX        IDC_GMPK_CMB_MAP,40,8,80,155,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMPK_CMB_CHANNEL,121,8,31,87,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Forbid PK",IDC_GMPK_BTN_NOPK,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_GROUP,7,
+                    24,144,13
+    CONTROL         "Permit PK",IDC_GMPK_BTN_ALLOW,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,7,39,144,13
+    DEFPUSHBUTTON   "APPLY",IDC_GMPK_BTN_APPLY,7,58,102,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMPK_BTN_CANCEL,112,58,39,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "",-1,4,0,152,55
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_COUNSEL_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 333, 173
+#else
+IDD_GM_COUNSEL_DIALOG DIALOGEX 0, 0, 333, 173
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "COUNSEL :)"
+FONT 10, "굴림체", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_GMCOUNSEL_EDT_CHAT,0,0,333,153,ES_MULTILINE | NOT 
+                    WS_BORDER | WS_VSCROLL | NOT WS_TABSTOP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMCOUNSEL_EDT_INPUT,81,156,220,12,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMCOUNSEL_CMB_ID,0,156,80,155,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Save",IDC_GMCOUNSEL_BTN_SAVE,303,156,30,12,BS_FLAT | 
+                    NOT WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GMLOGIN$(_GMTOOL_) DIALOGEX 0, 0, 98, 50
+#else
+IDD_GMLOGIN DIALOGEX 0, 0, 98, 50
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "GM LogIn"
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_GMLOGIN_EDT_ID,21,3,73,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER | WS_GROUP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMLOGIN_EDT_PW,21,18,73,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    RTEXT           "ID",IDC_STATIC,0,4,17,8
+    RTEXT           "PW",IDC_STATIC,0,20,17,8,NOT WS_GROUP
+    DEFPUSHBUTTON   "LOGIN",IDC_GMLOGIN_BTN_CONNECT,3,34,60,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMLOGIN_BTN_CANCEL,65,34,29,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_NOTICE_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 196, 87
+#else
+IDD_GM_NOTICE_DIALOG DIALOGEX 0, 0, 196, 87
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    CONTROL         "All Map",IDC_GMNOTICE_BTN_ALLMAP,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_GROUP,6,
+                    6,44,13
+    CONTROL         "Map",IDC_GMNOTICE_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,52,6,44,13
+    COMBOBOX        IDC_GMNOTICE_CMB_MAP,98,6,92,123,CBS_DROPDOWN | CBS_SORT | 
+                    WS_DISABLED | WS_VSCROLL | WS_GROUP | WS_TABSTOP
+    EDITTEXT        IDC_GMNOTICE_EDT_PREFACE,6,21,183,13,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_GMNOTICE_EDT_NOTICE,6,36,183,30,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "SEND",IDC_GMNOTICE_OK,4,71,136,13,BS_FLAT | WS_GROUP | 
+                    NOT WS_TABSTOP
+    PUSHBUTTON      "Close",IDC_GMNOTICE_CANCEL,143,71,48,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "",-1,3,0,189,69
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_EVENT_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 134, 67
+#else
+IDD_GM_EVENT_DIALOG DIALOGEX 0, 0, 134, 67
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_GMEVENT_EDT_RATE,88,7,30,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER | WS_GROUP,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GMEVENT_CMB_EVENT,6,7,80,155,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Apply",IDC_GMEVENT_BTN_APPLY,3,27,88,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Close",IDC_GMEVENT_BTN_CLOSE,95,27,35,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,0,127,22
+    LTEXT           "%",IDC_STATIC,120,10,8,8
+    PUSHBUTTON      "Auto Event ON",IDC_GMEVENT_BTN_AUTO_ON,6,48,79,13,
+                    BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "OFF",IDC_GMEVENT_BTN_AUTO_OFF,88,48,39,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,41,127,23
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_EVENTMAP_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 137, 119
+#else
+IDD_GM_EVENTMAP_DIALOG DIALOGEX 0, 0, 137, 119
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Send User To Event Map",IDC_GMEVENTMAP_BTN_SEND,6,40,
+                    124,13,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "Close",IDC_GMEVENTMAP_BTN_CLOSE,4,103,128,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    RADIOBUTTON     "User",IDC_GMEVENTMAP_BTN_USER,6,7,38,13,BS_PUSHLIKE | 
+                    BS_FLAT
+    EDITTEXT        IDC_GMEVENTMAP_EDT_CHAR,47,7,82,13,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    RADIOBUTTON     "Channel",IDC_GMEVENTMAP_BTN_CHNANNEL,6,23,38,13,
+                    BS_PUSHLIKE | BS_FLAT
+    EDITTEXT        IDC_GMEVENTMAP_EDT_CHANNEL,47,23,16,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    RADIOBUTTON     "Team",IDC_GMEVENTMAP_BTN_TEAM,72,23,38,13,BS_PUSHLIKE | 
+                    BS_FLAT
+    EDITTEXT        IDC_GMEVENTMAP_EDT_TEAM,113,23,16,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,3,0,130,56
+    PUSHBUTTON      "Start",IDC_GMEVENTMAP_BTN_STARTEVENT,6,82,124,13,
+                    BS_FLAT | NOT WS_TABSTOP
+    RADIOBUTTON     "Channel",IDC_GMEVENTMAP_BTN_CHNANNEL2,6,65,38,13,
+                    BS_PUSHLIKE | BS_FLAT
+    EDITTEXT        IDC_GMEVENTMAP_EDT_CHANNEL2,48,65,16,13,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,3,58,130,40
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_EVENTNOTIFY_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 138, 155
+#else
+IDD_GM_EVENTNOTIFY_DIALOG DIALOGEX 0, 0, 138, 155
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "ON",IDC_GMEVENTNOTIFY_BTN_ON,6,65,59,13,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Close",IDC_GMEVENTNOTIFY_BTN_CLOSE,4,139,128,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    EDITTEXT        IDC_GMEVENTNOTIFY_EDT_TITLE,6,22,123,13,ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,3,0,130,81
+    EDITTEXT        IDC_GMEVENTNOTIFY_EDT_CONTEXT,6,38,123,23,ES_MULTILINE | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "OFF",IDC_GMEVENTNOTIFY_BTN_OFF,70,65,59,13,BS_FLAT | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,79,130,56
+    PUSHBUTTON      "SOUND1",IDC_GMEVENTNOTIFY_BTN_SOUND1,6,101,39,13,
+                    BS_FLAT | WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "SOUND2",IDC_GMEVENTNOTIFY_BTN_SOUND2,48,101,39,13,
+                    BS_FLAT | WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "SOUND3",IDC_GMEVENTNOTIFY_BTN_SOUND3,90,101,39,13,
+                    BS_FLAT | WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "SOUND",IDC_GMEVENTNOTIFY_BTN_SOUND,6,86,123,13,BS_FLAT | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      "PLAY SOUND",IDC_GMEVENTNOTIFY_BTN_PLAYSOUND,6,119,123,
+                    13,BS_FLAT | WS_DISABLED | NOT WS_TABSTOP
+    CHECKBOX        "EVENT NOTIFY",IDC_GMEVENTNOTIFY_BTN_NOTIFY,6,7,123,14,
+                    BS_PUSHLIKE | BS_FLAT | NOT WS_TABSTOP
+END
+#endif
+
+#if defined(APSTUDIO_INVOKED) || defined(_GMTOOL_)
+#if defined(APSTUDIO_INVOKED)
+IDD_GM_WEATHER_DIALOG$(_GMTOOL_) DIALOGEX 0, 0, 140, 94
+#else
+IDD_GM_WEATHER_DIALOG DIALOGEX 0, 0, 140, 94
+#endif
+STYLE DS_SETFONT | WS_POPUP | WS_BORDER
+FONT 8, "Arial", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,3,0,134,20
+    COMBOBOX        IDC_GMWEATHER_CMB_MAP,35,6,99,143,CBS_DROPDOWN | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Map",IDC_GMWEATHER_BTN_MAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_MULTILINE | BS_FLAT,5,6,29,12
+    PUSHBUTTON      "Apply",IDC_GMWEATHER_BTN_APPLY,5,78,64,12,BS_FLAT | NOT 
+                    WS_TABSTOP
+    PUSHBUTTON      "Cancel",IDC_GMWEATHER_BTN_CANCEL,70,78,64,12,BS_FLAT | 
+                    NOT WS_TABSTOP
+    COMBOBOX        IDC_GMWEATHER_CMB_KIND,101,64,34,53,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GMWEATHER_CMB_STARTDAY,5,41,32,127,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,3,36,134,56
+    PUSHBUTTON      "Now",IDC_GMWEATHER_BTN_NOW,101,41,32,12,BS_FLAT
+    COMBOBOX        IDC_GMWEATHER_CMB_ENDDAY,5,64,32,127,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "∼",IDC_STATIC,66,55,9,8
+    COMBOBOX        IDC_GMWEATHER_CMB_KIND_EXE,6,24,34,54,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Execution",IDC_GMWEATHER_BTN_EXECUTION,41,24,46,12,
+                    BS_FLAT
+    GROUPBOX        "",IDC_STATIC,3,17,134,22
+    PUSHBUTTON      "Return",IDC_GMWEATHER_BTN_RETURN,88,24,46,12,BS_FLAT
+    CONTROL         "DateTimePicker1",IDC_GMWEATHER_DATETIMEPICKER_START,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,37,41,64,12
+    CONTROL         "DateTimePicker1",IDC_GMWEATHER_DATETIMEPICKER_END,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | 
+                    WS_TABSTOP | 0x8,37,64,64,12
+END
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GAMEICON            ICON                    "mh.ICO"
+IDI_TAITANICON          ICON                    "Taitan.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "CompanyName", " "
+            VALUE "FileDescription", "MHClient-GMTool-Debug"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "MHClient-GMTool-Debug"
+            VALUE "LegalCopyright", "Copyright ⓒ 2004"
+            VALUE "OriginalFilename", "MHClient-GMTool-Debug.exe"
+            VALUE "ProductName", "  MHClient-GMTool-Debug"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    "IDD_GMDIALOG$(_GMTOOL_)", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 249
+    END
+
+    "IDD_GM_HIDE_DIALOG$(_GMTOOL_)", DIALOG
+    BEGIN
+        RIGHTMARGIN, 135
+        BOTTOMMARGIN, 60
+    END
+
+    "IDD_GM_COUNSEL_DIALOG$(_GMTOOL_)", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 129
+    END
+
+    "IDD_GMLOGIN$(_GMTOOL_)", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 32
+    END
+
+    "IDD_GM_EVENTNOTIFY_DIALOG$(_GMTOOL_)", DIALOG
+    BEGIN
+        RIGHTMARGIN, 137
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,10 @@
+LIBRARY     4DyuchiGXGeometry
+
+DESCRIPTION '4DyuchiGXGeometry 3D Engine File Loader 2001. yuchi'
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  DllCreateInstance	PRIVATE

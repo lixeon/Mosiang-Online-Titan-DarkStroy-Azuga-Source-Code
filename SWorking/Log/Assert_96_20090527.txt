@@ -1,0 +1,6 @@
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/27일 0시53분34.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/27일 0시53분34.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/27일 0시53분34.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/27일 0시53분34.906초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/27일 0시53분36.484초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/27일 0시58분54.718초

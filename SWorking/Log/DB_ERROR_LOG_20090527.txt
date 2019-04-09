@@ -1,0 +1,42 @@
+DB INIT OK, time:5월/27일 0시13분50.484초
+DB INIT OK, time:5월/27일 0시13분50.500초
+DB INIT OK, time:5월/27일 0시13분53.843초
+DB INIT OK, time:5월/27일 0시13분53.859초
+DB INIT OK, time:5월/27일 0시52분35.546초
+DB INIT OK, time:5월/27일 0시52분35.562초
+DB INIT OK, time:5월/27일 0시52분38.312초
+DB INIT OK, time:5월/27일 0시52분38.328초
+DB INIT OK, time:5월/27일 0시53분28.453초
+DB INIT OK, time:5월/27일 0시53분28.484초
+DB INIT OK, time:5월/27일 0시53분30.968초
+DB INIT OK, time:5월/27일 0시53분31.0초
+DB INIT OK, time:5월/27일 0시58분8.296초
+DB INIT OK, time:5월/27일 0시58분8.328초
+DB INIT OK, time:5월/27일 1시6분0.984초
+DB INIT OK, time:5월/27일 1시6분1.0초
+DB INIT OK, time:5월/27일 1시6분3.78초
+DB INIT OK, time:5월/27일 1시6분3.109초
+DB INIT OK, time:5월/27일 1시6분20.687초
+DB INIT OK, time:5월/27일 1시6분20.718초
+DB INIT OK, time:
+DB INIT OK, time:
+DB INIT OK, time:
+DB INIT OK, time:
+DB INIT OK, time:
+DB INIT OK, time:
+DB INIT OK, time:5월/27일 3시30분8.781초
+DB INIT OK, time:5월/27일 3시30분8.812초
+DB INIT OK, time:5월/27일 3시30분14.93초
+DB INIT OK, time:5월/27일 3시30분14.125초
+DB INIT OK, time:5월/27일 3시37분37.437초
+DB INIT OK, time:5월/27일 3시37분37.468초
+DB INIT OK, time:5월/27일 3시37분40.250초
+DB INIT OK, time:5월/27일 3시37분40.281초
+DB INIT OK, time:5월/27일 3시40분14.0초
+DB INIT OK, time:5월/27일 3시40분14.31초
+DB INIT OK, time:5월/27일 3시40분15.921초
+DB INIT OK, time:5월/27일 3시40분15.953초
+DB INIT OK, time:5월/27일 4시29분23.828초
+DB INIT OK, time:5월/27일 4시29분23.875초
+DB INIT OK, time:5월/27일 4시29분27.171초
+DB INIT OK, time:5월/27일 4시29분27.203초

@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXGeometry", "4DyuchiGXGeometry.vcproj", "{10810CF8-DED7-4D07-80E3-80F302A202DC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DyuchiGXGeometry\\
+		SolutionUniqueID = {486F35CD-0FE8-4E0F-9B4A-25359E3B6CA0}
+		SccProjectUniqueName1 = 4DyuchiGXGeometry.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DyuchiGXGeometry\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{10810CF8-DED7-4D07-80E3-80F302A202DC}.Debug.ActiveCfg = Debug|Win32
+		{10810CF8-DED7-4D07-80E3-80F302A202DC}.Debug.Build.0 = Debug|Win32
+		{10810CF8-DED7-4D07-80E3-80F302A202DC}.Release.ActiveCfg = Release|Win32
+		{10810CF8-DED7-4D07-80E3-80F302A202DC}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YHLibrary", "YHLibrary.vcproj", "{863E7EE6-CEF9-40CB-BDC8-0C369B3CDB37}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SolutionUniqueID = {880F6826-BE4E-414F-8BE3-2A911E454D37}
+		SccProjectUniqueName1 = YHLibrary.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{863E7EE6-CEF9-40CB-BDC8-0C369B3CDB37}.Debug.ActiveCfg = Debug|Win32
+		{863E7EE6-CEF9-40CB-BDC8-0C369B3CDB37}.Debug.Build.0 = Debug|Win32
+		{863E7EE6-CEF9-40CB-BDC8-0C369B3CDB37}.Release.ActiveCfg = Release|Win32
+		{863E7EE6-CEF9-40CB-BDC8-0C369B3CDB37}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

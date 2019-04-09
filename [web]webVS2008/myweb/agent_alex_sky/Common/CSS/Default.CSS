@@ -1,0 +1,29 @@
+a {
+        color: #414141;
+        text-decoration: none;
+}
+a:active
+{
+        color: #3366CC;
+}
+BODY
+{
+	font-size: 11px;
+	font-family: Verdana; 
+	text-align: left;
+	text-decoration: none;
+	overflow-y: auto;
+	scrollbar-face-color: #EDEDF3;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #93949F;
+	scrollbar-3dlight-color: #EDEDF3;
+	scrollbar-arrow-color: #082468;
+	scrollbar-track-color: #F7F7F9;
+	scrollbar-darkshadow-color: #EDEDF3;
+}
+TD
+{
+	font-size: 11px;
+	font-family: Verdana; 
+	text-decoration: none;
+}

@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "I4DyuchiNET", "I4DyuchiNET.vcproj", "{1B17878E-9CB1-422B-985C-F07C3E5678D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DyuchiNET_Latest\\
+		SolutionUniqueID = {E06E11C2-81E3-4DF2-A5ED-1E5F4DE39FCE}
+		SccProjectUniqueName1 = I4DyuchiNET.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DyuchiNET_Latest\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		release confirm = release confirm
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.Debug.ActiveCfg = Debug|Win32
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.Debug.Build.0 = Debug|Win32
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.Release.ActiveCfg = Release|Win32
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.Release.Build.0 = Release|Win32
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.release confirm.ActiveCfg = release confirm|Win32
+		{1B17878E-9CB1-422B-985C-F07C3E5678D8}.release confirm.Build.0 = release confirm|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

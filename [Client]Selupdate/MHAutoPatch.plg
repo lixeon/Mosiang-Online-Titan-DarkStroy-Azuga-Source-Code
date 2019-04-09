@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MHAutoPatch - Win32 Release_China--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ly\LOCALS~1\Temp\RSP127.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_FOR_CLIENT_" /Fp"MHAutoPatch___Win32_Release_China/MHAutoPatch.pch" /Yu"stdafx.h" /Fo"MHAutoPatch___Win32_Release_China/" /Fd"MHAutoPatch___Win32_Release_China/" /FD /c 
+"D:\ms\Source_1.7\[Client]MHAutoPatch\BGMManager.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\HtmlViewNotice.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\MHAutoPatch.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\MHAutoPatchDlg.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\SkinProgressBar.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\SkinStatic.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\DirectoryName.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\FileName.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\Strclass.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\YHFileFind.cpp"
+"D:\ms\Source_1.7\[Client]MHAutoPatch\Interface_RainFTP.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ly\LOCALS~1\Temp\RSP127.tmp" 
+Creating temporary file "C:\DOCUME~1\ly\LOCALS~1\Temp\RSP128.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_FOR_CLIENT_" /Fp"MHAutoPatch___Win32_Release_China/MHAutoPatch.pch" /Yc"stdafx.h" /Fo"MHAutoPatch___Win32_Release_China/" /Fd"MHAutoPatch___Win32_Release_China/" /FD /c 
+"D:\ms\Source_1.7\[Client]MHAutoPatch\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ly\LOCALS~1\Temp\RSP128.tmp" 
+Creating temporary file "C:\DOCUME~1\ly\LOCALS~1\Temp\RSP129.tmp" with contents
+[
+ZipArchive/ZipArchive_Release.lib Audio/SoundLib.lib /nologo /subsystem:windows /incremental:no /pdb:"MHAutoPatch___Win32_Release_China/MHAutoPatch.pdb" /machine:I386 /out:"../CWorking/MHAutoPatch.exe" 
+".\MHAutoPatch___Win32_Release_China\BGMManager.obj"
+".\MHAutoPatch___Win32_Release_China\HtmlViewNotice.obj"
+".\MHAutoPatch___Win32_Release_China\MHAutoPatch.obj"
+".\MHAutoPatch___Win32_Release_China\MHAutoPatchDlg.obj"
+".\MHAutoPatch___Win32_Release_China\SkinProgressBar.obj"
+".\MHAutoPatch___Win32_Release_China\SkinStatic.obj"
+".\MHAutoPatch___Win32_Release_China\StdAfx.obj"
+".\MHAutoPatch___Win32_Release_China\DirectoryName.obj"
+".\MHAutoPatch___Win32_Release_China\FileName.obj"
+".\MHAutoPatch___Win32_Release_China\Strclass.obj"
+".\MHAutoPatch___Win32_Release_China\YHFileFind.obj"
+".\MHAutoPatch___Win32_Release_China\Interface_RainFTP.obj"
+".\MHAutoPatch___Win32_Release_China\MHAutoPatch.res"
+".\Audio\SoundLib.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ly\LOCALS~1\Temp\RSP129.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+BGMManager.cpp
+HtmlViewNotice.cpp
+MHAutoPatch.cpp
+MHAutoPatchDlg.cpp
+SkinProgressBar.cpp
+SkinStatic.cpp
+DirectoryName.cpp
+FileName.cpp
+Strclass.cpp
+YHFileFind.cpp
+Interface_RainFTP.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MHAutoPatch.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

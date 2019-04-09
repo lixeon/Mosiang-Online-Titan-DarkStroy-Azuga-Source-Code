@@ -1,0 +1,20 @@
+// SkillObjectTerminator.cpp: implementation of the CSkillObjectTerminator class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "SkillObjectTerminator.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CSkillObjectTerminator::CSkillObjectTerminator(SKILLINFO* pSkillInfo)
+{
+
+}
+
+CSkillObjectTerminator::~CSkillObjectTerminator()
+{
+
+}

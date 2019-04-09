@@ -1,0 +1,30 @@
+; v0 - light vector in tangent space
+; v1 - half vector in tangent space
+; c0 1.0,1.0,1.0,alpha
+; c1 1.0,1.0,1.0,threadsold alpha
+
+ps.1.1
+
+tex t0	 
+;tex t1 ; normal map
+
+sub t0.a,t0.a,c1.a
+mov r1,t0.a
+dp3 r1,r1,c0
+mov r0.a,r1.b
++mov r0.rgb,t0
+
+mul r0.a,r0.a,c0.a
+
+
+
+
+
+
+;tex t0 ; color map
+;tex t1 ; normal map
+;dp3 r1, t1_bx2, v0_bx2 ; dot(normal,light) 
+;mul r0, t0, r1 ; modulate against base color
+
+
+

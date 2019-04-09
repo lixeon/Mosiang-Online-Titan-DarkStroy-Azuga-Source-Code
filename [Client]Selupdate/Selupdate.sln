@@ -1,0 +1,77 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MHAutoPatch", "MHAutoPatch.vcproj", "{FD13A0F1-926B-416D-9928-323F8235D280}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596} = {4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZipArchive", "ZipArchive\ZipArchive.vcproj", "{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug_Server = Debug_Server
+		Release = Release
+		Release_China = Release_China
+		Release_Server = Release_Server
+		Release_Server_China = Release_Server_China
+		Static Debug = Static Debug
+		Static Release = Static Release
+		Unicode Debug = Unicode Debug
+		Unicode Release = Unicode Release
+		Unicode Static Release = Unicode Static Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Debug.ActiveCfg = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Debug.Build.0 = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Debug_Server.ActiveCfg = Debug_Server|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Debug_Server.Build.0 = Debug_Server|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release.ActiveCfg = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release.Build.0 = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_China.ActiveCfg = Release_China|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_China.Build.0 = Release_China|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_Server.ActiveCfg = Release_Server|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_Server.Build.0 = Release_Server|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_Server_China.ActiveCfg = Release_Server_China|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Release_Server_China.Build.0 = Release_Server_China|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Static Debug.ActiveCfg = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Static Debug.Build.0 = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Static Release.ActiveCfg = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Static Release.Build.0 = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Debug.ActiveCfg = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Debug.Build.0 = Debug|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Release.ActiveCfg = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Release.Build.0 = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Static Release.ActiveCfg = Release|Win32
+		{FD13A0F1-926B-416D-9928-323F8235D280}.Unicode Static Release.Build.0 = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Debug.ActiveCfg = Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Debug.Build.0 = Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Debug_Server.ActiveCfg = Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Debug_Server.Build.0 = Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release.ActiveCfg = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release.Build.0 = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_China.ActiveCfg = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_China.Build.0 = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_Server.ActiveCfg = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_Server.Build.0 = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_Server_China.ActiveCfg = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Release_Server_China.Build.0 = Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Static Debug.ActiveCfg = Static Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Static Debug.Build.0 = Static Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Static Release.ActiveCfg = Static Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Static Release.Build.0 = Static Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Debug.ActiveCfg = Unicode Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Debug.Build.0 = Unicode Debug|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Release.ActiveCfg = Unicode Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Release.Build.0 = Unicode Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Static Release.ActiveCfg = Unicode Static Release|Win32
+		{4D08DFD1-9BBB-4A02-9A86-0FA692DE1596}.Unicode Static Release.Build.0 = Unicode Static Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

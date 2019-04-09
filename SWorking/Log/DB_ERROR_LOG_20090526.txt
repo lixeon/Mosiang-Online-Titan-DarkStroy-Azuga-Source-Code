@@ -1,0 +1,66 @@
+DB INIT OK, time:5岿/26老 9矫31盒25.593檬
+DB INIT OK, time:5岿/26老 9矫31盒25.625檬
+DB INIT OK, time:5岿/26老 9矫31盒27.484檬
+DB INIT OK, time:5岿/26老 9矫31盒27.500檬
+DB INIT OK, time:5岿/26老 14矫12盒52.578檬
+DB INIT OK, time:5岿/26老 14矫12盒52.593檬
+DB INIT OK, time:5岿/26老 14矫12盒59.875檬
+DB INIT OK, time:5岿/26老 14矫12盒59.921檬
+DB INIT OK, time:5岿/26老 14矫42盒4.593檬
+DB INIT OK, time:5岿/26老 14矫42盒4.609檬
+DB INIT OK, time:5岿/26老 14矫42盒6.671檬
+DB INIT OK, time:5岿/26老 14矫42盒6.687檬
+DB INIT OK, time:5岿/26老 15矫28盒14.312檬
+DB INIT OK, time:5岿/26老 15矫28盒14.343檬
+DB INIT OK, time:5岿/26老 15矫28盒20.656檬
+DB INIT OK, time:5岿/26老 15矫28盒20.687檬
+EXEC dbo.MP_JACKPOT_LoadMoney, time:5岿/26老 17矫20盒14.937檬
+Error Message: [Microsoft][SQL Native Client]共享内存提供程序: 管道的另一端上无任何进程。
+ SqlState: 08S01, fNativeError: 233, time:5岿/26老 17矫20盒14.953檬
+EXEC Up_GameLogOut 2, time:5岿/26老 17矫20盒14.953檬
+Error Message: [Microsoft][SQL Native Client]共享内存提供程序: 管道的另一端上无任何进程。
+ SqlState: 08S01, fNativeError: 233, time:5岿/26老 17矫20盒14.953檬
+DB INIT OK, time:5岿/26老 18矫40盒3.31檬
+DB INIT OK, time:5岿/26老 18矫40盒3.46檬
+DB INIT OK, time:5岿/26老 18矫40盒5.421檬
+DB INIT OK, time:5岿/26老 18矫40盒5.437檬
+DB INIT OK, time:5岿/26老 20矫4盒55.375檬
+DB INIT OK, time:5岿/26老 20矫4盒55.406檬
+DB INIT OK, time:5岿/26老 20矫4盒59.15檬
+DB INIT OK, time:5岿/26老 20矫4盒59.31檬
+DB INIT OK, time:5岿/26老 20矫28盒32.250檬
+DB INIT OK, time:5岿/26老 20矫28盒32.265檬
+DB INIT OK, time:5岿/26老 20矫28盒35.687檬
+DB INIT OK, time:5岿/26老 20矫28盒35.703檬
+DB INIT OK, time:5岿/26老 20矫33盒33.750檬
+DB INIT OK, time:5岿/26老 20矫33盒33.781檬
+DB INIT OK, time:5岿/26老 20矫33盒35.656檬
+DB INIT OK, time:5岿/26老 20矫33盒35.687檬
+DB INIT OK, time:5岿/26老 20矫53盒55.828檬
+DB INIT OK, time:5岿/26老 20矫53盒55.843檬
+DB INIT OK, time:5岿/26老 20矫53盒59.31檬
+DB INIT OK, time:5岿/26老 20矫53盒59.46檬
+DB INIT OK, time:5岿/26老 20矫55盒44.875檬
+DB INIT OK, time:5岿/26老 20矫55盒44.890檬
+DB INIT OK, time:5岿/26老 20矫55盒46.343檬
+DB INIT OK, time:5岿/26老 20矫55盒46.375檬
+DB INIT OK, time:5岿/26老 21矫31盒51.609檬
+DB INIT OK, time:5岿/26老 21矫31盒51.640檬
+DB INIT OK, time:5岿/26老 21矫31盒54.890檬
+DB INIT OK, time:5岿/26老 21矫31盒54.906檬
+DB INIT OK, time:5岿/26老 21矫52盒32.515檬
+DB INIT OK, time:5岿/26老 21矫52盒32.531檬
+DB INIT OK, time:5岿/26老 21矫52盒36.718檬
+DB INIT OK, time:5岿/26老 21矫52盒36.734檬
+DB INIT OK, time:5岿/26老 21矫52盒56.578檬
+DB INIT OK, time:5岿/26老 21矫52盒56.593檬
+DB INIT OK, time:5岿/26老 22矫23盒32.203檬
+DB INIT OK, time:5岿/26老 22矫23盒32.234檬
+DB INIT OK, time:5岿/26老 22矫23盒35.343檬
+DB INIT OK, time:5岿/26老 22矫23盒35.359檬
+EXEC up_event051108_insert 2, '?蔓', 1, time:5岿/26老 23矫45盒31.812檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]找不到存储过程 'up_event051108_insert'。 SqlState: 42000, fNativeError: 2812, time:5岿/26老 23矫45盒31.812檬
+DB INIT OK, time:5岿/26老 23矫58盒31.828檬
+DB INIT OK, time:5岿/26老 23矫58盒31.843檬
+DB INIT OK, time:5岿/26老 23矫58盒38.812檬
+DB INIT OK, time:5岿/26老 23矫58盒38.828檬

@@ -1,0 +1,376 @@
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 9시31분36.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분36.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분36.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분36.640초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 9시31분38.343초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 1, CharacterIdx: 108, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 9시35분39.265초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:651, msg:notify : 파티인덱스가 이미 있습니다., time:5월/26일 11시27분34.984초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:226, time:5월/26일 11시30분6.968초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742137, x:-842150451, z:-842150451, time:5월/26일 11시33분12.578초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 3, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 12시8분9.468초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742145, x:-842150451, z:-842150451, time:5월/26일 12시16분55.968초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시47분36.78초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시48분5.937초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시48분36.15초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시49분6.78초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시49분36.156초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시50분6.234초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시50분36.312초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시51분6.390초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시51분36.453초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시52분6.531초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시52분36.609초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시53분6.687초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시53분36.765초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시54분6.843초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시54분36.906초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시55분6.984초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시55분37.62초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시56분7.140초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시56분35.796초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시57분5.890초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시57분35.953초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시58분6.31초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시58분36.109초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시59분6.187초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 13시59분36.250초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시0분6.328초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시0분36.406초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시1분6.484초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시1분36.562초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시2분6.640초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시2분36.703초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시3분6.781초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시3분36.859초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시4분6.937초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시4분37.15초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시5분7.93초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시5분37.156초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시6분7.234초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시6분42.359초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시7분5.984초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시7분36.46초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시8분6.125초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시8분36.203초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시9분6.281초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시9분36.359초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시10분6.437초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시10분36.500초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시11분6.578초
+d:\darkstory\patch_km_071122\[server]map\shopitemmanager.cpp line:1012, msg:ShopItem Position NOT find - Makeup or Decoration [57970] [390], time:5월/26일 14시11분36.656초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 14시12분41.609초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 14시13분16.937초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시13분17.125초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시13분17.171초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시13분17.187초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 14시14분25.625초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 15시41분23.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 15시41분23.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 15시41분23.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 15시41분23.484초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 15시41분25.234초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 15시42분14.609초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 18시40분13.343초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분13.359초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분13.359초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분13.359초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 18시40분15.203초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 116, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 18시48분22.593초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742146, x:-842150451, z:-842150451, time:5월/26일 19시0분19.250초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 1, CharacterIdx: 108, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 19시3분55.109초
+d:\darkstory\patch_km_071122\[server]map\party.cpp line:158, msg:자기자신에게 리더를 이양하려 했습니다., time:5월/26일 19시6분10.265초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742128, x:-842150451, z:-842150451, time:5월/26일 19시18분54.406초
+d:\darkstory\patch_km_071122\[server]map\guildmanager.cpp line:280, msg:Add Notify Failed! GuildIdx : 1, MemberIdx : 114, time:5월/26일 19시48분1.78초
+d:\darkstory\patch_km_071122\[server]map\guildmanager.cpp line:280, msg:Add Notify Failed! GuildIdx : 1, MemberIdx : 108, time:5월/26일 19시48분7.312초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 19시57분10.687초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 20시5분4.609초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시5분4.609초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시5분4.609초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시5분4.609초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 20시5분6.187초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 20시5분45.250초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 20시27분25.546초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 20시43분52.968초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시43분52.968초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시43분52.984초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 20시43분52.984초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 20시43분54.546초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 21시32분5.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시32분5.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시32분5.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시32분5.500초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 116, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 21시34분21.250초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 21시51분5.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시51분5.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시51분5.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시51분5.906초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 21시51분7.500초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 21시51분20.375초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 21시52분44.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시52분44.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시52분44.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 21시52분44.812초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 21시52분46.406초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 21시53분41.718초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 21시54분13.562초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:101, msg:BossEventState Num is Zero, time:5월/26일 22시1분39.140초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분46.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분51.609초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분52.250초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분56.640초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분57.578초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분58.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시1분59.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분0.62초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분0.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분1.671초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분1.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분2.671초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분3.593초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분4.406초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분5.375초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분6.187초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분6.703초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분7.156초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분7.968초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분8.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분9.718초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분9.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분10.703초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분11.531초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분11.734초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분12.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분13.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분13.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분14.281초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분16.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분16.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분20.734초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분21.781초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분21.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분22.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분23.640초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분24.437초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분25.390초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분26.218초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분26.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분26.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분27.187초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분28.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분28.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분29.437초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분29.718초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분30.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분30.437초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분30.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분31.187초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분31.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분31.640초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분31.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분32.31초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분32.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분32.953초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분33.31초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분33.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분33.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분33.781초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분33.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분34.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분34.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분34.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분35.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분35.593초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분35.671초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분35.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분35.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분36.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분36.546초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분36.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.359초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.406초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.687초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.781초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.781초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분37.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분38.328초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분38.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.156초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.687초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분39.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분40.78초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분40.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.500초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분41.921초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분42.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분43.671초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분43.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분43.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분43.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분44.500초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분45.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분45.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분45.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분45.921초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분46.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분46.937초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분47.281초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분47.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분48.78초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분48.718초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분49.62초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분49.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분50.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분51.671초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분51.968초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분52.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분52.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분53.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분54.375초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분55.187초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분56.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시2분57.0초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분1.125초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분2.15초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분13.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분13.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분19.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시3분19.921초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분7.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분7.703초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분20.437초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분20.484초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분23.0초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분25.46초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분25.515초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분27.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분29.687초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분30.531초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분31.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분33.140초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분34.640초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분35.562초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분36.46초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분37.390초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분38.562초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분40.593초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분45.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분50.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분54.937초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분55.687초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분56.281초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분57.937초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시4분59.750초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분0.703초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분0.718초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분1.812초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분3.375초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분4.343초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분5.750초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분6.171초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분7.531초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분8.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분10.218초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분10.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분11.546초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분13.62초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분14.390초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분15.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분19.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분20.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분20.953초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분22.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분23.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분25.140초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분25.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분26.359초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분28.46초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분29.734초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분30.890초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분31.546초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분33.93초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분34.781초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분35.921초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분36.218초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분37.828초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분39.390초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분40.953초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분41.234초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분43.312초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분45.984초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분51.0초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시5분56.31초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분1.62초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분6.93초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분11.125초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분16.156초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분16.968초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분21.187초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분26.218초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분27.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분31.15초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분31.234초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분33.156초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분34.640초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분36.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분36.281초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분37.609초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분39.156초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분41.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분46.328초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분51.359초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시6분56.390초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분1.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분6.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분11.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분16.500초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분21.531초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분26.562초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분31.593초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분36.625초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분41.656초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분46.687초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분51.703초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시7분56.734초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시8분1.765초
+d:\darkstory\patch_km_071122\[server]map\bossmonster.cpp line:127, msg:Boss SetLife EventState is NULL, time:5월/26일 22시8분6.796초
+d:\darkstory\patch_km_071122\[server]map\guildmanager.cpp line:1747, time:5월/26일 22시10분22.78초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 22시12분23.0초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 22시23분45.796초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시23분45.859초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시23분45.875초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시23분45.875초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 22시24분11.375초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시31분45.703초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시32분9.640초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시32분27.656초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시32분29.859초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시32분46.62초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시33분43.890초
+d:\darkstory\patch_km_071122\[server]map\grid.cpp line:44, time:5월/26일 22시35분7.984초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1527, time:5월/26일 22시37분38.62초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1527, time:5월/26일 22시39분59.984초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1527, time:5월/26일 22시39분59.984초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1527, time:5월/26일 22시39분59.984초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1547, time:5월/26일 22시41분5.265초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742128, x:-842150451, z:-842150451, time:5월/26일 23시46분4.531초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742151, x:-842150451, z:-842150451, time:5월/26일 23시51분54.390초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 23시58분12.812초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 23시58분45.250초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시58분45.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시58분45.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시58분45.265초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 23시58분46.828초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 23시59분23.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분23.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분23.296초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분23.296초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 23시59분24.875초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 115, MapNum : 17 어디가 꺼졌었나?, time:5월/26일 23시59분54.140초

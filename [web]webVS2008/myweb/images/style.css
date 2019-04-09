@@ -1,0 +1,402 @@
+BODY {
+	BACKGROUND: url(bg1.gif); MARGIN: 0px; FONT: 12px "?Î]ÍN"; COLOR: #000; repeat-x: 
+}
+TABLE {
+	BORDER-COLLAPSE: collapse
+}
+.dotline {
+	BORDER-TOP-STYLE: dotted; BORDER-RIGHT-STYLE: dotted; BORDER-LEFT-STYLE: dotted; BORDER-BOTTOM-STYLE: dotted
+}
+.button_1 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; FONT-WEIGHT: bold; BACKGROUND: url(bg_btn.gif) no-repeat; MARGIN: 0px; BORDER-LEFT: medium none; WIDTH: 87px; LINE-HEIGHT: 29px; BORDER-BOTTOM: medium none
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+H1 {
+	FONT-SIZE: 12px; MARGIN: 0px
+}
+H2 {
+	FONT-SIZE: 12px; MARGIN: 0px
+}
+.clear {
+	CLEAR: both
+}
+.btn {
+	CLEAR: both; TEXT-ALIGN: center
+}
+.alert {
+	COLOR: #f60
+}
+.alert A {
+	COLOR: #06f
+}
+.warn {
+	FONT-WEIGHT: bold; COLOR: #f00
+}
+.note {
+	COLOR: #696
+}
+H6 {
+	FONT-SIZE: 14px; MARGIN: 12px 0px; COLOR: red
+}
+#top {
+	BACKGROUND: url(bg_top.jpg) no-repeat; MARGIN: 0px auto; WIDTH: 1002px; HEIGHT: 136px
+}
+#logo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 25px; POSITION: absolute
+}
+#topmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 270px; PADDING-BOTTOM: 0px; PADDING-TOP: 34px; POSITION: absolute
+}
+#secondmenu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 360px; BACKGROUND: url(bg_secondmenu.gif) no-repeat 290px 70px; PADDING-BOTTOM: 30px; COLOR: #fff; PADDING-TOP: 97px
+}
+#secondmenu DT {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px
+}
+#secondmenu DD {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 0px
+}
+#secondmenu DD {
+	BORDER-LEFT: #006 1px dashed
+}
+#secondmenu A {
+	FILTER: glow(color=#000066,strength=2); FLOAT: left; COLOR: #fff
+}
+#secondmenu DT A {
+	FONT-WEIGHT: bold; COLOR: #ff0
+}
+#main {
+	CLEAR: both; BACKGROUND: url(bg_left.jpg) no-repeat; MARGIN: 0px auto; WIDTH: 1002px; HEIGHT: 550px
+}
+#mainleft {
+	FLOAT: left; WIDTH: 189px
+}
+#mainright {
+	BACKGROUND: url(bg_right.gif) #fff no-repeat; FLOAT: left; PADDING-BOTTOM: 50px; WIDTH: 813px; HEIGHT: 500px; TEXT-ALIGN: center
+}
+#userinfo {
+	BACKGROUND: url(bg_steptop.gif) no-repeat center 30px
+}
+#steps H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 72px; BACKGROUND: url(icon_step.gif) no-repeat 48px 9px; PADDING-BOTTOM: 11px; COLOR: #fff; PADDING-TOP: 11px
+}
+#userinfo H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 72px; BACKGROUND: url(icon_step.gif) no-repeat 48px 9px; PADDING-BOTTOM: 11px; COLOR: #fff; PADDING-TOP: 11px
+}
+#steps UL {
+	PADDING-LEFT: 20px; COLOR: #ddf
+}
+#userinfo UL {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; BACKGROUND: url(bg_step.gif) repeat-y center 50%; PADDING-BOTTOM: 0px; COLOR: #00005d; PADDING-TOP: 0px
+}
+#userinfo LI {
+	MARGIN-TOP: 6px
+}
+#userinfo .btn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(bg_userwelcom.gif) no-repeat 50% bottom; PADDING-BOTTOM: 6px; COLOR: #9cf; PADDING-TOP: 17px
+}
+#userinfo .btn .alert {
+	MARGIN: 0px 3px; COLOR: #ff0
+}
+#qa {
+	MARGIN: 26px; COLOR: #fff; LINE-HEIGHT: 25px; TEXT-ALIGN: right
+}
+#commendfunc {
+	MARGIN: 26px; COLOR: #fff; LINE-HEIGHT: 25px; TEXT-ALIGN: right
+}
+#menu3rd {
+	MARGIN: 26px; COLOR: #fff; LINE-HEIGHT: 25px; TEXT-ALIGN: right
+}
+#qa H1 {
+	PADDING-RIGHT: 20px; BACKGROUND: url(icon_leftmenu_red.gif) no-repeat right 50%; COLOR: #ff0
+}
+#commendfunc H1 {
+	PADDING-RIGHT: 20px; BACKGROUND: url(icon_leftmenu_red.gif) no-repeat right 50%; COLOR: #ff0
+}
+#menu3rd H1 {
+	PADDING-RIGHT: 20px; BACKGROUND: url(icon_leftmenu_red.gif) no-repeat right 50%; COLOR: #ff0
+}
+#qa LI {
+	CLEAR: both; PADDING-RIGHT: 20px; BORDER-TOP: #9cf 1px dotted; BACKGROUND: url(icon_leftmenu_blue.gif) no-repeat right 50%
+}
+#commendfunc LI {
+	CLEAR: both; PADDING-RIGHT: 20px; BORDER-TOP: #9cf 1px dotted; BACKGROUND: url(icon_leftmenu_blue.gif) no-repeat right 50%
+}
+#menu3rd LI {
+	CLEAR: both; PADDING-RIGHT: 20px; BORDER-TOP: #9cf 1px dotted; BACKGROUND: url(icon_leftmenu_blue.gif) no-repeat right 50%
+}
+#qa A {
+	FILTER: glow(color=#003366,strength=3); FLOAT: right; COLOR: #fff
+}
+#commendfunc A {
+	FILTER: glow(color=#003366,strength=3); FLOAT: right; COLOR: #fff
+}
+#menu3rd A {
+	FILTER: glow(color=#003366,strength=3); FLOAT: right; COLOR: #fff
+}
+#position {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 12px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; BACKGROUND: url(bg_position.gif) no-repeat center 50%; PADDING-BOTTOM: 19px; COLOR: #003b8d; PADDING-TOP: 9px; TEXT-ALIGN: center
+}
+#login {
+	BACKGROUND: url(bg_login.gif) no-repeat center 30px; WIDTH: 213px
+}
+#login DL {
+	MARGIN: 4px
+}
+#login DT {
+	CLEAR: both; FONT-WEIGHT: bold; BACKGROUND: url(bg_logincol.gif) no-repeat center 50%; FLOAT: left; WIDTH: 65px; LINE-HEIGHT: 24px
+}
+#login DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+#login INPUT {
+	BORDER-RIGHT: #2d81c4 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: #2d81c4 0px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #2d81c4 0px solid; WIDTH: 96px; PADDING-TOP: 0px; BORDER-BOTTOM: #2d81c4 0px solid
+}
+#login #verify {
+	WIDTH: 48px
+}
+#login .btn {
+	MARGIN: 0px 0px 18px 6px
+}
+#login .btn IMG {
+	VERTICAL-ALIGN: bottom; MARGIN-RIGHT: 6px
+}
+#login .submit {
+	BACKGROUND: url(btn_login.gif) no-repeat; WIDTH: 46px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 40px; BORDER-BOTTOM-STYLE: none
+}
+#tips {
+	MARGIN-TOP: 12px; BACKGROUND: url(bg_tips.gif) #fff no-repeat; WIDTH: 624px; HEIGHT: 48px
+}
+#faqlist {
+	MARGIN-TOP: 12px; BACKGROUND: url(bg_tips.gif) #fff no-repeat; WIDTH: 624px; HEIGHT: 48px
+}
+#faqlist H2 {
+	FONT-WEIGHT: normal; MARGIN: 36px 0px 0px 42px; TEXT-ALIGN: left
+}
+#faqlist UL {
+	PADDING-LEFT: 60px; MARGIN: 6px 0px
+}
+#faqlist UL LI {
+	BACKGROUND: url(bg_tipstext.gif) center 50%; FLOAT: left; MARGIN: 0px 24px 3px 0px; LINE-HEIGHT: 29px
+}
+#faqlist UL LI A {
+	FONT-WEIGHT: bold; FILTER: glow(color=#FFFFFF,strength=3); FLOAT: left; WIDTH: 240px; COLOR: #000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#tips .alert {
+	MARGIN: 12px 12px 0px 120px; LINE-HEIGHT: 15px; TEXT-ALIGN: left
+}
+#tips .alert P {
+	MARGIN: 6px 0px
+}
+#mainform {
+	MARGIN: 0px auto; WIDTH: 600px; TEXT-ALIGN: left
+}
+#mainform H2 {
+	CLEAR: both; MARGIN-TOP: 12px; PADDING-LEFT: 12px; BACKGROUND: url(bg_col.gif) no-repeat; LINE-HEIGHT: 23px
+}
+#mainform UL {
+	MARGIN-LEFT: 20px; WIDTH: 560px
+}
+#mainform P {
+	MARGIN: 6px 20px; WIDTH: 560px; LINE-HEIGHT: 18px
+}
+#mainform LI {
+	MARGIN-TOP: 6px
+}
+#mainform .li1 {
+	FLOAT: left; WIDTH: 240px; MARGIN-RIGHT: 20px
+}
+#mainform .text1 {
+	BORDER-RIGHT: #707070 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #707070 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #707070 1px solid; WIDTH: 84px; PADDING-TOP: 2px; BORDER-BOTTOM: #707070 1px solid
+}
+#mainform .text2 {
+	BORDER-RIGHT: #707070 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #707070 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #707070 1px solid; WIDTH: 84px; PADDING-TOP: 2px; BORDER-BOTTOM: #707070 1px solid
+}
+#mainform .text3 {
+	BORDER-RIGHT: #707070 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #707070 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #707070 1px solid; WIDTH: 84px; PADDING-TOP: 2px; BORDER-BOTTOM: #707070 1px solid
+}
+#mainform .text4 {
+	BORDER-RIGHT: #707070 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #707070 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #707070 1px solid; WIDTH: 84px; PADDING-TOP: 2px; BORDER-BOTTOM: #707070 1px solid
+}
+#mainform .text2 {
+	WIDTH: 162px
+}
+#mainform .text3 {
+	WIDTH: 60px
+}
+#mainform .text4 {
+	WIDTH: 120px
+}
+#mainform .depict1 {
+	MARGIN: -15px 0px 0px 180px
+}
+#mainform .depict2 {
+	MARGIN: -15px 0px 0px 240px
+}
+#mainform .depict3 {
+	MARGIN: -17px 20px 0px; TEXT-ALIGN: right
+}
+#mainform .depict5 {
+	MARGIN: -15px 0px 0px 252px
+}
+#mainform .depict6 {
+	MARGIN: -15px 0px 0px 264px
+}
+#mainform .line1 {
+	MARGIN-LEFT: 66px
+}
+#mainform .submit {
+	FONT-WEIGHT: bold; BACKGROUND: url(bg_btn.gif) no-repeat; MARGIN: 12px; WIDTH: 87px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 29px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#mainform .btn A {
+	FONT-WEIGHT: bold; BACKGROUND: url(bg_btn.gif) no-repeat; MARGIN: 12px; WIDTH: 87px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 29px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#mainform .btn A {
+	DISPLAY: block; FLOAT: left; TEXT-ALIGN: center
+}
+#chargeresult {
+	MARGIN: 12px auto; WIDTH: 560px
+}
+#chargeresult {
+	BORDER-RIGHT: #5abfda 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #5abfda 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #5abfda 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #5abfda 1px solid
+}
+#chargeresult TD {
+	BORDER-RIGHT: #5abfda 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #5abfda 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #5abfda 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #5abfda 1px solid
+}
+#chargeresult TH {
+	BORDER-RIGHT: #5abfda 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #5abfda 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #5abfda 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #5abfda 1px solid
+}
+#chargeresult TH {
+	BACKGROUND: #dbf4fb
+}
+#faq {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #fff; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+#faq DL {
+	WIDTH: 600px
+}
+#faq DT {
+	MARGIN-TOP: 10px; BACKGROUND: url(bg_col.gif) no-repeat; LINE-HEIGHT: 23px; HEIGHT: 23px
+}
+#faq H1 {
+	BACKGROUND: url(icon_leftmenu_red.gif) no-repeat 12px 5px; TEXT-INDENT: 30px
+}
+#faq DD {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; BACKGROUND: url(icon_leftmenu_blue.gif) no-repeat 12px 12px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 18px; PADDING-TOP: 10px
+}
+#faq P {
+	MARGIN: 0px 0px 9px
+}
+#faq H2 {
+	MARGIN: 0px 0px 9px
+}
+#faq H3 {
+	MARGIN: 0px
+}
+#faq A {
+	COLOR: #06c
+}
+.Registertable {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+A.more:link {
+	FONT-SIZE: 8pt; COLOR: #ffffff
+}
+A.more:visited {
+	FONT-SIZE: 8pt; COLOR: #ffffff
+}
+A.more:hover {
+	FONT-SIZE: 8pt; COLOR: #ffffff
+}
+A.stylea:link {
+	COLOR: #ffffff
+}
+A.stylea:visited {
+	COLOR: #ffffff
+}
+A.stylea:hover {
+	COLOR: #ffffff
+}
+A.style36:link {
+	COLOR: #b5b5b5
+}
+A.style36:visited {
+	COLOR: #b5b5b5
+}
+A.style36:hover {
+	COLOR: #b5b5b5
+}
+A.style32:link {
+	COLOR: #a10000
+}
+A.style32:visited {
+	COLOR: #a10000
+}
+A.style32:hover {
+	COLOR: #a10000
+}
+A.style36:link {
+	COLOR: #b5b5b5
+}
+A.style36:visited {
+	COLOR: #b5b5b5
+}
+A.style36:hover {
+	COLOR: #b5b5b5
+}
+.top {
+	BACKGROUND-POSITION-X: center; BACKGROUND-IMAGE: url(top.jpg); BACKGROUND-REPEAT: no-repeat; HEIGHT: 180px; BACKGROUND-COLOR: #e9e9e9
+}
+TABLE {
+	FONT-SIZE: 12px; COLOR: #000000
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000
+}
+TD.login {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+FONT.more {
+	FONT-SIZE: 8px; FONT-FAMILY: Time New Roman
+}
+FONT {
+	FONT-SIZE: 12px; FONT-FAMILY: Time New Roman
+}
+INPUT {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 15px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #666699; TEXT-DECORATION: underline
+}

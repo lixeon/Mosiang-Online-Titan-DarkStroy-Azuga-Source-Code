@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiGXMapEditor", "4DyuchiGXMapEditor.vcproj", "{A3F45B39-C2E5-4B03-BAC5-DF89F1E45439}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DyuchiGXMapEditor\\
+		SolutionUniqueID = {23AB6CCB-D985-4CFA-8F6C-C6C475061232}
+		SccProjectUniqueName1 = 4DyuchiGXMapEditor.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DyuchiGXMapEditor\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A3F45B39-C2E5-4B03-BAC5-DF89F1E45439}.Debug.ActiveCfg = Debug|Win32
+		{A3F45B39-C2E5-4B03-BAC5-DF89F1E45439}.Debug.Build.0 = Debug|Win32
+		{A3F45B39-C2E5-4B03-BAC5-DF89F1E45439}.Release.ActiveCfg = Release|Win32
+		{A3F45B39-C2E5-4B03-BAC5-DF89F1E45439}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

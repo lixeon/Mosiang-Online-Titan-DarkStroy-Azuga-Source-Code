@@ -1,0 +1,448 @@
+#ifndef __CLIENTGAMEDEFINE_H__
+#define __CLIENTGAMEDEFINE_H__
+
+//------------------------------------------------------------------------------------
+//
+//	ClientGameDefine.h: 클라이언트 게임시스템에서만 사용하는 define, typedef, enum
+//						global variable extern 도 포함한다.
+//	사용 원칙:
+//	1. comment를 한다
+//	2. 이 파일에 사용하기에 적당한지 다시 한번 생각한다
+//
+//------------------------------------------------------------------------------------
+
+
+enum eGameInInitKind
+{
+	eGameInInitKind_Login,
+	eGameInInitKind_MapChange,
+	eGameInInitKind_SuryunEnter,
+	eGameInInitKind_SuryunLeave,
+	eGameInInitKind_MovePos,
+	eGameInInitKind_EventMapEnter,
+	eGameInInitKind_EventMapLeave,
+	eGameInInitKind_GTEnter,
+	eGameInInitKind_GTLeave,
+	eGameInInitKind_GTObserverEnter,
+	eGameInInitKind_SWEnter,
+	eGameInInitKind_SWLeave,
+	eGameInInitKind_SWObserverEnter,
+	eGameInInitKind_SVMapLeave,
+};
+
+typedef WORD	SNDIDX;
+
+#define HEROID gHeroID
+extern DWORD gHeroID;
+extern DWORD gUserID;
+
+extern DWORD gCurTime;
+extern DWORD gTickTime;
+extern float gTickPerFrame;
+extern float gAntiGravity;
+extern int gChannelNum;
+extern bool IsBattleChannel[];
+
+#define MAX_PLAYEROBJECT_NUM	500
+#define MAX_MONSTEROBJECT_NUM	500
+#define MAX_NPCOBJECT_NUM		100
+#define MAX_TACTICOBJECT_NUM	100
+#define MAX_PETOBJECT_NUM		300
+#define MAX_MAPOBJECT_NUM		20
+
+#define WEAPON_ATTACH_BONENAME_R	"Bone_R"
+#define WEAPON_ATTACH_BONENAME_L	"Bone_L"
+#define WEAPON_ATTACH_BONENAME_BACK	"Bone_Back"
+
+#define MAX_MUNPA_PAGEBTN		9	//보여주는 페이지갯수(7) + 이전목록, 이후 목록
+#define MAX_QUEST_PAGEBTN		5	//1~5
+#define MAX_JOURNAL_PAGEBTN		5	//1~5
+#define MAX_CHECKBOX_PERPAGE	5
+enum wantnpcmode
+{
+	eWantNpcMode_Npc,
+	eWantNpcMode_My,
+	eWantNpcMode_Search,
+	eWantNpcMode_Max
+};
+enum
+{
+	eDamageKind_Front = 1,
+	eDamageKind_Left,
+	eDamageKind_Right,
+	
+	eDamageKind_Counter,
+	eDamageKind_ContinueDamage,
+};
+
+enum
+{
+	eRangeDamageKind_SameTime = 1,
+	eRangeDamageKind_FrontToBack,
+	eRangeDamageKind_LeftToRight,
+	eRangeDamageKind_RightToLeft,
+	eRangeDamageKind_CenterToEdge,
+};
+
+// LBS 노점상 관련 03.09.30
+#define STREETSTALL_ENTER_DISTANCE		200
+
+#define _CLIENT_RESOURCE_FIELD_			// 리소스의 구분적 사용을 위해
+
+//#define SIGNAL_COMMON_TEXT	"공지"		//KES : msg로 하는것이 일괄적?
+//#define SIGNAL_ONEUSER_TEXT "알림"
+//#define SIGNAL_SYSTEM_TEXT	"시스템"
+
+//DirectInputVersion
+#define DIRECTINPUT_VERSION		0x0800
+
+enum MUNPALIST
+{
+	eMun_MunpaFamous, eMun_MunpaMemberNum, eMun_MunpaID
+		
+};
+
+enum Wanted
+{
+	eWan_Date, eWan_Prize, eWan_Volunteer, eWan_OrderTypeMax,
+};
+
+enum guild_showmode
+{
+	eGuildMode_GuildInfo,
+	eGuildMode_Func,
+	eGuildMode_Max,
+};
+
+enum SuryunNpc_HyperLink
+{
+	eSuryunNpc_Suryun = 0,
+	eSuryunNpc_About_GuildTournament,
+	eSuryunNpc_Regist_GuildTournament,
+	eSuryunNpc_Cancel_GuildTournament,
+	eSuryunNpc_Show_GuildStand,
+	eSuryunNpc_Enter_GuildTournament,
+	eSuryunNpc_EnterObserver_GuildTournament,
+	///////////////////////////////////////////////
+	// 06. 06. 2차 전직 - 이영준
+	// 무공 변환
+	eSuryunNpc_SkillOption,
+	///////////////////////////////////////////////
+};
+
+enum SiegeWar_NameBox
+{
+	eSiegeWarNameBox_CastleGuild = 0,
+	eSiegeWarNameBox_SiegeGuild,
+	eSiegeWarNameBox_Enermy,
+};
+
+////////// 2007. 5. 18. CBH - ScriptManager Parse Type 관련 enum 추가 //////////////
+#define MAX_PARSE_TYPE_NAME_LENGTH 40
+
+enum PARSE_TYPE
+{
+	eDLG = 0,
+	eCHARGUAGEDLG,
+	eLISTDLG,
+	eLISTDLGEX,
+	eCHARINFODLG,
+	eMUGONGSURYUNDLG,
+	eMAINDLG,
+	eINVENTORYDLG,
+	eCHATDLG,
+	eSTALLOPTIONDLG,
+	eBUYSTALLDLG,
+	eBUYREGDLG,
+	eSTREETSTALLDLG,
+	eNPCSCRIPTDLG,
+	eHELPDLG,
+	eCHARMAKEDLG,
+	eHELPERSPEECHDLG,
+	eMONEYDLG,
+	eDEALDLG,
+	eQUICKDIALOG,
+	ePA_MEMBER1DLG,
+	ePA_MEMBER2DLG,
+	ePA_MEMBER3DLG,
+	ePA_MEMBER4DLG,
+	ePA_MEMBER5DLG,
+	ePA_MEMBER6DLG,
+	ePA_BTNDLG,
+	ePA_CREATEDLG,
+	ePA_INVITEDLG,
+	eANI,
+	eMOUSEPOINTER,
+	ePYOGUKDLG,
+	eFRIENDDLG,
+	eNOTEDLG,
+	eMINNOTEDLG,
+	eMINFRIENDDLG,
+	eREVIVEDLG,
+	eCHANNELDLG,
+	eWANTNPCDLG,
+	eWANTREGISTDLG,
+	eEXITDLG,
+	eMACRODLG,
+	eOPTIONDLG,
+	eEXCHANGEDLG,
+	eCHARSTATEDLG,
+	eMENUSLOTDIALOG,
+	ePKLOOTINGDLG,
+	eCNADVICEDLG,
+	eDISSOLUTIONDLG,
+	eMNPLAYROOMDLG,
+	eMNCHANNELDLG,
+	eMINIMAPDLG,
+	eBIGMAPDLG,
+	eMONSTERGUAGEDLG,
+	eDIVIDEBOX,
+	eLOADINGDLG,
+	eUPGRADEDLG,
+	eMIXDLG,
+	eREINFORCEDLG,
+	eSERVERLISTDLG,
+	eQUESTTOTALDLG,
+	eMPREGISTDLG,
+	eMPMISSIONDLG,
+	eMPNOTICEDLG,
+	eMPGUAGEDLG,
+	eBAILDLG,
+	eGMOPENTALKDLG,
+	eITEM_MALLDLG,
+	eGUILDCREATEDLG,
+	eGUILDUNIONCREATEDLG,
+	eGUILDDLG,
+	eGUILDINVITEDlG,
+	eGUILDMARKDLG,
+	eGUILDLEVELUPDLG,
+	eGUILDNICKNAMEDLG,
+	eGUILDRANKDLG,
+	eGUILDWAREHOUSEDLG,
+	eITEMALLBASE,
+	eSAVEMOVEDLG,
+	eCHANGSAVEDLG,
+	eGFWARDECLAREDLG,
+	eGFWARRESULTDLG,
+	eGFWARINFODLG,
+	eGUILDWARINFODLG,
+	eSKILLPOINTAGAINDLG,
+	eSKILLPOINTOPDLG,
+	ePARTYWARDLG,
+	eCHALLWORLDCREATEDLG,
+	eCHATALLDLG,
+	eSEECHASEDLG,
+	eCHASEDLG,
+	eCHNAMECHANGEDLG,
+	eOPCHNAMECHANGEDLG,
+	eGDTENTRYDLG,
+	eGDTENTRYCANCELDLG,
+	eGDTOURNAMENTDLG,
+	eGDTVIEWDLG,
+	eEVENTMAPCOUNTDLG,
+	eSEIGEWARTIMEREGDLG,
+	eSEIGEWARPROTECTREGDLG,
+	eSEIGEWARINFODLG,
+	eSWSTARTTIMEDLG,
+	eCHARCHANGEEDLG,
+	eITEMLOCKDLG,
+	eSWPROFITDLG,
+	eENGRAVEDLG,
+	eSWCOUNTDLG,
+	eCHANGEJOBDLG,
+	eRFDefaultDlg,
+	eRareCreateDlg,
+	ePETSTATEDLG,
+	ePETSTATEMINIDLG,
+	ePETINVENTORYDLG,
+	ePETUPGRADEDLG,
+	ePETREVIVALDLG,
+	eRFDATAGUIDEDLG,
+	eTIPBROWSERDLG,
+	eKSDLG,
+	eGUILDNOTEDLG,
+	eALLYNOTEDLG,
+	eGUILDNOTICEDLG,
+	eGUILDPLUSTIMEDLG,
+	eSkillTransDlg,
+	eTDefaultDlg,
+	eSCREENSHOTDLG,
+	eJOINOPTIONDLG,
+	eSURVCOUNTERDLG,
+	eGUILDTRAINEEINFODLG,
+	eGUILDTRAINEEDLG,
+	eTITANPARTSMAKEDLG,
+	eTITANMIXDLG,	
+	eTITANUPGRADEDLG,
+	eTITANBREAKDLG,
+	eTITANPARTSCHANGEPREVIEWDLG,
+	eTITAN_INVENTORY_DLG,
+	eTITAN_GUAGE_DLG,
+	eTITAN_MUGONGMIX_DLG,
+	eTITAN_USE_DLG,
+	eTITAN_BONGIN_DLG,
+	eBTN,
+	eEDITBOX,
+	eSTATIC,
+	ePUSHUPBTN,
+	eCHECKBOX,
+	eCOMBOBOX,
+	eCOMBOBOXEX,
+	eSPIN,
+	eLISTCTRL,
+	eLISTCTRLEX,
+	eICONDLG,
+	eICONGRIDDLG,	
+	eWEAREDDLG,
+	eLIST,
+	eGUAGEBAR,
+	eGUAGE,
+	eTEXTAREA,
+	eGUAGEN,
+	eGUAGENE,
+	eMUNPAMARKDLG,
+	ePRIVATEWAREHOUSEDLG,
+	eMUGONGDLG,
+	eSURYUNDLG,
+	eQUESTDLG,
+	eWANTEDDLG,
+	eJOURNALDLG,
+	eITEMSHOPGRIDDLG,
+	eSHOPITEMINVENGRID,
+	ePOINT,
+	ePOINT_,
+	eFUNC,
+	eID,
+	eFONTIDX,
+	eAUTOCLOSE,
+	eTOOLTIPIMAGE,
+	eTOOLTIPMSG,
+	eTOOLTIPCOL,
+	eTEXTXY,
+	eMOVEABLE,
+	eACTIVE,
+	eBASICIMAGE,
+	eBASICIMAGE_,
+	eOVERIMAGE,
+	eLISTOVERIMAGE,
+	eSELECTIMAGE,
+	ePRESSIMAGE,
+	eFOCUSIMAGE,
+	eBTNTEXT,
+	eBTNTEXTANI,
+	eIMAGESRCRECT,
+	eALPHA,
+	eEDITSIZE,
+	eSPINSIZE,
+	eSECRET,
+	eTEXTCOLOR,
+	eCOORD,
+	eFGCOLOR,
+	eTEXT,
+	eITEMTOOLTIP,
+	eSHADOW,
+	eSHADOWCOLOR,
+	eSHADOWTEXTXY,
+	eMESSAGE,
+	eTEXTRECT,
+	ePUSHUP,
+	eVALIDXY,
+	eCAPTIONRECT,
+	eICONCELLNUM,
+	eICONCELL,
+	eSELECTOPTION,
+	eCELLRECT,
+	eLIMITLINENUM,
+	eLIMITBYTES,
+	eTEXTALIGN,
+	eAUTOSCROLL,
+	ePASSIVE,
+	eTABNUM,
+	eICONCELLBGIMAGE,
+	eDRAGOVERBGIMAGE,
+	eCOLS,
+	eROWS,
+	eMIDDLENUM,
+	eTOPIMAGE,
+	eTOPHEIGHT,
+	eDOWNHEIGHT,
+	eMIDDELIMAGE,
+	eMIDDLEHEIGHT,
+	eDOWNIMAGE,
+	eCOMBOTEXTCOLOR,
+	eSELECTCOMBOINDEX,
+	eREADONLY,
+	eADDSTRING,
+	eINITCOMBOLIST,
+	eCREATE,
+	eHEADIMAGE,
+	eBODYIMAGE,
+	eHEADHEIGHT,
+	eBODYHEIGHT,
+	eINSERTCOLUMN,
+	eSETITEMTEXT,
+	eSPINMINMAX,
+	eSPINUNIT,
+	eLINEUPWARD,
+	eLISTBARINTERVAL,
+	eLISTBARPOINT,
+	eLISTBARIMAGE,
+	eLISTMAXLINE,
+	eLINEHEIGHT,
+	eBTNCLICKSOUND,
+	eMINMAXMIDDLENUM,
+	eINITGRID,
+	eINITGUAGEBAR,
+	eMAXSPRITE,
+	eSPRITELOOP,
+	eTRAVELINGTYPE,
+	eADDSPRITE,
+	eGUAGEPIECEIMAGE,
+	eGUAGEMINVALUE,
+	eGUAGEMAXVALUE,
+	eGUAGECURVALUE,
+	eGUAGENEVALUE,
+	eGUAGEPOS,
+	eCHECKBOXIMAGE,
+	eCHECKIMAGE,
+	eSETCHECK,
+	eSCALE,
+	eLISTSCALE,
+	eGUAGEWIDTH,
+	eGUAGEPIECEWIDTH,
+	eGUAGEEFFECTPIECEIMAGE,
+	eGUAGEEFFECTPIECEWIDTH,
+	eGUAGEPIECEHEIGHTSCALE,
+	eGUAGEEFFECTPIECEHEIGHTSCALE,
+	eBALLOONIMAGETOP,
+	eBALLOONIMAGEMIDDLE,
+	eBALLOONIMAGEBOTTOM,
+	eBALLOONIMAGETAIL,
+	eBALLOONIMAGEBORDER,
+	eUNIQUEITEM_CURSECANCELLATION_DLG,
+	eUNIQUEITEM_MIX_DLG,
+	eSOS_DLG,
+	eINTROREPLAY_DLG,
+	eTITANREPAIR_DLG,
+	eTITANRECALL_DLG,
+	eUNIQUEITEMMIX_PROGRESSBAR_DLG,
+	eTITANMIX_PROGRESSBAR_DLG,
+	eTITANPARTS_PROGRESSBAR_DLG,
+	eSKIN_SELECT_DLG,
+    eSKILL_POINT_RESET_DLG,	// magi82(42) - 샵아이템 추가(수련치 초기화)
+	eCOSTUMESKIN_SELECT_DLG,
+	eNUMBERPAD_DLG,
+	eSTALLVIEWDLG,			// 노점상 보기 추가 by Stiner(8)
+	eSTALLFINDDLG,			// 노점상 검색 추가 by Stiner(8)
+	ePARTYMATCHING_DLG,			//2008. 5. 23. CBH - 방파 매칭
+	eAUTONOTEDLG,			// AutoNote
+	eAUTOANSWERDLG,			// AutoAnswer
+	eFWENGRAVEDLG,			// 요새전
+	eFWTIMEDLG,
+	eFWWAREHOUSEDLG,
+    
+	eMAX_PARSETYPE_NUM, //총 갯수
+};
+//////////////////////////////////////////////////////////////////////////
+
+#endif //__CLIENTGAMEDEFINE_H__

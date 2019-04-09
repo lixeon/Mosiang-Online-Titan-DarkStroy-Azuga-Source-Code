@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4DyuchiFileStorage", "4DyuchiFileStorage.vcproj", "{D1BDF92B-46F0-4FE2-B08B-ACCCB50AC44D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = 4DyuchiFileStorage\\
+		SolutionUniqueID = {AA5D9F41-CDE8-4818-A092-0A2FAAA79B3B}
+		SccProjectUniqueName1 = 4DyuchiFileStorage.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = 4DyuchiFileStorage\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D1BDF92B-46F0-4FE2-B08B-ACCCB50AC44D}.Debug.ActiveCfg = Debug|Win32
+		{D1BDF92B-46F0-4FE2-B08B-ACCCB50AC44D}.Debug.Build.0 = Debug|Win32
+		{D1BDF92B-46F0-4FE2-B08B-ACCCB50AC44D}.Release.ActiveCfg = Release|Win32
+		{D1BDF92B-46F0-4FE2-B08B-ACCCB50AC44D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

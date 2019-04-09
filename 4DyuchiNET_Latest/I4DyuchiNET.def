@@ -1,0 +1,10 @@
+
+LIBRARY     4DYUCHI.NET
+
+DESCRIPTION '4DYUCHI.NET NETWORK MODULE. 2000. yuchi'
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE

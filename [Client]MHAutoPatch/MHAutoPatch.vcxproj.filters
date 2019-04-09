@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a9e4722d-b758-45d6-b781-40c9a8793791}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4ed12ac4-fe2c-4e1b-8052-02c59ac85e82}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{553cf6c9-7274-47d3-aa72-eb046e89b4ea}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="YHLibrary">
+      <UniqueIdentifier>{87609767-0ec9-4697-9d02-2554ca2a1abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTP">
+      <UniqueIdentifier>{c30eaab7-55b8-49c4-8514-433973aac33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{b50e59b3-2a98-4e5f-8bf9-d750dd2f3cb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BGMManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlViewNotice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MHAutoPatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MHAutoPatchDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryName.cpp">
+      <Filter>YHLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>YHLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Strclass.cpp">
+      <Filter>YHLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="YHFileFind.cpp">
+      <Filter>YHLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface_RainFTP.cpp">
+      <Filter>FTP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MHAutoPatch.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BGMManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlViewNotice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MHAutoPatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MHAutoPatchDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MHAutoPatchDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryName.h">
+      <Filter>YHLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="FileName.h">
+      <Filter>YHLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Strclass.h">
+      <Filter>YHLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="YHFileFind.h">
+      <Filter>YHLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface_RainFTP.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="RainFTP_TypeDefine.h">
+      <Filter>FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\SoundLib.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AbilityBaseInfo.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\KyungGongInfo.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MHAutoPatch.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MHAutoPatch.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\patch-06.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Audio\SoundLib.lib">
+      <Filter>Audio</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

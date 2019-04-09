@@ -1,0 +1,10 @@
+LIBRARY     4DyuchiGXExecutive
+
+DESCRIPTION '4DyuchiGXExecutive 3D Engine Excutive 2001. yuchi'
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  DllCreateInstance PRIVATE

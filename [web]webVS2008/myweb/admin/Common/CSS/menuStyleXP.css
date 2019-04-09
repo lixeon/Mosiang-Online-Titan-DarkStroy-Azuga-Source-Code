@@ -1,0 +1,231 @@
+.TopGroup
+{
+  background-color:#D4D0C8; 
+  border-width:1px; 
+  border-color:#D4D0C8; 
+  border-style:solid;
+  cursor:default; 
+}
+.ToolBarTopGroup
+{
+  background-color:#DBD8D1; 
+  border-width:1px; 
+  border-color:#DBD8D1; 
+  border-style:solid; /*dashed*/
+  cursor:default; 
+}
+.TopToolBarLine
+{
+  padding:1px;
+}
+.MenuGroup
+{
+  background-image:url(../images/OfficeXP/background.gif);
+  border-width:1px; 
+  border-color:#666666; 
+  border-style:solid;
+  cursor:default; 
+  filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=135, Strength=2); 
+}
+.TopLine
+{
+
+}
+.TopMenuItem
+{
+  background-color:#D4D0C8; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#D4D0C8; 
+  border-style:solid;
+  padding:2px;
+  padding-top:4px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+}
+
+.TopMenuItemOver 
+{
+  background-color:#B3B3D9; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#0A246A; 
+  border-style:solid;
+  padding:2px;
+  padding-top:4px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+}
+
+.TopMenuItemSelected
+{
+  background-color:#DEDCD6; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-left-color:#666666; 
+  border-right-color:#666666; 
+  border-top-color:#666666; 
+  border-bottom-color:#CCCCCC; 
+  border-style:solid;
+  padding:2px;
+  padding-top:4px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+  /*filter:progid:DXImageTransform.Microsoft.Shadow(color='gray', Direction=90, Strength=2); */
+}
+
+.TopToolBarItem
+{
+  background-color:DBD8D1; 
+  color:black; 
+  font-family: Verdana;
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#DBD8D1; 
+  border-style:solid;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+}
+
+.TopToolBarItemOver 
+{
+  background-color:#B3B3D9; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#0A246A; 
+  border-style:solid;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+}
+
+.TopToolBarSelected
+{
+  background-color:#DEDCD6; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-left-color:#666666; 
+  border-right-color:#666666; 
+  border-top-color:#666666; 
+  border-bottom-color:#CCCCCC; 
+  border-style:solid;
+  padding:2px;
+  padding-top:3px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+
+}
+.MenuItem
+{
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  padding:5px;
+  padding-top:5px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+}
+
+.MenuItemOver 
+{
+  background-color:#B3B3D9; 
+  color:black; 
+  font-family: Verdana; 
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#0A246A; 
+  border-style:solid;
+  padding:4px;
+  padding-top:4px;
+  padding-left:9px;
+  padding-right:9px;
+  cursor:default; 
+}
+
+.DisabledTopToolBarItem
+{
+
+  color:Gray; 
+  font-family: Verdana;
+  font-size:11px; 
+  border-width:1px; 
+  border-color:#DBD8D1; 
+  border-style:solid;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+  FILTER: chroma(color=#010101) dropshadow(color=ButtonHighlight, offx=1, offy=1); 
+  BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: gray()
+}
+
+.DisabledMenuItem
+{
+  color:Gray; 
+  font-family: Verdana; 
+  font-size:11px; 
+  padding:4px;
+  padding-top:5px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+  FILTER: chroma(color=#010101) dropshadow(color=ButtonHighlight, offx=1, offy=1); 
+  BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: gray() chroma(color=#ffffff)
+}
+
+.DisabledTopMenuItem
+{
+  color:Gray; 
+  font-family: Verdana; 
+  font-size:11px;
+  border-width:1px; 
+  border-color:#D4D0C8; 
+  border-style:solid;
+  padding:2px;
+  padding-top:4px;
+  padding-left:10px;
+  padding-right:10px;
+  cursor:default; 
+
+  FILTER: chroma(color=#010101) dropshadow(color=ButtonHighlight, offx=1, offy=1); 
+  BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: gray()
+}
+
+.MenuBreak
+{
+  margin-left:27px; 
+}
+
+.ToolBarBreak
+{
+  margin-left:2px; 
+}
+
+.ShortcutLabel
+{
+  color:black; 
+  font-family:MS Sans Serif; 
+  font-size:10px; 
+  padding:0px;
+  padding-left:17px;
+  padding-right:3px;
+  cursor:default;
+}

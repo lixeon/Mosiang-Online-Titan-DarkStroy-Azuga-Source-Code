@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BaseNetwork", "BaseNetwork.vcproj", "{E2ED2EB2-F825-41E6-A95A-946978443A94}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {2FDF1BF2-A729-4690-BAFC-2B92D38C3598}
+		SccProjectUniqueName1 = BaseNetwork.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E2ED2EB2-F825-41E6-A95A-946978443A94}.Debug.ActiveCfg = Debug|Win32
+		{E2ED2EB2-F825-41E6-A95A-946978443A94}.Debug.Build.0 = Debug|Win32
+		{E2ED2EB2-F825-41E6-A95A-946978443A94}.Release.ActiveCfg = Release|Win32
+		{E2ED2EB2-F825-41E6-A95A-946978443A94}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

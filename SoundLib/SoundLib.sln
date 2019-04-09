@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SoundLib", "SoundLib.vcproj", "{805FF05D-8011-43AF-964A-79728CC42984}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..\\..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = Alpha_Dev\\SoundLib\\
+		SolutionUniqueID = {2C2F0109-2798-4209-8F8D-CF8460226388}
+		SccProjectUniqueName1 = SoundLib.vcproj
+		SccLocalPath1 = ..\\..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = Alpha_Dev\\SoundLib\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugCorum = DebugCorum
+		DebugMuk = DebugMuk
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{805FF05D-8011-43AF-964A-79728CC42984}.Debug.ActiveCfg = Debug|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.Debug.Build.0 = Debug|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.DebugCorum.ActiveCfg = DebugCorum|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.DebugCorum.Build.0 = DebugCorum|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.DebugMuk.ActiveCfg = DebugMuk|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.DebugMuk.Build.0 = DebugMuk|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.Release.ActiveCfg = Release|Win32
+		{805FF05D-8011-43AF-964A-79728CC42984}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

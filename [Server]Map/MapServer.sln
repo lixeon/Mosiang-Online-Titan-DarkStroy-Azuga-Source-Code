@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapServer", "MapServer.vcproj", "{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = [Server]Map\\
+		SolutionUniqueID = {2031E3E5-466B-4C9F-B4EE-4C3706C36CC2}
+		SccProjectUniqueName1 = MapServer.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = [Server]Map\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug_CHINA = Debug_CHINA
+		Debug_Console = Debug_Console
+		Debug_HK = Debug_HK
+		Debug_JAPAN = Debug_JAPAN
+		Debug_TL = Debug_TL
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_CHINA.ActiveCfg = Debug_CHINA|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_CHINA.Build.0 = Debug_CHINA|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_Console.ActiveCfg = Debug_Console|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_Console.Build.0 = Debug_Console|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_HK.ActiveCfg = Debug_HK|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_HK.Build.0 = Debug_HK|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_JAPAN.ActiveCfg = Debug_JAPAN|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_JAPAN.Build.0 = Debug_JAPAN|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_TL.ActiveCfg = Debug_TL|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Debug_TL.Build.0 = Debug_TL|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Release.ActiveCfg = Release|Win32
+		{2737D1A6-4EB0-4487-AB4E-872FE04C6C8F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

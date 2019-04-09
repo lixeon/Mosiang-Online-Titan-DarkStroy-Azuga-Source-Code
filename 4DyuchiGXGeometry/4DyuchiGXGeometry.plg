@@ -1,0 +1,242 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiGXGeometry - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/Script1.res" /d "_DEBUG" "D:\4dyuchigx\4DyuchiGXGeometry\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP116.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MY4DYUCHIGXGEOMETRY_EXPORTS" /FR"Debug/" /Fp"Debug/4DyuchiGXGeometry.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DyuchiGXGeometry\dllmain.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\factory.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\geometry_global.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\bone_object.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\camera_obj.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\face_group.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\geom_obj.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\light_obj.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\LightTexture.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\material.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\MaterialList.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\object.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\Physique.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\bintree.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\SimpleMemoryPool.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\CoGeometry.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\ModelRefManager.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\SkyMesh.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\CoStaticModel.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\HeightField.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\HFieldObject.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\HFieldTools.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\MeshQuadTree.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\TileObject.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\MOTION.CPP"
+"D:\4dyuchigx\4DyuchiGXGeometry\motion_obj.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\model.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\MaterialLib.cpp"
+"D:\4dyuchigx\4DYUCHIGRX_MYSELF97\CheckClock.cpp"
+"D:\4dyuchigx\4DyuchiGRX_myself97\CollisionTest\CollisionTestMovingEllipsoidMeetTriangle.cpp"
+"D:\4dyuchigx\4DyuchiGRX_myself97\CollisionTest\CollisionTestMovingSphereMeetTriangle.cpp"
+"D:\4dyuchigx\4DyuchiGRX_myself97\Myself97Common.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\CollisionMeshObjectTree.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\CollisionStaticModel.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\colmeshobj.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\SearchGrid.cpp"
+"D:\4dyuchigx\4DyuchiGXGeometry\SearchGridTree.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP116.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x63000000" /dll /incremental:yes /pdb:"D:\4dyuchiDLL/4DyuchiGX_Debug/4DyuchiGXGeometry.pdb" /map:"D:\4dyuchiDLL/4DyuchiGX_Debug/4DyuchiGXGeometry.map" /debug /machine:I386 /def:".\4DyuchiGXGEOMETRY.def" /out:"D:/4dyuchiDLL/4DyuchiGX_Debug/4DyuchiGXGeometry.dll" /implib:"Debug/4DyuchiGXGeometry.lib" /pdbtype:sept 
+.\Debug\dllmain.obj
+.\Debug\factory.obj
+.\Debug\geometry_global.obj
+.\Debug\bone_object.obj
+.\Debug\camera_obj.obj
+.\Debug\face_group.obj
+.\Debug\geom_obj.obj
+.\Debug\light_obj.obj
+.\Debug\LightTexture.obj
+.\Debug\material.obj
+.\Debug\MaterialList.obj
+.\Debug\object.obj
+.\Debug\Physique.obj
+.\Debug\bintree.obj
+.\Debug\SimpleMemoryPool.obj
+.\Debug\CoGeometry.obj
+.\Debug\ModelRefManager.obj
+.\Debug\SkyMesh.obj
+.\Debug\CoStaticModel.obj
+.\Debug\HeightField.obj
+.\Debug\HFieldObject.obj
+.\Debug\HFieldTools.obj
+.\Debug\MeshQuadTree.obj
+.\Debug\TileObject.obj
+.\Debug\MOTION.OBJ
+.\Debug\motion_obj.obj
+.\Debug\model.obj
+.\Debug\MaterialLib.obj
+.\Debug\CheckClock.obj
+.\Debug\CollisionTestMovingEllipsoidMeetTriangle.obj
+.\Debug\CollisionTestMovingSphereMeetTriangle.obj
+.\Debug\Myself97Common.obj
+.\Debug\CollisionMeshObjectTree.obj
+.\Debug\CollisionStaticModel.obj
+.\Debug\colmeshobj.obj
+.\Debug\SearchGrid.obj
+.\Debug\SearchGridTree.obj
+.\Debug\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP117.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+dllmain.cpp
+factory.cpp
+geometry_global.cpp
+d:\4dyuchigx\4dyuchigxgeometry\geometry_global.cpp(141) : warning C4244: '=' : conversion from 'float' to 'unsigned long', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\geometry_global.cpp(247) : warning C4102: 'lb_write' : unreferenced label
+bone_object.cpp
+camera_obj.cpp
+face_group.cpp
+geom_obj.cpp
+light_obj.cpp
+LightTexture.cpp
+d:\4dyuchigx\4dyuchigxgeometry\lighttexture.cpp(331) : warning C4102: 'lb_return' : unreferenced label
+material.cpp
+MaterialList.cpp
+object.cpp
+Physique.cpp
+bintree.cpp
+d:\4dyuchigx\4dyuchigxgeometry\bintree.cpp(76) : warning C4102: 'lb_check_right' : unreferenced label
+SimpleMemoryPool.cpp
+CoGeometry.cpp
+d:\4dyuchigx\4dyuchigxgeometry\cogeometry.cpp(888) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\cogeometry.cpp(1627) : warning C4101: 'v3Dir' : unreferenced local variable
+ModelRefManager.cpp
+SkyMesh.cpp
+CoStaticModel.cpp
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(264) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(452) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(454) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(491) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(562) : warning C4102: 'lb_commit' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\costaticmodel.cpp(1233) : warning C4102: 'lb_closefile' : unreferenced label
+HeightField.cpp
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(156) : warning C4018: '<' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(608) : warning C4102: 'lb_closefile' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(976) : warning C4018: '<' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(1903) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(1968) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2056) : warning C4102: 'lb_true' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2227) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2436) : warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2447) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2506) : warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2517) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2643) : warning C4101: 'fDist' : unreferenced local variable
+d:\4dyuchigx\4dyuchigxgeometry\heightfield.cpp(2830) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+HFieldObject.cpp
+d:\4dyuchigx\4dyuchigxgeometry\hfieldobject.cpp(368) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldobject.cpp(377) : warning C4102: 'lb_return' : unreferenced label
+d:\4dyuchigx\4dyuchigxgeometry\hfieldobject.cpp(406) : warning C4018: '>=' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\hfieldobject.cpp(412) : warning C4018: '>=' : signed/unsigned mismatch
+HFieldTools.cpp
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(188) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(189) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(192) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(193) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(196) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(197) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(200) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(201) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(206) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(207) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(348) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(349) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(476) : warning C4244: 'argument' : conversion from 'unsigned long' to 'unsigned short', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(477) : warning C4305: 'argument' : truncation from 'const unsigned int' to 'unsigned short'
+d:\4dyuchigx\4dyuchigxgeometry\hfieldtools.cpp(477) : warning C4309: 'argument' : truncation of constant value
+MeshQuadTree.cpp
+d:\4dyuchigx\4dyuchigxgeometry\meshquadtree.cpp(318) : warning C4102: 'lb_exit' : unreferenced label
+TileObject.cpp
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(571) : warning C4018: '<' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(573) : warning C4018: '==' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(573) : warning C4018: '==' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(580) : warning C4018: '<' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(582) : warning C4018: '==' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(582) : warning C4018: '==' : signed/unsigned mismatch
+d:\4dyuchigx\4dyuchigxgeometry\tileobject.cpp(645) : warning C4018: '!=' : signed/unsigned mismatch
+MOTION.CPP
+motion_obj.cpp
+model.cpp
+d:\4dyuchigx\4dyuchigxgeometry\model.cpp(688) : warning C4244: '=' : conversion from 'const float' to 'unsigned long', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\model.cpp(689) : warning C4244: '=' : conversion from 'const float' to 'unsigned long', possible loss of data
+d:\4dyuchigx\4dyuchigxgeometry\model.cpp(979) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+MaterialLib.cpp
+CheckClock.cpp
+CollisionTestMovingEllipsoidMeetTriangle.cpp
+CollisionTestMovingSphereMeetTriangle.cpp
+Myself97Common.cpp
+CollisionMeshObjectTree.cpp
+CollisionStaticModel.cpp
+colmeshobj.cpp
+SearchGrid.cpp
+SearchGridTree.cpp
+Linking...
+   Creating library Debug/4DyuchiGXGeometry.lib and object Debug/4DyuchiGXGeometry.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp" with contents
+[
+/nologo /o"Debug/4DyuchiGXGeometry.bsc" 
+.\Debug\dllmain.sbr
+.\Debug\factory.sbr
+.\Debug\geometry_global.sbr
+.\Debug\bone_object.sbr
+.\Debug\camera_obj.sbr
+.\Debug\face_group.sbr
+.\Debug\geom_obj.sbr
+.\Debug\light_obj.sbr
+.\Debug\LightTexture.sbr
+.\Debug\material.sbr
+.\Debug\MaterialList.sbr
+.\Debug\object.sbr
+.\Debug\Physique.sbr
+.\Debug\bintree.sbr
+.\Debug\SimpleMemoryPool.sbr
+.\Debug\CoGeometry.sbr
+.\Debug\ModelRefManager.sbr
+.\Debug\SkyMesh.sbr
+.\Debug\CoStaticModel.sbr
+.\Debug\HeightField.sbr
+.\Debug\HFieldObject.sbr
+.\Debug\HFieldTools.sbr
+.\Debug\MeshQuadTree.sbr
+.\Debug\TileObject.sbr
+.\Debug\MOTION.SBR
+.\Debug\motion_obj.sbr
+.\Debug\model.sbr
+.\Debug\MaterialLib.sbr
+.\Debug\CheckClock.sbr
+.\Debug\CollisionTestMovingEllipsoidMeetTriangle.sbr
+.\Debug\CollisionTestMovingSphereMeetTriangle.sbr
+.\Debug\Myself97Common.sbr
+.\Debug\CollisionMeshObjectTree.sbr
+.\Debug\CollisionStaticModel.sbr
+.\Debug\colmeshobj.sbr
+.\Debug\SearchGrid.sbr
+.\Debug\SearchGridTree.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP11C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+4DyuchiGXGeometry.dll - 0 error(s), 55 warning(s)
+</pre>
+</body>
+</html>

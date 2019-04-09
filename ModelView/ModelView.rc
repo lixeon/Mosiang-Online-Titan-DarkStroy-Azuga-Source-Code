@@ -1,0 +1,625 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ModelView.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ModelView.ico"
+IDR_MODELVTYPE          ICON                    "res\\ModelViewDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "파일(&File)"
+    BEGIN
+        MENUITEM "새작업",                      ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "캐릭터 파일 열기",            ID_OEPN_CH_FILE
+        MENUITEM "캐릭터 파일로 저장",          ID_EXPORT_CHR
+        MENUITEM SEPARATOR
+        MENUITEM "모델 파일 추가",              ID_OPEN_MOD
+        MENUITEM "모션 파일 추가",              ID_OPEN_ANM
+        MENUITEM "메터리얼 파일 추가",          ID_OPEN_MTL
+        MENUITEM SEPARATOR
+        MENUITEM "현재 모델 파일 제거",         ID_CLOSE_MOD
+        MENUITEM "현재 모션 파일 제거",         ID_CLOSE_ANM
+        MENUITEM "메터리얼 파일 제거",          ID_CLOSE_MTL
+        MENUITEM SEPARATOR
+        MENUITEM "Wav파일 추가",                ID_OPEN_WAV
+        MENUITEM "Wav파일 제거",                ID_CLOSE_WAV
+        MENUITEM "Wav파일 목록 초기화",         ID_WAV_LIST_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "종료",                        ID_APP_EXIT
+    END
+    POPUP "기타(&Etc)"
+    BEGIN
+        MENUITEM "애니메이션 FPS설정",          IDC_SET_FRAME
+        MENUITEM "방향성 라이트 설정",          IDC_LIGHT_DIALOG
+        MENUITEM "Specular 세팅",               ID_SPECULAR_SETTING
+        MENUITEM SEPARATOR
+        MENUITEM "그리드 디스플레이",           IDC_GRID_DISPLAY
+        MENUITEM "바운딩 박스 출력",            IDC_BOUNDING_DRAW
+        MENUITEM "Bone바운딩박스출력",          IDC_BONE_BOUNDING_DRAW
+        MENUITEM "View WireFrame",              IDM_WIREMODE
+        MENUITEM "View Wire Solid BothMode",    IDM_BOTHMODE
+        MENUITEM "배경색 설정(&B)",             IDM_SET_BACKGROUND_COLOR
+        MENUITEM "View Effect Palette",         ID_VIEW_EFFECT_PALETTE
+        MENUITEM SEPARATOR
+        MENUITEM "카메라 정보 출력",            ID_RENDER_CAMERA_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "대하여",                      ID_APP_ABOUT
+    END
+    POPUP "잔상(&Illumination)"
+    BEGIN
+        MENUITEM "잔상용 MOD &Load",            IDM_ILLUMINATION_LOAD
+        MENUITEM "잔상용 MOD &Unload",          IDM_ILLUMINATION_UNLOAD
+        MENUITEM SEPARATOR
+        MENUITEM "잔상 설정(&S)",               IDM_ILLUMINATION_SETUP
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ModelView 정보"
+FONT 9, "굴림"
+BEGIN
+    LTEXT           "Copyright (C) S.S 3D engine team",IDC_STATIC,13,25,119,
+                    8
+    DEFPUSHBUTTON   "Ok",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "Super Shovel 3D engine model viewer",IDC_STATIC_HAHA,14,
+                    13,130,8
+END
+
+IDD_FRAME_SPEED_DIALOG DIALOG  0, 0, 130, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "돋움체"
+BEGIN
+    LTEXT           "1초에 애니메이션 될\n프레임 횟수를 입력해주십시오.",
+                    IDC_STATIC,7,7,116,17
+    LTEXT           "FPS :",IDC_STATIC,7,34,23,10
+    EDITTEXT        IDC_EDIT_FPS,30,32,63,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "확인",IDC_FPS_OK_BUTTON,88,52,35,12
+END
+
+IDD_LIGHT_DIALOG DIALOG  0, 0, 163, 191
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "돋움체"
+BEGIN
+    LTEXT           "< Light Setting >",IDC_STATIC,7,7,149,10
+    LTEXT           "Diffuse",IDC_STATIC,5,40,35,9
+    LTEXT           "R",IDC_STATIC,55,25,9,9
+    LTEXT           "G",IDC_STATIC,90,25,9,9
+    LTEXT           "B",IDC_STATIC,125,25,9,9
+    LTEXT           "Ambient",IDC_STATIC,5,55,30,10
+    LTEXT           "Specular",IDC_STATIC,5,70,34,10
+    EDITTEXT        IDC_EDT_DIF_R,45,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DIF_G,80,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_DIF_B,115,40,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_R,45,55,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_G,80,55,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDT_AMB_B,115,55,30,12,ES_AUTOHSCROLL
+    LTEXT           "< Direction >",IDC_STATIC,5,95,59,10
+    LTEXT           "X",IDC_STATIC,20,110,10,10
+    LTEXT           "Y",IDC_STATIC,20,125,10,10
+    LTEXT           "Z",IDC_STATIC,20,140,10,10
+    EDITTEXT        IDC_DIRECTION_X,35,110,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIRECTION_Z,35,140,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DIRECTION_Y,35,125,35,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "확인",IDC_LIGHT_OK_BUTTON,121,169,35,15
+    CONTROL         "Light 켬",IDC_LIGHT_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,90,112,54,12
+END
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 483, 14
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    SCROLLBAR       IDC_FRAME_SCROLL,0,2,153,10
+    LTEXT           "0/0",IDC_FRAME_STATIC,153,2,31,11
+    PUSHBUTTON      "Play",IDC_PLAY_BUTTON,189,2,29,11
+    PUSHBUTTON      "Stop",IDC_STOP_BUTTON,219,2,27,11
+    CONTROL         "Play Wav",IDC_PLAY_SOUND_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,250,2,43,11
+    EDITTEXT        IDC_EDIT_ALPHA,295,1,25,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_PICK_OBJNAME,323,2,85,11,0,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_SPECULAR_DIALOG DIALOG  0, 0, 157, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "돋움체"
+BEGIN
+    LTEXT           "< Specular setting >",IDC_STATIC,14,7,95,12
+    CONTROL         "Specular 적용",IDC_SPECULAR_ENABLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,81,61,72,11
+    PUSHBUTTON      "확인",IDC_SPEC_SET_OK,114,91,39,14
+    LTEXT           "스페큘러설정 안된 매터리얼 일괄 설정(소수점 0.0이상 255.0 이하)",
+                    IDC_STATIC,16,26,66,34
+    EDITTEXT        IDC_SPEC_INTENSITY,89,33,64,12,ES_AUTOHSCROLL
+END
+
+IDD_ILLUSION_ATTACH_DIALOG DIALOG  0, 0, 407, 289
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "잔상을 보기위한 MOD가 붙을 오브젝트를 선택하세요."
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "Load MOD",ID_ILLUMINATION_LOAD_OK,350,7,50,14
+    PUSHBUTTON      "Cancel",ID_ILLUMINATION_DLG_CANCEL,350,24,50,14
+    LISTBOX         IDC_ILLUSION_MOD_LIST,7,21,332,100,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_ILLUSION_OBJECT_LIST,7,155,334,127,
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "MOD to attach",IDC_ILLU_DLG_TEXT_MOD,7,7,54,15
+    LTEXT           "Object to attach",IDC_ILLU_DLG_TEXT_OBJECT,7,138,59,17
+END
+
+IDD_ILLUSION_SETUP DIALOG  0, 0, 187, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "잔상 설정"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_ILLUSION_SETUP_DLG_LENGTH_EDIT,60,16,44,17,
+                    ES_AUTOHSCROLL
+    CONTROL         "Show",IDC_ILLUSION_SETUP_SHOW_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,133,16,38,16
+    LTEXT           "잔상 길이",IDC_ILLUSION_SETUP_LENGTH_STATIC,17,20,35,21
+END
+
+IDD_SET_BACKGROUND_COLOR DIALOG  0, 0, 154, 86
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "배경색 설정"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,97,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,97,24,50,14
+    EDITTEXT        IDC_BACKGROUNDCOLOR_R,37,19,37,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BACKGROUNDCOLOR_G,37,36,37,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BACKGROUNDCOLOR_B,37,55,37,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,23,20,8,11
+    LTEXT           "G",IDC_STATIC,23,38,9,12
+    LTEXT           "B",IDC_STATIC,23,57,9,15
+    PUSHBUTTON      "기본값",IDC_SET_BACKGROUNDCOLOR_DEFAULT,98,62,49,17
+END
+
+IDD_DIALOG_EFFECTPALETTE DIALOG  0, 0, 246, 244
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "EffectPalette"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_LIST_EFFECT,8,2,111,168,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "Wave",IDC_CHECK_TEXGEN_WAVE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,8,183,38,9
+    CONTROL         "Disable Src Tex",IDC_CHECK_DISABLE_SRCTEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,193,63,11
+    PUSHBUTTON      "Save",IDC_BUTTON_EFFECT_SAVE,121,34,25,11
+    PUSHBUTTON      "Load",IDC_BUTTON_EFFECT_LOAD,121,47,25,11
+    PUSHBUTTON      "Delete",IDC_BUTTON_EFFECT_DELETE,121,21,25,11
+    PUSHBUTTON      "Creaet",IDC_BUTTON_EFFECT_CREATE,121,8,25,11
+    PUSHBUTTON      "Update",IDC_BUTTON_UPDATE_EFFECT_PALETTE,121,60,41,11
+    GROUPBOX        "Edit",IDC_STATIC,2,173,241,67
+    PUSHBUTTON      "Appy",IDC_BUTTON_EFFECT_APPLY,102,221,24,12
+    PUSHBUTTON      "Browse",IDC_BUTTON_BROWSE_TEXFILE,211,206,26,10
+    EDITTEXT        IDC_EDIT_TEX_NAME,8,205,196,11,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_CREATE_EFFECT DIALOG  0, 0, 125, 18
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_EFFECT_NAME,1,2,90,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDC_BUTTON_EFFECT_NAME_OK,93,2,27,12
+END
+
+IDD_DIALOG_FRONT_OF_CAMERA DIALOGEX 0, 0, 153, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    LTEXT           "Camera 앞에 Attatch될 Object를 \n선택, 속성을 수정 하는 창입니다.",
+                    IDC_STATIC,7,7,122,21
+    LTEXT           "현재 선택된 오브젝트 :",IDC_STATIC,7,31,86,12
+    LTEXT           "",IDC_FOC_CURRENT_OBJECT_STATIC,7,44,83,13,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Object 변경",IDC_FOC_BROWSE_BUTTON,99,44,43,13
+    EDITTEXT        IDC_FOC_ALPHA_EDIT,55,62,38,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Alpha 적용",IDC_FOC_ALPHA_BUTTON,99,61,43,13
+    LTEXT           "Alpha value :\n ( 0 ~ 255 )",IDC_STATIC,7,62,43,23
+    PUSHBUTTON      "Object 제거",IDC_FOC_REMOVE_BUTTON,99,111,43,13
+    LTEXT           "카메라의\n거리",IDC_STATIC,7,85,37,19
+    EDITTEXT        IDC_FOC_DISTANCE_EDIT,55,85,38,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "거리적용",IDC_FOC_DISTANCE_BUTTON,99,84,43,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,1
+ PRODUCTVERSION 1,0,1,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "build 2007.06.05"
+            VALUE "CompanyName", "Eya Interactive"
+            VALUE "FileDescription", "ModelView MFC 응용 프로그램"
+            VALUE "FileVersion", "1, 0, 1, 1"
+            VALUE "InternalName", "ModelView"
+            VALUE "LegalCopyright", "Eya Interactive R&D Dev. Copyright ⓒ 2007"
+            VALUE "OriginalFilename", "ModelView.EXE"
+            VALUE "ProductName", "ModelView 응용 프로그램"
+            VALUE "ProductVersion", "1, 0, 1, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FRAME_SPEED_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 123
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_LIGHT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_DIALOGBAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 479
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_SPECULAR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 153
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+
+    IDD_ILLUSION_ATTACH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 282
+    END
+
+    IDD_ILLUSION_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_SET_BACKGROUND_COLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 147
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_DIALOG_EFFECTPALETTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 243
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 240
+    END
+
+    IDD_DIALOG_CREATE_EFFECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 122
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 15
+    END
+
+    IDD_DIALOG_FRONT_OF_CAMERA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR  40, 15
+BEGIN
+    BUTTON      IDC_COMBO1
+    BUTTON      IDC_COMBO2
+    BUTTON      IDC_COMBO3
+    BUTTON      IDC_COMBO4
+    SEPARATOR
+    BUTTON      IDC_RESET_CAMERA
+    SEPARATOR
+    BUTTON      IDC_SELECT_ALL_MOD
+    SEPARATOR
+    BUTTON      IDC_LIGHT_DIALOG
+    SEPARATOR
+    BUTTON      IDC_FRONT_OF_CAMERA
+    BUTTON      IDC_FRONT_OF_CAMERA_STATIC
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP                  "res\\toolbar1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ModelView\n\nModelV\n\n\nModelView.Document\nModelV Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ModelView"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "劤쉔匡숭\n새 파일"
+    ID_FILE_OPEN            "기존 문서를 엽니다\n열기"
+    ID_FILE_CLOSE           "현재 열린 문서를 닫습니다\n닫기"
+    ID_FILE_SAVE            "현재 열린 문서를 저장합니다\n저장"
+    ID_FILE_SAVE_AS         "현재 열린 문서를 다른 이름으로 저장합니다\n다른 이름으로 저장"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보와 버전 정보, 저작권 정보를 표시합니다\n정보"
+    ID_APP_EXIT             "응용 프로그램을 종료하기 위해 문서를 저장할 것인지 묻습니다\n종료"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE2       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE3       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE4       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE5       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE6       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE7       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE8       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE9       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE10      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE11      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE12      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE13      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE14      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE15      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE16      "이 문서를 엽니다"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "현재 열린 창을 나눕니다\n나누기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 부분을 지웁니다\n지우기"
+    ID_EDIT_CLEAR_ALL       "모든 것을 지웁니다\n모두 지우기"
+    ID_EDIT_COPY            "선택 부분을 복사하여 클립보드에 넣습니다\n복사"
+    ID_EDIT_CUT             "선택 부분을 잘라내어 클립보드에 넣습니다\n잘라내기"
+    ID_EDIT_FIND            "지정한 문자열을 찾습니다\n찾기"
+    ID_EDIT_PASTE           "클립보드의 내용을 붙여 넣습니다\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막으로 실행한 동작을 반복합니다\n반복"
+    ID_EDIT_REPLACE         "지정한 문자열을 다른 문자열로 바꿉니다\n바꾸기"
+    ID_EDIT_SELECT_ALL      "문서 전체를 선택합니다\n전체 선택"
+    ID_EDIT_UNDO            "마지막으로 한 동작을 취소합니다\n실행 취소"
+    ID_EDIT_REDO            "이전에 취소한 동작을 다시 수행합니다\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_COMBO1              "Model File List"
+    IDC_COMBO2              "Animation File List"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ModelView.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

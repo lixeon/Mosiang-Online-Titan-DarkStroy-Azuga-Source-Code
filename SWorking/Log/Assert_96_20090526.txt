@@ -1,0 +1,20 @@
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 9시31분31.62초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분31.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분31.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분31.296초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 14시12분41.609초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 18시40분9.843초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분9.906초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분9.921초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 18시40분9.937초
+d:\darkstory\patch_km_071122\[server]map\serversystem.cpp line:1903, time:5월/26일 19시57분10.687초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 22시3분52.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시3분52.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시3분52.265초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시3분52.281초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 22시3분53.859초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 22시29분42.453초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시29분42.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시29분42.468초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 22시29분42.468초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 22시29분44.187초

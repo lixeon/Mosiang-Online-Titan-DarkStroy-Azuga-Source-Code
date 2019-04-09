@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonitoringServer", "MonitoringServer.vcproj", "{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugForRMTool = DebugForRMTool
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.Debug.ActiveCfg = Debug|Win32
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.Debug.Build.0 = Debug|Win32
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.DebugForRMTool.ActiveCfg = DebugForRMTool|Win32
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.DebugForRMTool.Build.0 = DebugForRMTool|Win32
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.Release.ActiveCfg = Release|Win32
+		{ECFD10A3-0DE8-423D-A026-FB8103F1CF2E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

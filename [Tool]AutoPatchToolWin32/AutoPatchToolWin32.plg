@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AutoPatchToolWin32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D47.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/AutoPatchToolWin32.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MSOÄ«Ïã\MSOÄ«Ïã\[Tool]AutoPatchToolWin32\AutoPatchToolWin32.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D47.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D57.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/AutoPatchToolWin32.pdb" /debug /machine:I386 /out:"Debug/AutoPatchToolWin32.exe" /pdbtype:sept 
+".\Debug\AutoPatchToolWin32.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Strclass.obj"
+".\Debug\DirectoryName.obj"
+".\Debug\FileName.obj"
+".\Debug\YHFileFind.obj"
+"\MSOÄ«Ïã\MSOÄ«Ïã\[Lib]ZipArchive\ZipArchive_Debug.lib"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5D57.tmp"
+<h3>Output Window</h3>
+Compiling...
+AutoPatchToolWin32.cpp
+e:\program files\microsoft visual studio\vc98\mfc\include\afxv_w32.h(14) : fatal error C1189: #error :  WINDOWS.H already included.  MFC apps must not #include <windows.h>
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+AutoPatchToolWin32.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,10 @@
+LIBRARY     4DyuchiFileStorage
+
+DESCRIPTION '4DyuchiFileStorage virtual File System 2003. yuchi'
+
+EXPORTS
+  DllGetClassObject PRIVATE
+  DllCanUnloadNow PRIVATE
+  DllRegisterServer PRIVATE
+  DllUnregisterServer PRIVATE
+  DllCreateInstance	PRIVATE

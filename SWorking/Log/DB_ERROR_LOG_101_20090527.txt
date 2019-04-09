@@ -1,0 +1,2 @@
+DB INIT OK, time:5월/27일 3시56분55.93초
+DB INIT OK, time:5월/27일 3시56분55.125초

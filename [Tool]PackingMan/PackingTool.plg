@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PackingTool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/PackingTool.res" /d "NDEBUG" "D:\eSofnet\DarkStory\Work\PackingTool\PackingTool.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBD.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PackingTool.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\eSofnet\DarkStory\Work\PackingTool\ExtDlg.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\MHFileEx.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\MHFileMng.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\MyEdit.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\MyRichEdit.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\NewDlg.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\PackingTool.cpp"
+"D:\eSofnet\DarkStory\Work\PackingTool\PackingToolDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBD.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PackingTool.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\eSofnet\DarkStory\Work\PackingTool\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBE.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBF.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PackingTool.pdb" /machine:I386 /out:"Release/PackingTool.exe" 
+.\Release\ExtDlg.obj
+.\Release\MHFileEx.obj
+.\Release\MHFileMng.obj
+.\Release\MyEdit.obj
+.\Release\MyRichEdit.obj
+.\Release\NewDlg.obj
+.\Release\PackingTool.obj
+.\Release\PackingToolDlg.obj
+.\Release\StdAfx.obj
+.\Release\PackingTool.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPBF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ExtDlg.cpp
+MHFileEx.cpp
+MHFileMng.cpp
+MyEdit.cpp
+MyRichEdit.cpp
+NewDlg.cpp
+PackingTool.cpp
+PackingToolDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PackingTool.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

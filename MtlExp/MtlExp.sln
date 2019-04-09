@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MtlExp", "MtlExp.vcproj", "{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {0CF53460-1A50-45A4-87EE-94521F6F1C80}
+		SccProjectUniqueName1 = MtlExp.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Hybrid = Hybrid
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Debug.ActiveCfg = Debug|Win32
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Debug.Build.0 = Debug|Win32
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Hybrid.ActiveCfg = Hybrid|Win32
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Hybrid.Build.0 = Hybrid|Win32
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Release.ActiveCfg = Release|Win32
+		{A84F43FB-F9CD-4E98-9092-3ECDADD27BE6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+DB INIT OK, time:5월/26일 9시31분33.953초
+DB INIT OK, time:5월/26일 9시31분33.984초
+DB INIT OK, time:5월/26일 18시40분12.171초
+DB INIT OK, time:5월/26일 18시40분12.187초
+DB INIT OK, time:5월/26일 22시3분53.828초
+DB INIT OK, time:5월/26일 22시3분53.843초
+DB INIT OK, time:5월/26일 22시29분44.156초
+DB INIT OK, time:5월/26일 22시29분44.171초

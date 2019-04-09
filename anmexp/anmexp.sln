@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "anmexp", "anmexp.vcproj", "{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccProjectName0 = Perforce\u0020Project
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Perforce\u0020SCM
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection0 = anmexp\\
+		SolutionUniqueID = {B2B68F2A-0605-453F-BA96-72C8418385A1}
+		SccProjectUniqueName1 = anmexp.vcproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = anmexp\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Hybrid = Hybrid
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Debug.ActiveCfg = Debug|Win32
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Debug.Build.0 = Debug|Win32
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Hybrid.ActiveCfg = Hybrid|Win32
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Hybrid.Build.0 = Hybrid|Win32
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Release.ActiveCfg = Release|Win32
+		{2CE6F8D2-0AC3-4B11-AF79-F46E1A98B14F}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 9시31분38.937초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분38.953초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분38.953초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 9시31분38.953초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 9시31분40.703초
+d:\darkstory\patch_km_071122\[server]map\tilegroup.cpp line:297, msg:ObjectKind:128, ObjectID:1073742146, x:-842150451, z:-842150451, time:5월/26일 13시27분14.156초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 14시24분53.531초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시24분53.546초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시24분53.546초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 14시24분53.546초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 14시24분55.250초
+d:\darkstory\patch_km_071122\[server]map\partymanager.cpp line:691, msg:파티 인덱스가 맵서버에 없음. PartyIDX: 4, CharacterIdx: 116, MapNum : 12 어디가 꺼졌었나?, time:5월/26일 14시25분38.828초
+d:\darkstory\patch_km_071122\[cc]header\gameresourcemanager.cpp line:1484, msg:drop rate error! in MonsterList, time:5월/26일 23시59분5.406초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분5.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분5.421초
+d:\darkstory\patch_km_071122\[server]map\bossmonsterinfo.cpp line:73, time:5월/26일 23시59분5.421초
+d:\darkstory\patch_km_071122\[server]map\dissolutionmanager.cpp line:34, msg:LoadDissolutionInfo(), time:5월/26일 23시59분7.156초

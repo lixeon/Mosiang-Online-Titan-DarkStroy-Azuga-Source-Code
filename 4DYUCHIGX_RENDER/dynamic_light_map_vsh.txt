@@ -1,0 +1,47 @@
+; struct D3DDUALVERTEX
+;	float		x;
+;	float		y;
+;	float		z;
+	
+;	float		tu1;
+;   float		tv1;    
+	
+;	float		tu2;
+;   float		tv2;
+; MEMORY MAP
+;
+;	Each vertex ultimately needs to write the following output registers:
+;	oPos	-- the vertex's clip-space coordinates
+;	oT0     -- the vertex's uv-coordinates
+;	oD0		-- the vertex's diffuse color
+;
+;	Each vertex comes into the vertex shader with the following read-only data:
+;	v0 -- vertex's model space coordinates are in x, y, z;
+;	      w defaults to 1.0	
+;	v1 -- vertex's u, v coordinates are in x, y
+;	      z defaults to 0.0	
+;	      w defaults to 1.0	
+;	v2 -- vertex's u, v coordinates are in x, y
+;	      z defaults to 0.0	
+;	      w defaults to 1.0	
+;
+;	c0-c3 -- contains matrix to take model-space 
+;			 coordinates to clip-space coordinates
+;	c4-c7 -- contains world matrix
+
+;	c8	  -- VS_CONSTANT_LIGHT
+;				VECTOR3		v3Point	
+;				float		fRsPow
+vs.1.0
+
+; Transform position to clip space
+m4x4	oPos,v0,c0			; 렌더링을 위한 스크린좌표로 변환
+
+;m4x4	r0,v0,c4			; 라이트를 계산하기 위해 월드 좌표계로 변환
+;mov		r1,c8
+;sub		r1,r1,r0			; 점광원으로부터 버텍스의 위치를 뺀다.
+;mul		r1,r1				; 제곱
+;mul		r1,
+;mov		oT0,v1
+;mov		oT0,v1
+;mov		oD0,v2.x

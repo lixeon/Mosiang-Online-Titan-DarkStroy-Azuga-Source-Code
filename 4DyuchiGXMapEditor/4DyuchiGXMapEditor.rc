@@ -1,0 +1,1247 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\4DyuchiGXMapEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.kor\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MODELVIEW_TMPL      ICON                    "sdi.ico"
+IDR_MAINFRAME           ICON                    "res\\4DyuchiGXMapEditor.ico"
+IDR_MY4DYUTYPE          ICON                    "res\\4DyuchiGXMapEditorDoc.ico"
+IDR_MODELVIEW_TMPL1     ICON                    "res\\idr_mode.ico"
+IDR_LEFPANE_TMPL        ICON                    "res\\idr_lefp.ico"
+IDR_BOTTOMPANE_TMPL     ICON                    "res\\idr_bott.ico"
+IDR_LEFTPANE_TMPL       ICON                    "res\\idr_left.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDB_BITMAP_PICK         BITMAP                  "res\\pick.bmp"
+IDB_BITMAP_PICK_COLOR   BITMAP                  "res\\pick_color.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "New Map",                     ID_NEW_MAP
+        MENUITEM "Save Map",                    ID_SAVE_MAP
+        MENUITEM "Load Map",                    ID_LOAD_MAP
+        MENUITEM SEPARATOR
+        MENUITEM "New StaticModel",             ID_NEW_STATIC_MODEL
+        MENUITEM "Import StaticModel",          ID_IMPORT_STATIC_MODEL
+        MENUITEM "Export StaticModel",          ID_EXPORT_STATIC_MODEL
+        MENUITEM SEPARATOR
+        MENUITEM "New HeightField",             ID_NEW_HFIELD
+        MENUITEM "Import HeightField",          ID_IMPORT_HFIELD
+        MENUITEM "Export HeightField",          ID_EXPORT_HFIELD
+        MENUITEM "HField Sample From .MOD",     ID_SAMPLE_FROM_MOD
+        MENUITEM "Import HeightField(View Only)", ID_LOAD_VIEWONLY_HFIELD
+        MENUITEM SEPARATOR
+        MENUITEM "Create StaticModel from .MOD", 
+                                                ID_CREATE_STATIC_MODEL_FROM_MOD
+
+        MENUITEM "Create Light From .MOD",      ID_CREATE_LIGHT_FROM_MOD
+        MENUITEM SEPARATOR
+        MENUITEM "Build Map",                   ID_BUILD_MAP
+        MENUITEM SEPARATOR
+        MENUITEM "Export TileTable",            ID_EXPORT_TILE_TABLE
+        MENUITEM SEPARATOR
+        MENUITEM "Save All GXObjects",          ID_SAVE_ALL_GXOBJECTS
+        MENUITEM "Load GXObjects",              ID_LOAD_GXOBJECTS
+        MENUITEM "Save All Lights",             ID_SAVE_ALL_LIGHTS
+        MENUITEM "Load Lights",                 ID_LOAD_LIGHTS
+        MENUITEM SEPARATOR
+        MENUITEM "종료(&X)",                    ID_APP_EXIT
+    END
+    POPUP "편집(&E)"
+    BEGIN
+        MENUITEM "취소(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Delete All GXObjects",        ID_DELETE_ALL_GXOBJECTS
+        MENUITEM "Delete All GXLights",         ID_DELETE_ALL_GXLIGHTS
+    END
+    POPUP "보기(&V)"
+    BEGIN
+        MENUITEM "도구 모음(&T)",               ID_VIEW_TOOLBAR
+        MENUITEM "상태 표시줄(&S)",             ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "TileSet",                     ID_VIEW_TILESET
+        MENUITEM "Tile Palette",                ID_VIEW_TILE_PALETTE
+        MENUITEM "Bounding Box",                ID_MENU_BOUNDINGBOX
+        MENUITEM "HeightField(ViewOnly)",       ID_VIEW_ONLY_HFIELD
+        MENUITEM "Only LightTexture",           ID_TOGGLE_ONLY_LIGHTTEXTURE
+        MENUITEM "View CollisionStaticModel",   ID_VIEW_COLLISION_STM
+        MENUITEM SEPARATOR
+        MENUITEM "View Camera Informations",    ID_VIEW_CAMERA_INFO
+        MENUITEM "View Load Failed Texture List", 
+                                                ID_VIEW_LOAD_FAILED_TEXTURE_LIST
+
+        MENUITEM SEPARATOR
+        MENUITEM "Render Tool Object",          ID_VIEW_TOGGLE_TOOL_OBJECT
+        MENUITEM "Render Static Model",         ID_VIEW_RENDER_STATIC_MODEL
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "4DyuchiGXMapEditor 정보(&A)...", ID_APP_ABOUT
+    END
+    POPUP "Object"
+    BEGIN
+        MENUITEM "Insert GXObject",             ID_INSERT_GXOBJECT
+    END
+    MENUITEM "기타",                        65535
+END
+
+IDR_POPUP MENU 
+BEGIN
+    POPUP "POPUP1"
+    BEGIN
+        MENUITEM "Create NPC...",               ID_CREATE_NPC
+        MENUITEM SEPARATOR
+        MENUITEM "Section Input Mode",          ID_SECTION_INPUT
+        MENUITEM "Section Info...",             ID_SECTION_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "MoveSpot Input Mode",         ID_MOVESPOT_INPUT
+        MENUITEM "MoveSpot Info",               ID_MOVESPOT_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "StartSpot Input Mode",        ID_STARTSPOT_INPUT
+        MENUITEM "StartSpot Info",              ID_STARTSPOT_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Load ttb File...",            ID_LOAD_TTB
+        MENUITEM "Save ttb File...",            ID_SAVE_TTB
+    END
+END
+
+IDR_POPUP_HFIELD_ALPHAMAP MENU 
+BEGIN
+    POPUP "hoho"
+    BEGIN
+        MENUITEM "Clear All Alphamap",          ID_MENUITEM_CLEAR_ALPHAMAP
+        MENUITEM "Clear Alphamap with Tile-Index", 
+                                                ID_MENUITEM_CLEAR_ALPHAMAP_TILEINDEX
+
+        MENUITEM "Clear All Alphamap with Object", 
+                                                ID_MENUITEM_CLEAR_ALPHAMAP_OBJECT
+
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_F1,          ID_CALL_HELP,           VIRTKEY, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_F2,          ID_VIEW_TILE_PALETTE,   VIRTKEY, NOINVERT
+    "4",            IDC_RADIO_AXIS_FREE,    VIRTKEY, ALT, NOINVERT
+    "1",            IDC_RADIO_XAXIS,        VIRTKEY, ALT, NOINVERT
+    "2",            IDC_RADIO_YAXIS,        VIRTKEY, ALT, NOINVERT
+    "3",            IDC_RADIO_ZAXIS,        VIRTKEY, ALT, NOINVERT
+    "i",            ID_ACCELERATOR_PICKER,  ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "4DyuchiGXMapEditor 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "4DyuchiGXMapEditor 버전 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DLGBAR_PANEL1 DIALOG  0, 0, 648, 27
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "x",IDC_RADIO_XAXIS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,2,8,11,9
+    CONTROL         "y",IDC_RADIO_YAXIS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,13,8,11,9
+    CONTROL         "z",IDC_RADIO_ZAXIS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,24,8,11,9
+    CONTROL         "xyz",IDC_RADIO_AXIS_FREE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,35,8,18,9
+    CONTROL         "C",IDC_RADIO_CREATE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | WS_GROUP,54,7,11,11
+    CONTROL         "M",IDC_RADIO_MOVE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,65,7,11,11
+    CONTROL         "R",IDC_RADIO_ROT,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,76,7,11,11
+    CONTROL         "S",IDC_RADIO_SCALE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,87,7,11,11
+    CONTROL         "D",IDC_RADIO_DELETE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE,98,7,11,11
+    CONTROL         "V",IDC_RADIO_EDIT_VERTEX,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT | WS_GROUP,113,7,16,11
+    CONTROL         "T",IDC_RADIO_EDIT_TILE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,131,7,16,11
+    CONTROL         "B",IDC_RADIO_EDIT_BRUSH,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,148,7,15,11
+    CONTROL         "O",IDC_RADIO_EDIT_GXO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,165,7,15,11
+    CONTROL         "L",IDC_RADIO_LIGHT_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,181,7,15,11
+    CONTROL         "E",IDC_RADIO_TRIGGER_MODE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,197,7,15,11
+    CONTROL         "LM",IDC_RADIO_DRAW_LIGHTMAP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,213,7,15,11
+    CONTROL         "HV",IDC_RADIO_DRAW_HFIELD_VCOLOR,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,229,7,15,11
+    CONTROL         "H.A",IDC_RADIO_DRAW_ALPHA_TEXEL,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,245,7,23,11
+    CONTROL         "P",IDC_RADIO_GET_POS_TILE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,269,7,15,11
+    CONTROL         "HObj",IDC_RADIO_GET_HFOBJ,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,285,7,27,11
+    CONTROL         "TS",IDC_RADIO_TS,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,314,7,15,11
+    EDITTEXT        IDC_EDIT_MAX_HEIGHT,466,4,37,18,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_MIN_HEIGHT,526,3,38,19,ES_AUTOHSCROLL
+    PUSHBUTTON      "Move All Lights",IDC_BUTTON_LPOS,568,3,58,13
+    CONTROL         "W_Frame",IDC_RADIO_RMODE_WIRE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,341,7,41,10
+    CONTROL         "Solid",IDC_RADIO_RMODE_SOLID,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,383,7,28,10
+    GROUPBOX        "",IDC_STATIC,339,0,108,21
+    GROUPBOX        "",IDC_STATIC,110,0,227,21
+    LTEXT           "최대높이",IDC_STATIC,449,5,14,17
+    LTEXT           "최소높이",IDC_STATIC,509,5,15,17
+    PUSHBUTTON      "L",IDC_BUTTON_DIRECTIONAL_LIGHT,630,3,11,11
+    CONTROL         "Both",IDC_RADIO_RMODE_BOTH,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,414,8,27,10
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 181, 408
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION
+EXSTYLE WS_EX_TOPMOST
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Load Palette",IDC_BUTTON_LOAD_PALETTE,2,347,44,11
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH,46,347,44,11
+    PUSHBUTTON      "Fill",IDC_BUTTON_FILL_SELECTED_TILE,90,347,44,11
+    PUSHBUTTON      "Replace",IDC_BUTTON_REPLACE_TEXTURE,2,358,44,11
+    PUSHBUTTON      "Rotate",IDC_BUTTON_ROTATE_TEXTURE,46,358,44,11
+    CONTROL         "+",IDC_RADIO_ALPHA_BRUSH_ADD,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT | WS_GROUP,8,
+                    387,10,10
+    CONTROL         "-",IDC_RADIO_ALPHA_BRUSH_SUB,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,20,387,10,10
+    EDITTEXT        IDC_EDIT_ALPHA_BRUSH_BRIGHT,35,387,18,12,ES_AUTOHSCROLL
+    SCROLLBAR       IDC_SCROLLBAR1,169,1,8,320,SBS_VERT
+    SCROLLBAR       IDC_SCROLLBAR2,2,316,164,8
+    GROUPBOX        "AlphaMap",IDC_STATIC,2,373,175,30
+    LTEXT           "",IDC_STATIC_SELECT_TILE_NAME,2,332,163,12,0,
+                    WS_EX_STATICEDGE
+END
+
+IDD_DIALOG_CONSOLE DIALOG  0, 0, 467, 15
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT1,1,0,460,13,ES_MULTILINE | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+END
+
+IDD_DIALOG_HFIELD_PROPERTY DIALOG  0, 0, 234, 262
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "HeihgtField Property"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_RIGHT,31,23,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_BOTTOM,31,47,40,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_FACE_SIZE,140,79,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FACES_NUM_PER_OBJ,140,91,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HFIELD_NAME,30,208,85,12,ES_AUTOHSCROLL
+    LTEXT           "Left",IDC_STATIC,8,11,19,8
+    LTEXT           "Right",IDC_STATIC,8,24,19,9
+    LTEXT           "Top",IDC_STATIC,8,36,19,9
+    LTEXT           "Bottom",IDC_STATIC,8,47,19,10
+    LTEXT           "면 길이 (float)",IDC_STATIC,8,79,58,9
+    LTEXT           "오브젝트축당 면 개수(DWORD)",IDC_STATIC,7,91,115,10
+    GROUPBOX        "크기",IDC_STATIC,1,1,231,61
+    GROUPBOX        "퀄리티 및 퍼포먼스",IDC_STATIC,1,68,231,126
+    GROUPBOX        "기타",IDC_STATIC,1,196,231,26
+    LTEXT           "이름",IDC_STATIC,7,208,19,10
+    PUSHBUTTON      "묵향",IDC_BUTTON_HFIELD_EX1,1,225,31,12,WS_DISABLED
+    PUSHBUTTON      "Ex 2",IDC_BUTTON_HFIELD_EX2,33,225,31,12,WS_DISABLED
+    PUSHBUTTON      "Ex 3",IDC_BUTTON_HFIELD_EX3,65,225,31,12,WS_DISABLED
+    PUSHBUTTON      "확인",IDC_BUTTON_HFIELD_PROPERTY_OK,199,230,26,23
+    PUSHBUTTON      "Corum Zero",IDC_BUTTON_HFIELD_EX4,96,225,31,12,
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_OBNNUM_X,140,103,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OBJNUM_Z,140,115,34,12,ES_AUTOHSCROLL
+    LTEXT           "오브젝트 x축 갯수",IDC_STATIC,7,105,116,10
+    LTEXT           "오브젝트 z축 갯수",IDC_STATIC,7,117,116,10
+    EDITTEXT        IDC_EDIT_LOD_NUM,140,127,34,12,ES_AUTOHSCROLL
+    LTEXT           "LOD레벨갯수",IDC_STATIC,7,129,116,10
+    EDITTEXT        IDC_EDIT_INDEX_BUFFER_NUM,140,139,34,12,ES_AUTOHSCROLL
+    LTEXT           "기본 IndexBuffer 갯수",IDC_STATIC,7,141,116,10
+    EDITTEXT        IDC_EDIT_LEFT,31,11,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TOP,31,35,40,12,ES_AUTOHSCROLL
+    LTEXT           "최소 타일길이(float)",IDC_STATIC,7,153,116,10
+    EDITTEXT        IDC_EDIT_MIN_TILE_LENGTH,140,151,34,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    PUSHBUTTON      "묵향",IDC_BUTTON_HFIELD_EX5,127,225,31,12
+    PUSHBUTTON      "TTB",IDC_BUTTON_HFIELD_TTB,160,225,31,12
+END
+
+IDD_DLGBAR_PANEL2 DIALOGEX 0, 0, 549, 43
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_DEFAULT_Z,138,26,18,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC_TILE_X,16,13,21,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_TILE_Z,50,13,21,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "X",IDC_STATIC,8,15,8,9
+    LTEXT           "Z",IDC_STATIC,42,15,8,9
+    EDITTEXT        IDC_EDIT_BRUSH_SIZE,44,26,23,12,ES_AUTOHSCROLL
+    LTEXT           "BrsuhSize",IDC_STATIC,8,26,35,12
+    PUSHBUTTON      "Property",IDC_BUTTON_VIEW_PROPERTY,319,9,31,12
+    CONTROL         "Select",IDC_CHECK_SELECT,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,304,10,12,10
+    EDITTEXT        IDC_EDIT_HEIGHT_PITCH,109,13,22,12,ES_AUTOHSCROLL
+    LTEXT           "Unit",IDC_STATIC,94,13,13,11
+    EDITTEXT        IDC_EDIT_INTERPOLATION_BIAS,159,13,20,12,ES_AUTOHSCROLL
+    LTEXT           "Bias",IDC_STATIC,143,13,16,10
+    LTEXT           "Radius",IDC_STATIC,183,13,24,10
+    EDITTEXT        IDC_EDIT_RADIUS,209,13,20,12,ES_AUTOHSCROLL
+    GROUPBOX        "Tile",IDC_STATIC,2,2,84,39
+    GROUPBOX        "HField Vertex",IDC_STATIC,90,2,143,39
+    LTEXT           "Reset Hehgit",IDC_STATIC,93,27,43,10
+    PUSHBUTTON      "Refresh",IDC_BUTTON_REFRESH_HFIELD,354,9,31,12
+    EDITTEXT        IDC_EDIT_HFIELD_DETAIL,342,24,18,12,ES_AUTOHSCROLL
+    LTEXT           "Detail",IDC_STATIC,321,24,19,8
+    GROUPBOX        "HField Object",IDC_STATIC,235,2,160,39
+    PUSHBUTTON      "Invisible",IDC_BUTTON_HFOBJ_DISABLE,239,14,31,9
+    PUSHBUTTON      "Visible",IDC_BUTTON_HFOBJ_ENABLE,271,14,31,9
+    PUSHBUTTON      "OK",IDC_BUTTON_RESET_Z,158,27,22,11
+    PUSHBUTTON      "Fr Detail",IDC_BUTTON_HFOBJ_FREEZE_DETAIL,239,24,31,9
+    PUSHBUTTON      "Unfr Detail",IDC_BUTTON_HFOBJ_UNFREEZE_DETAIL,271,24,31,
+                    9
+    EDITTEXT        IDC_EDIT_FREEZE_DETAIL,304,24,14,12,ES_AUTOHSCROLL
+    GROUPBOX        "LightMap",IDC_STATIC,397,2,109,39
+    EDITTEXT        IDC_EDIT_LM_R,408,11,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LM_G,438,11,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LM_B,467,11,19,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,399,14,8,11
+    LTEXT           "G",IDC_STATIC,429,14,8,11
+    LTEXT           "B",IDC_STATIC,458,14,8,11
+    CONTROL         "",IDC_STATIC_CURRENT_COLOR,"Static",SS_BLACKFRAME,489,
+                    11,12,12
+    CONTROL         "",IDC_CHECK_PICK_COLOR,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,400,26,12,10
+    LTEXT           "Radius",IDC_STATIC,420,25,25,12
+    EDITTEXT        IDC_EDIT_HFBRUSH_SIZE,451,25,19,12,ES_AUTOHSCROLL
+    CONTROL         "Blend",IDC_CHECK_HFIELD_BLEND,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,362,24,30,12
+END
+
+IDD_DLGBAR_STATUS DIALOGEX 0, 0, 412, 15
+STYLE DS_SETFONT | WS_CHILD
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    LTEXT           "Total TexMem",IDC_STATIC,1,2,47,9
+    LTEXT           "Static",IDC_STATIC_TOTALTEXMEM,50,2,44,11,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Av. TexMem",IDC_STATIC,96,2,41,9
+    LTEXT           "Static",IDC_STATIC_AVTEXMEM,139,2,46,11,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Count of  AlphaTex",IDC_STATIC,189,2,61,9
+    LTEXT           "Static",IDC_STATIC_ALPHAMAP_NUM,252,2,24,11,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Static",IDC_STATIC_ALPHAMAP_MEM_SIZE,330,2,46,11,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "AlphaTex Mem",IDC_STATIC,279,2,49,9
+END
+
+IDD_DIALOG_LIGHT_PROPERTY DIALOG  0, 0, 66, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+FONT 9, "MS UI Gothic"
+BEGIN
+    LTEXT           "R",IDC_STATIC,1,1,8,10
+    EDITTEXT        IDC_EDIT_R,11,1,19,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,1,13,8,10
+    EDITTEXT        IDC_EDIT_G,11,13,19,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,1,26,8,10
+    EDITTEXT        IDC_EDIT_B,11,26,19,12,ES_AUTOHSCROLL
+    LTEXT           "Rs",IDC_STATIC,1,40,10,10
+    EDITTEXT        IDC_EDIT_RS,11,39,37,12,ES_AUTOHSCROLL
+    LTEXT           "cm",IDC_STATIC,49,40,10,10
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,1,139,24,14
+    LTEXT           "X",IDC_STATIC,1,57,8,10
+    EDITTEXT        IDC_EDIT_X,11,55,37,12,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,1,70,8,10
+    EDITTEXT        IDC_EDIT_Y,11,68,37,12,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,1,83,8,10
+    EDITTEXT        IDC_EDIT_Z,11,81,37,12,ES_AUTOHSCROLL
+    LTEXT           "cm",IDC_STATIC,49,57,10,10
+    LTEXT           "cm",IDC_STATIC,49,70,10,10
+    LTEXT           "cm",IDC_STATIC,49,83,10,10
+    PUSHBUTTON      "DEL",IDC_BUTTON_DELETE,27,139,24,14
+    CONTROL         "On/Off",IDC_CHECK_ONOFF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,1,97,34,12
+    CONTROL         "Shadow",IDC_CHECK_SHADOW_ONOFF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,1,109,34,12
+    CONTROL         "DynamicLight",IDC_CHECK_ENABLE_DYNAMIC_LIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,1,122,55,12
+END
+
+IDD_DIALOG_OBJECT_PROPERTY DIALOGEX 0, 0, 71, 278
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 9, "MS UI Gothic", 0, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT_X,10,12,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,10,25,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,10,38,37,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,0,14,8,10
+    LTEXT           "Y",IDC_STATIC,0,27,8,10
+    LTEXT           "Z",IDC_STATIC,0,40,8,10
+    LTEXT           "cm",IDC_STATIC,48,14,10,10
+    LTEXT           "cm",IDC_STATIC,48,27,10,10
+    LTEXT           "cm",IDC_STATIC,48,40,10,10
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,0,262,24,14
+    PUSHBUTTON      "DEL",IDC_BUTTON_DELETE,26,262,24,14
+    EDITTEXT        IDC_EDIT_UID,11,199,48,12,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,1,201,8,10
+    LTEXT           "Position",IDC_STATIC,0,1,26,10
+    LTEXT           "Direction",IDC_STATIC,0,55,26,10
+    EDITTEXT        IDC_EDIT_AXIS_X,10,67,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AXIS_Y,10,80,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_AXIS_Z,10,93,37,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,0,69,8,10
+    LTEXT           "Y",IDC_STATIC,0,82,8,10
+    LTEXT           "Z",IDC_STATIC,0,95,8,10
+    LTEXT           "cm",IDC_STATIC,48,69,10,10
+    LTEXT           "cm",IDC_STATIC,48,82,10,10
+    LTEXT           "cm",IDC_STATIC,48,95,10,10
+    EDITTEXT        IDC_EDIT_RAD,10,107,37,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_STATIC,0,109,8,10
+    LTEXT           "rad",IDC_STATIC,48,109,10,10
+    CONTROL         "Apply HField",IDC_CHECK_APPLY_HFIELD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,1,214,54,13
+    CONTROL         "As Effect",IDC_CHECK_AS_EFFECT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,1,228,54,13
+    CONTROL         "Lock",IDC_CHECK_TRANSFORM_LOCK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,1,243,54,13
+    EDITTEXT        IDC_EDIT_SCALE_X,10,136,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCALE_Y,10,149,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SCALE_Z,10,162,37,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,0,138,8,10
+    LTEXT           "Y",IDC_STATIC,0,151,8,10
+    LTEXT           "Z",IDC_STATIC,0,164,8,10
+    LTEXT           "cm",IDC_STATIC,48,138,10,10
+    LTEXT           "cm",IDC_STATIC,48,151,10,10
+    LTEXT           "cm",IDC_STATIC,48,164,10,10
+    LTEXT           "Scale",IDC_STATIC,1,125,26,10
+END
+
+IDD_DIALOG_TRIGGER_PROPERTY DIALOG  0, 0, 67, 152
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 9, "MS UI Gothic"
+BEGIN
+    EDITTEXT        IDC_EDIT_X,10,72,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,10,85,37,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,10,98,37,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,0,74,8,10
+    LTEXT           "Y",IDC_STATIC,0,87,8,10
+    LTEXT           "Z",IDC_STATIC,0,100,8,10
+    LTEXT           "cm",IDC_STATIC,48,74,10,10
+    LTEXT           "cm",IDC_STATIC,48,87,10,10
+    LTEXT           "cm",IDC_STATIC,48,100,10,10
+    LTEXT           "Position",IDC_STATIC,0,61,26,10
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,0,132,24,14
+    PUSHBUTTON      "DEL",IDC_BUTTON_DELETE,26,132,24,14
+    EDITTEXT        IDC_EDIT_UID,10,116,48,12,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,0,118,8,10
+    LTEXT           "R",IDC_STATIC,1,11,8,10
+    EDITTEXT        IDC_EDIT_R,11,11,19,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,1,23,8,10
+    EDITTEXT        IDC_EDIT_G,11,23,19,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,1,36,8,10
+    EDITTEXT        IDC_EDIT_B,11,36,19,12,ES_AUTOHSCROLL
+    LTEXT           "Color",IDC_STATIC,0,1,26,10
+END
+
+IDD_NPC_INFO DIALOG  0, 0, 149, 297
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Npc Infomation"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,276,135,14
+    LTEXT           "Monster Info",IDC_STATIC,7,7,82,8
+    CONTROL         "List1",IDC_LIST_NPC_INFO,"SysListView32",LVS_REPORT | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,19,135,119
+    GROUPBOX        "Create NPC  Info",IDC_STATIC,7,151,135,119
+    COMBOBOX        IDC_COMBO_NPC_NUM,13,162,120,107,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Section NO  :",IDC_STATIC,10,185,50,9
+    LTEXT           "",IDC_STATIC_SECTION_NUM,65,185,66,8
+    LTEXT           "X Pos  :",IDC_STATIC,10,200,30,8
+    LTEXT           "Z Pos  :",IDC_STATIC,75,200,30,8
+    LTEXT           "",IDC_STATIC_ZPOS,105,200,30,8
+    LTEXT           "",IDC_STATIC_XPOS,40,200,30,8
+    LTEXT           "나머지 추가되는 NPC생성 정보\n들어갈 부분이다...",
+                    IDC_STATIC,10,220,125,20
+    PUSHBUTTON      "Create NPC",IDC_BUTTON_CREATE_NPC,10,250,125,15
+END
+
+IDD_SECTION_INFO DIALOG  0, 0, 139, 133
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Section/Spot Infomation"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_SECTION_DLG_OK,18,113,50,14
+    PUSHBUTTON      "Delete",IDCANCEL,69,113,50,14
+    LTEXT           "Section/Spot NO :",IDC_STATIC,10,7,61,10
+    LTEXT           "Left (왼쪽밑의 X좌표) :",IDC_STATIC,10,55,74,10
+    LTEXT           "Top (왼쪽밑의 Z좌표) :",IDC_STATIC,10,35,74,10
+    LTEXT           "Right (오른쪽 위의 Z좌표) :",IDC_STATIC,10,75,91,10
+    LTEXT           "Bottom (오른쪽 위의 X좌표) :",IDC_STATIC,10,95,98,10
+    LTEXT           "",IDC_STATIC_SECTION_TOP,108,35,18,10
+    LTEXT           "",IDC_STATIC_SECTION_RIGHT,108,75,18,10
+    LTEXT           "",IDC_STATIC_SECTION_LEFT,108,55,18,10
+    LTEXT           "",IDC_STATIC_SECTION_BOTTOM,108,95,18,10
+    LTEXT           "",IDC_STATIC_SECTION_NUM,108,5,18,10
+END
+
+IDD_DIALOG_TILEBRUSH_PROPERTY DIALOG  0, 0, 177, 16
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_BRUSH_NAME,43,1,92,13,ES_AUTOHSCROLL
+    LTEXT           "Brush Name",IDC_STATIC,1,1,42,10
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,147,1,19,13
+END
+
+IDD_DIALOG2 DIALOG  0, 0, 126, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set Light Position"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,54,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,69,54,50,14
+    LTEXT           "Pos X   :",IDC_STATIC,7,7,37,12
+    LTEXT           "Pos Y   :",IDC_STATIC,7,22,37,12
+    LTEXT           "Pos Z   :",IDC_STATIC,7,37,37,12
+    EDITTEXT        IDC_EDIT_LIGHT_POS_X,59,7,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LIGHT_POS_Y,59,21,60,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LIGHT_POS_Z,59,35,60,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_DIRECTIONAL_LIGHT DIALOG  0, 0, 131, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 9, "MS UI Gothic"
+BEGIN
+    LTEXT           "R",IDC_STATIC,1,17,8,10
+    EDITTEXT        IDC_EDIT_DIFFUSE_R,11,17,19,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,1,29,8,10
+    EDITTEXT        IDC_EDIT_DIFFUSE_G,11,29,19,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,1,42,8,10
+    EDITTEXT        IDC_EDIT_DIFFUSE_B,11,42,19,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,1,74,8,10
+    EDITTEXT        IDC_EDIT_AMBIENT_R,11,74,19,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,1,86,8,10
+    EDITTEXT        IDC_EDIT_AMBIENT_G,11,86,19,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,1,99,8,10
+    EDITTEXT        IDC_EDIT_AMBIENT_B,11,99,19,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,1,129,8,10
+    EDITTEXT        IDC_EDIT_SPECULAR_R,11,129,19,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,1,141,8,10
+    EDITTEXT        IDC_EDIT_SPECULAR_G,11,141,19,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,1,154,8,10
+    EDITTEXT        IDC_EDIT_SPECULAR_B,11,154,19,12,ES_AUTOHSCROLL
+    LTEXT           "Diffuse",IDC_STATIC,1,7,26,9
+    LTEXT           "Ambient",IDC_STATIC,1,63,26,9
+    LTEXT           "Specular",IDC_STATIC,1,117,26,9
+    CONTROL         "ON/OFF",IDC_CHECK_DIRECTIONAL_LIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,75,151,36,14
+    PUSHBUTTON      "OK",IDC_BUTTON_OK,40,150,32,15
+    LTEXT           "X",IDC_STATIC,38,19,8,10
+    EDITTEXT        IDC_EDIT_DIR_X,48,17,37,12,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,38,32,8,10
+    EDITTEXT        IDC_EDIT_DIR_Y,48,30,37,12,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,38,45,8,10
+    EDITTEXT        IDC_EDIT_DIR_Z,48,43,37,12,ES_AUTOHSCROLL
+    LTEXT           "Direction",IDC_STATIC,48,7,26,9
+END
+
+IDD_DIALOG3 DIALOG  0, 0, 187, 98
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+END
+
+IDD_DIALOG4 DIALOG  0, 0, 76, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+END
+
+IDD_EDITTILEENTRY DIALOG  0, 0, 187, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit TileSet Entry"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "Select",IDC_SELECTTILE1,7,7,50,14
+    PUSHBUTTON      "Rotate",IDC_CHANGEDIRECTION1,68,7,34,14
+    CTEXT           "확률",IDC_STATIC,113,7,19,13
+    EDITTEXT        IDC_PROBABILITY1,140,7,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select",IDC_SELECTTILE2,7,26,50,14
+    PUSHBUTTON      "Rotate",IDC_CHANGEDIRECTION2,68,26,34,14
+    CTEXT           "확률",IDC_STATIC,113,26,19,13
+    EDITTEXT        IDC_PROBABILITY2,140,26,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select",IDC_SELECTTILE3,7,45,50,14
+    PUSHBUTTON      "Rotate",IDC_CHANGEDIRECTION3,68,45,34,14
+    CTEXT           "확률",IDC_STATIC,113,45,19,13
+    EDITTEXT        IDC_PROBABILITY3,140,45,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Select",IDC_SELECTTILE4,7,63,50,14
+    PUSHBUTTON      "Rotate",IDC_CHANGEDIRECTION4,68,63,34,14
+    CTEXT           "확률",IDC_STATIC,113,63,19,13
+    EDITTEXT        IDC_PROBABILITY4,140,63,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Show / Hide",IDC_SHOW,7,93,50,14
+    DEFPUSHBUTTON   "OK",IDOK,73,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,93,50,14
+END
+
+IDD_TILESET DIALOGEX 0, 0, 284, 257
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TileSet"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,7,7,138,203,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "New",IDC_NEW,7,217,43,14
+    PUSHBUTTON      "Save",IDC_SAVE,55,217,41,14
+    PUSHBUTTON      "Load",IDC_LOAD,100,217,45,14
+    PUSHBUTTON      "Add",IDC_ADD,7,234,43,13
+    PUSHBUTTON      "Delete",IDC_DELETE,55,232,41,14
+    PUSHBUTTON      "Modify",IDC_Modify,100,232,45,14
+    LTEXT           "",IDC_STATIC_TEXTURE_FILE_NAME,151,232,130,12,0,
+                    WS_EX_STATICEDGE
+END
+
+IDD_TILESETEDIT DIALOG  0, 0, 178, 204
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit TileSet"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,64,183,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,121,183,50,14
+    EDITTEXT        IDC_TILESETNAME,44,7,96,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "0",IDC_ENTRY0,64,30,50,14
+    PUSHBUTTON      "1",IDC_ENTRY1,7,58,50,14
+    PUSHBUTTON      "2",IDC_ENTRY2,64,58,50,14
+    PUSHBUTTON      "3",IDC_ENTRY3,121,58,50,14
+    PUSHBUTTON      "4",IDC_ENTRY4,7,76,50,14
+    PUSHBUTTON      "Center",IDC_ENTRY5,64,76,50,14
+    PUSHBUTTON      "6",IDC_ENTRY6,121,76,50,14
+    PUSHBUTTON      "7",IDC_ENTRY7,7,94,50,14
+    PUSHBUTTON      "8",IDC_ENTRY8,64,94,50,14
+    PUSHBUTTON      "9",IDC_ENTRY9,121,94,50,14
+    PUSHBUTTON      "10",IDC_ENTRY10,39,119,50,14
+    PUSHBUTTON      "11",IDC_ENTRY11,96,119,50,14
+    PUSHBUTTON      "12",IDC_ENTRY12,39,138,50,14
+    PUSHBUTTON      "13",IDC_ENTRY13,96,138,50,14
+END
+
+IDD_LOADFAILEDTEXTURE_DIALOG_ DIALOG  0, 0, 257, 261
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Load Failed Texture List"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,200,240,50,14
+    LISTBOX         IDC_LOADFAILED_LIST,7,7,243,225,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Save List to File",IDC_SAVELIST_BUTTON,108,240,84,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "build 2007.03.08"
+            VALUE "CompanyName", "Eya Interactive"
+            VALUE "FileDescription", "4DyuchiGXMapEditor MFC 응용 프로그램"
+            VALUE "FileVersion", "1, 0, 1, 0"
+            VALUE "InternalName", "4DyuchiGXMapEditor"
+            VALUE "LegalCopyright", "Eya Interactive R&D Dev. Copyright ⓒ 2007"
+            VALUE "OriginalFilename", "4DyuchiGXMapEditor.EXE"
+            VALUE "ProductName", "4DyuchiGXMapEditor 응용 프로그램"
+            VALUE "ProductVersion", "1, 0, 1, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DLGBAR_PANEL1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 643
+        BOTTOMMARGIN, 22
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 177
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 402
+    END
+
+    IDD_DIALOG_CONSOLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 466
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_DIALOG_HFIELD_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 232
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 259
+    END
+
+    IDD_DLGBAR_PANEL2, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 546
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 41
+    END
+
+    IDD_DLGBAR_STATUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 409
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 13
+    END
+
+    IDD_DIALOG_LIGHT_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 64
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_DIALOG_OBJECT_PROPERTY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 69
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_DIALOG_TRIGGER_PROPERTY, DIALOG
+    BEGIN
+        RIGHTMARGIN, 66
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_NPC_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_SECTION_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 126
+    END
+
+    IDD_DIALOG_TILEBRUSH_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 175
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 14
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 119
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_DIALOG_DIRECTIONAL_LIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 129
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        RIGHTMARGIN, 74
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_EDITTILEENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+
+    IDD_TILESET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 281
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+        HORZGUIDE, 217
+    END
+
+    IDD_TILESETEDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 171
+        VERTGUIDE, 64
+        VERTGUIDE, 114
+        VERTGUIDE, 121
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 197
+        HORZGUIDE, 58
+    END
+
+    IDD_LOADFAILEDTEXTURE_DIALOG_, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 254
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "4DyuchiGXMapEditor\n\nMy4Dyu\n\n\nMy4DyuchiGXMapEditor.Document\nMy4Dyu Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "4DyuchiGXMapEditor"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 작성합니다\n새 파일"
+    ID_FILE_OPEN            "기존 문서를 엽니다\n열기"
+    ID_FILE_CLOSE           "현재 열린 문서를 닫습니다\n닫기"
+    ID_FILE_SAVE            "현재 열린 문서를 저장합니다\n저장"
+    ID_FILE_SAVE_AS         "현재 열린 문서를 다른 이름으로 저장합니다\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다\n쪽 설정"
+    ID_FILE_PRINT_SETUP     "프린터와 인쇄 옵션을 변경합니다\n인쇄 설정"
+    ID_FILE_PRINT           "현재 열린 문서를 인쇄합니다\n인쇄"
+    ID_FILE_PRINT_PREVIEW   "쪽 전체를 표시합니다\n인쇄 미리 보기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보와 버전 정보, 저작권 정보를 표시합니다\n정보"
+    ID_APP_EXIT             "응용 프로그램을 종료하기 위해 문서를 저장할 것인지 묻습니다\n종료"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE2       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE3       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE4       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE5       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE6       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE7       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE8       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE9       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE10      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE11      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE12      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE13      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE14      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE15      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE16      "이 문서를 엽니다"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다\n이전 창"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "현재 열린 창을 나눕니다\n나누기"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 부분을 지웁니다\n지우기"
+    ID_EDIT_CLEAR_ALL       "모든 것을 지웁니다\n모두 지우기"
+    ID_EDIT_COPY            "선택 부분을 복사하여 클립보드에 넣습니다\n복사"
+    ID_EDIT_CUT             "선택 부분을 잘라내어 클립보드에 넣습니다\n잘라내기"
+    ID_EDIT_FIND            "지정한 문자열을 찾습니다\n찾기"
+    ID_EDIT_PASTE           "클립보드의 내용을 붙여 넣습니다\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막으로 실행한 동작을 반복합니다\n반복"
+    ID_EDIT_REPLACE         "지정한 문자열을 다른 문자열로 바꿉니다\n바꾸기"
+    ID_EDIT_SELECT_ALL      "문서 전체를 선택합니다\n전체 선택"
+    ID_EDIT_UNDO            "마지막으로 한 동작을 취소합니다\n실행 취소"
+    ID_EDIT_REDO            "이전에 취소한 동작을 다시 수행합니다\n다시 실행"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 보이거나 감춥니다\n도구 모음 전환"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 감춥니다\n상태 표시줄 전환"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다\n미리 보기 취소"
+END
+
+STRINGTABLE 
+BEGIN
+    IDR_MODELVIEW_TMPL      "ModelView\n\nModelV\nModelV Files (*.mod)\n.mod\nModelView.Document\nModelV Document"
+    IDR_MODELVIEW_TMPL1     "ModelView\n\nModelV\nModelV Files (*.mod)\n.mod\nModelView.Document\nModelV Document"
+    IDR_LEFPANE_TMPL        "LefPane\n\nLefPan\nLefPan Files (*.lef)\n.lef\nLefPane.Document\nLefPan Document"
+    IDR_BOTTOMPANE_TMPL     "BottomPane\n\nBottom\nBottom Files (*.bot)\n.bot\nBottomPane.Document\nBottom Document"
+    IDR_LEFTPANE_TMPL       "LeftPane\n\nLeftPa\nLeftPa Files (*.lef)\n.lef\nLeftPane.Document\nLeftPa Document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_COLLISION_STM   "충돌체크용 매쉬 보기"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW_RIGHT DIALOG  0, 0, 75, 813
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_BRUSH,1,12,71,121,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "LOAD",IDC_BUTTON_LOAD,1,135,22,19
+    PUSHBUTTON      "DEL",IDC_BUTTON_DELETE_BRUSH,49,135,22,19
+    LTEXT           "3DModel Brushes",IDC_STATIC,1,2,68,10
+    LISTBOX         IDC_LIST_GXOBJECT,1,189,74,121,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "LOAD",IDC_BUTTON_LOAD_GXOBJECT,2,311,22,19
+    PUSHBUTTON      "DEL",IDC_BUTTON_DELETE_GXOBJECT,53,311,22,19
+    LTEXT           "GXObject",IDC_STATIC,2,178,42,10
+    GROUPBOX        "Shading",IDC_STATIC,1,337,74,84
+    EDITTEXT        IDC_EDIT_SHADE_COLOR_R,16,349,16,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,7,351,8,10
+    EDITTEXT        IDC_EDIT_SHADE_COLOR_G,16,361,16,12,ES_AUTOHSCROLL
+    LTEXT           "G",IDC_STATIC,7,362,8,10
+    EDITTEXT        IDC_EDIT_SHADE_COLOR_B,16,372,16,12,ES_AUTOHSCROLL
+    LTEXT           "B",IDC_STATIC,7,373,8,10
+    CONTROL         "Shadow",IDC_CHECK_ENABLE_SHADOW,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,386,36,11
+    PUSHBUTTON      "Start",IDC_BUTTON_SHADE_START,20,401,32,13
+    GROUPBOX        "Option",IDC_STATIC,1,516,74,88
+    LTEXT           "Transparency",IDC_STATIC,7,529,44,10
+    EDITTEXT        IDC_EDIT_STATIC_MODEL_ALPHA,23,543,16,12,ES_AUTOHSCROLL
+    LTEXT           "STM",IDC_STATIC,7,544,17,10
+    EDITTEXT        IDC_EDIT_HFIELD_ALPHA,23,555,16,12,ES_AUTOHSCROLL
+    LTEXT           "HFL",IDC_STATIC,7,555,17,10
+    PUSHBUTTON      "Set",IDC_BUTTON_TRANSPARENCY_SET,25,584,25,17
+    LISTBOX         IDC_LIST_TILE_BRUSH,1,619,74,121,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "TileBrush",IDC_STATIC,1,608,42,10
+    PUSHBUTTON      "Create",IDC_BUTTON_CREATE_BRUSH,1,743,22,19
+    CONTROL         "BrushMode",IDC_CHECK_TILE_BRUSH_MODE,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,20,788,37,14
+    PUSHBUTTON      "LOAD",IDC_LOAD_TILE_BRUSH,1,763,22,19
+    PUSHBUTTON      "SAVE",IDC_SAVE_TILE_BRUSH,25,763,22,19
+    PUSHBUTTON      "DELETE",IDC_BUTTON_DELETE_TILE_BRUSH,25,743,22,19
+    PUSHBUTTON      "All Del",IDC_BUTTON_DELETEALL_TILE_BRUSH,49,743,22,19
+    EDITTEXT        IDC_EDIT_VIEW_ONLY_HFIELD_ALPHA,56,567,16,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "HFL(ViewOnly)",IDC_STATIC,7,571,48,10
+    GROUPBOX        "Back ground color",IDC_STATIC,1,424,73,88
+    LTEXT           "R",IDC_STATIC,7,446,8,11
+    LTEXT           "G",IDC_STATIC,7,459,8,11
+    LTEXT           "B",IDC_STATIC,7,473,9,11
+    EDITTEXT        IDC_EDIT_BACK_RED,17,445,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BACK_GREEN,17,459,18,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BACK_BLUE,17,472,18,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Modify",IDC_BUTTON_BACK_MODIFY,18,489,32,14
+    CONTROL         "",IDC_STATIC_SHADING_COLOR,"Static",SS_BLACKFRAME,39,
+                    350,14,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_FORMVIEW_RIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 809
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\4DyuchiGXMapEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#include "l.kor\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

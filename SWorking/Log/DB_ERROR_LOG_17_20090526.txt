@@ -1,0 +1,177 @@
+DB INIT OK, time:5岿/26老 9矫31盒38.312檬
+DB INIT OK, time:5岿/26老 9矫31盒38.328檬
+DB INIT OK, time:5岿/26老 14矫13盒19.875檬
+DB INIT OK, time:5岿/26老 14矫13盒19.890檬
+DB INIT OK, time:5岿/26老 15矫41盒25.203檬
+DB INIT OK, time:5岿/26老 15矫41盒25.218檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 115, 81, 492, 12, 12, 12, 0, 0, 18091159, 191, 9789275, 0, 103791037, 13943, 0, 44, time:5岿/26老 17矫20盒15.46檬
+EXEC  dbo.MP_CHARACTER_MapchangePointUpdate 115, 0, time:5岿/26老 17矫20盒15.46檬
+Error Message: [Microsoft][SQL Native Client]共享内存提供程序: 管道的另一端上无任何进程。
+ SqlState: 08S01, fNativeError: 233, time:5岿/26老 17矫20盒15.46檬
+Error Message: [Microsoft][SQL Native Client]共享内存提供程序: 管道的另一端上无任何进程。
+ SqlState: 08S01, fNativeError: 233, time:5岿/26老 17矫20盒15.46檬
+EXEC dbo.MP_CHARACTER_UpdateSkinInfo 115, 0, 0, 0, 0, 0, time:5岿/26老 17矫20盒15.46檬
+EXEC  dbo.MP_CHARACTER_TotalInfoUpdate 115, 0, 604, 1029, 0, 44, 17, 2, 0, 37043, 11000, 37033, 37053, 37064, 37063, 0, 0, 37031, 37032, 0, time:5岿/26老 17矫20盒15.62檬
+Error Message: [Microsoft][SQL Native Client]通讯链接失败 SqlState: 08S01, fNativeError: 0, time:5岿/26老 17矫20盒15.62檬
+EXEC dbo.MP_LogInMapInfo_UnRegist 115, time:5岿/26老 17矫20盒15.62檬
+Error Message: [Microsoft][SQL Native Client]通讯链接失败 SqlState: 08S01, fNativeError: 0, time:5岿/26老 17矫20盒15.62檬
+DB INIT OK, time:5岿/26老 18矫40盒15.171檬
+DB INIT OK, time:5岿/26老 18矫40盒15.203檬
+DB INIT OK, time:5岿/26老 20矫5盒6.156檬
+DB INIT OK, time:5岿/26老 20矫5盒6.171檬
+DB INIT OK, time:5岿/26老 20矫43盒54.531檬
+DB INIT OK, time:5岿/26老 20矫43盒54.546檬
+DB INIT OK, time:5岿/26老 21矫32盒7.265檬
+DB INIT OK, time:5岿/26老 21矫32盒7.281檬
+DB INIT OK, time:5岿/26老 21矫51盒7.468檬
+DB INIT OK, time:5岿/26老 21矫51盒7.484檬
+DB INIT OK, time:5岿/26老 21矫52盒46.375檬
+DB INIT OK, time:5岿/26老 21矫52盒46.390檬
+DB INIT OK, time:5岿/26老 22矫23盒48.62檬
+DB INIT OK, time:5岿/26老 22矫23盒48.78檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36248, 101041, 10071, 10011, 10001, 0, 0, 99999, 9019, 19853380, 0, 1018259223, 26608, 0, 99, time:5岿/26老 22矫26盒47.593檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫26盒47.593檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36249, 101041, 10071, 10011, 10001, 0, 0, 99999, 9018, 19853380, 0, 1018259223, 26599, 0, 99, time:5岿/26老 22矫29盒29.375檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫29盒29.390檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36250, 101041, 10071, 10011, 10001, 0, 0, 99999, 9017, 19853380, 0, 1018259223, 26600, 0, 99, time:5岿/26老 22矫29盒30.93檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫29盒30.93檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36251, 101041, 10071, 10011, 10001, 0, 0, 99999, 9016, 19853380, 0, 1018259223, 26601, 0, 99, time:5岿/26老 22矫29盒30.593檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫29盒30.593檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36252, 101041, 10071, 10011, 10001, 0, 0, 99999, 9015, 19853380, 0, 1018259223, 26601, 0, 99, time:5岿/26老 22矫29盒30.593檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫29盒30.593檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10011, 10001, 0, 0, 99999, 9014, 19853380, 0, 1018259223, 26601, 0, 99, time:5岿/26老 22矫29盒31.93檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫29盒31.93檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10012, 10001, 0, 0, 99999, 9013, 19853380, 0, 1018259223, 27054, 0, 99, time:5岿/26老 22矫37盒4.375檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒4.375檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10013, 10001, 0, 0, 99999, 9012, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.0檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.0檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10014, 10001, 0, 0, 99999, 9011, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.0檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10015, 10001, 0, 0, 99999, 9010, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10016, 10001, 0, 0, 99999, 9009, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10017, 10001, 0, 0, 99999, 9008, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10018, 10001, 0, 0, 99999, 9007, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10019, 10001, 0, 0, 99999, 9006, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10020, 10001, 0, 0, 99999, 9005, 19853380, 0, 1018259223, 27059, 0, 99, time:5岿/26老 22矫37盒9.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒9.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10021, 10001, 0, 0, 99999, 9004, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10022, 10001, 0, 0, 99999, 9003, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10023, 10001, 0, 0, 99999, 9002, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10024, 10001, 0, 0, 99999, 9001, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36253, 101041, 10071, 10025, 10001, 0, 0, 99999, 9000, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36254, 101041, 10071, 10025, 10001, 0, 0, 99999, 8999, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36255, 101041, 10071, 10025, 10001, 0, 0, 99999, 8998, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36256, 101041, 10071, 10025, 10001, 0, 0, 99999, 8997, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36257, 101041, 10071, 10025, 10001, 0, 0, 99999, 8996, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36258, 101041, 10071, 10025, 10001, 0, 0, 99999, 8995, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10025, 10001, 0, 0, 99999, 8994, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10026, 10001, 0, 0, 99999, 8993, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.515檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.515檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10027, 10001, 0, 0, 99999, 8992, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.531檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.531檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10028, 10001, 0, 0, 99999, 8991, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.531檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.531檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10029, 10001, 0, 0, 99999, 8990, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.531檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.531檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10030, 10001, 0, 0, 99999, 8989, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.531檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.531檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10031, 10001, 0, 0, 99999, 8988, 19853380, 0, 1018259223, 27061, 0, 99, time:5岿/26老 22矫37盒10.531檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒10.531檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10032, 10001, 0, 0, 99999, 8987, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10033, 10001, 0, 0, 99999, 8986, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10034, 10001, 0, 0, 99999, 8985, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10035, 10001, 0, 0, 99999, 8984, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10036, 10001, 0, 0, 99999, 8983, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10037, 10001, 0, 0, 99999, 8982, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10038, 10001, 0, 0, 99999, 8981, 19853380, 0, 1018259223, 27062, 0, 99, time:5岿/26老 22矫37盒11.906檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒11.906檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10039, 10001, 0, 0, 99999, 8980, 19853380, 0, 1018259223, 27063, 0, 99, time:5岿/26老 22矫37盒13.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒13.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10040, 10001, 0, 0, 99999, 8979, 19853380, 0, 1018259223, 27063, 0, 99, time:5岿/26老 22矫37盒13.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒13.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10041, 10001, 0, 0, 99999, 8978, 19853380, 0, 1018259223, 27063, 0, 99, time:5岿/26老 22矫37盒13.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒13.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101041, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018259223, 27063, 0, 99, time:5岿/26老 22矫37盒13.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫37盒13.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018252223, 27562, 0, 99, time:5岿/26老 22矫45盒31.843檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒31.843檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018241223, 27563, 0, 99, time:5岿/26老 22矫45盒33.156檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒33.156檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018225223, 27566, 0, 99, time:5岿/26老 22矫45盒35.843檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒35.843檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018203223, 27567, 0, 99, time:5岿/26老 22矫45盒37.437檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒37.437檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018174223, 27570, 0, 99, time:5岿/26老 22矫45盒39.656檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒39.656檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018137223, 27576, 0, 99, time:5岿/26老 22矫45盒45.765檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫45盒45.765檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018091223, 27599, 0, 99, time:5岿/26老 22矫46盒9.390檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒9.390檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1018035223, 27601, 0, 99, time:5岿/26老 22矫46盒11.390檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒11.390檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1017959223, 27604, 0, 99, time:5岿/26老 22矫46盒13.687檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒13.687檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1017859223, 27607, 0, 99, time:5岿/26老 22矫46盒17.234檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒17.234檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1017659223, 27610, 0, 99, time:5岿/26老 22矫46盒19.437檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒19.437檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1017359223, 27614, 0, 99, time:5岿/26老 22矫46盒23.812檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒23.812檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1016959223, 27617, 0, 99, time:5岿/26老 22矫46盒27.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒27.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1016459223, 27620, 0, 99, time:5岿/26老 22矫46盒29.578檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒29.578檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1015859223, 27623, 0, 99, time:5岿/26老 22矫46盒33.125檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒33.125檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1015159223, 27627, 0, 99, time:5岿/26老 22矫46盒37.218檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒37.218檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1014359223, 27629, 0, 99, time:5岿/26老 22矫46盒39.15檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒39.15檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1013459223, 27630, 0, 99, time:5岿/26老 22矫46盒40.62檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒40.62檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1012459223, 27631, 0, 99, time:5岿/26老 22矫46盒41.187檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒41.187檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1011309223, 27633, 0, 99, time:5岿/26老 22矫46盒42.562檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒42.562檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1010009223, 27634, 0, 99, time:5岿/26老 22矫46盒43.484檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒43.484檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1008559223, 27634, 0, 99, time:5岿/26老 22矫46盒44.281檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒44.281檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1006959223, 27636, 0, 99, time:5岿/26老 22矫46盒46.109檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒46.109檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1005209223, 27639, 0, 99, time:5岿/26老 22矫46盒48.843檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒48.843檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1003309223, 27642, 0, 99, time:5岿/26老 22矫46盒51.828檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒51.828檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 1001209223, 27645, 0, 99, time:5岿/26老 22矫46盒54.500檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒54.500檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101291, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 998909223, 27647, 0, 99, time:5岿/26老 22矫46盒56.984檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 22矫46盒56.984檬
+EXEC  dbo.MP_CHARACTER_HeroInfoUpdate 101, 36259, 101141, 10071, 10042, 10001, 0, 0, 99999, 8977, 19853380, 0, 998909225, 29233, 0, 99, time:5岿/26老 23矫13盒22.781檬
+Error Message: [Microsoft][SQL Native Client][SQL Server]从数据类型 int 转换为 smallint 时出错。 SqlState: 42000, fNativeError: 8114, time:5岿/26老 23矫13盒22.781檬
+DB INIT OK, time:5岿/26老 23矫58盒46.812檬
+DB INIT OK, time:5岿/26老 23矫58盒46.828檬
+DB INIT OK, time:5岿/26老 23矫59盒24.843檬
+DB INIT OK, time:5岿/26老 23矫59盒24.859檬

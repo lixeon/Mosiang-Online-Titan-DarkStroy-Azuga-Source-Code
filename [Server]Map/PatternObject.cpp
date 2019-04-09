@@ -1,0 +1,23 @@
+// PatternObject.cpp: implementation of the CPatternObject class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "PatternObject.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CPatternObject::CPatternObject()
+{
+	m_type = PO_NULL;
+	m_Data1 = 0;
+	m_Data2 = NULL;
+	pNext = NULL;
+}
+
+CPatternObject::~CPatternObject()
+{
+
+}

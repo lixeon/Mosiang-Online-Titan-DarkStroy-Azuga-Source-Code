@@ -1,0 +1,661 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RegenTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.kor\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\RegenTool.ico"
+IDR_REGENTTYPE          ICON    DISCARDABLE     "res\\RegenToolDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_DELETE_ON           BITMAP  DISCARDABLE     "Image\\Delete_on.bmp"
+IDB_DELETE_PRESS        BITMAP  DISCARDABLE     "Image\\Delete_press.bmp"
+IDB_MONSTERSELECTAREA_ON BITMAP  DISCARDABLE     "Image\\MonsterSelectArea_on.bmp"
+IDB_MONSTERSELECTAREA_PRESS BITMAP  DISCARDABLE     "Image\\MonsterSelectArea_press.bmp"
+IDB_MONSTERSELECTNOAREA_ON BITMAP  DISCARDABLE     "Image\\MonsterSelectNoArea_on.bmp"
+IDB_MONSTERSELECTNOAREA_PRESS BITMAP  DISCARDABLE     "Image\\MonsterSelectNoArea_press.bmp"
+IDB_MOVE_ON             BITMAP  DISCARDABLE     "Image\\Move_on.bmp"
+IDB_MOVE_PRESS          BITMAP  DISCARDABLE     "Image\\Move_press.bmp"
+IDB_SELECT_ON           BITMAP  DISCARDABLE     "Image\\Select_on.bmp"
+IDB_SELECT_PRESS        BITMAP  DISCARDABLE     "Image\\Select_press.bmp"
+IDB_ZOOMIN_ON           BITMAP  DISCARDABLE     "Image\\ZoomIn_on.bmp"
+IDB_ZOOMIN_PRESS        BITMAP  DISCARDABLE     "Image\\ZoomIn_press.bmp"
+IDB_ZOOMOUT_PRESS       BITMAP  DISCARDABLE     "Image\\ZoomOut_press.bmp"
+IDB_ZOOMOUT_ON          BITMAP  DISCARDABLE     "Image\\ZoomOut_on.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "image\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "File(&F)"
+    BEGIN
+        MENUITEM "NewFile(&N)\tCtrl+N",         ID_FILE_NEW
+        MENUITEM "Open(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "Save(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "Save As(&A)...",              ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Print(&P)...\tCtrl+P",        ID_FILE_PRINT
+        MENUITEM "PreView(&V)",                 ID_FILE_PRINT_PREVIEW
+        MENUITEM "Print Setup(&R)...",          ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "최근 파일",                   ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "MapDataOpen",                 ID_MAPDATA_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "Exit(&X)",                    ID_APP_EXIT
+    END
+    MENUITEM "",                            65535
+    POPUP "Edit(&E)"
+    BEGIN
+        MENUITEM "Undo(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cut(&T)\tCtrl+X",             ID_EDIT_CUT
+        MENUITEM "Copy(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "Paste(&P)\tCtrl+V",           ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Select\tV",                   ID_EDIT_SELECT
+        MENUITEM "Set\tS",                      ID_EDIT_SET
+        MENUITEM "Set + Range\tA",              ID_EDIT_SETRANGE
+        MENUITEM "Delete \tD",                  ID_EDIT_DELETE
+    END
+    POPUP "View(&V)"
+    BEGIN
+        MENUITEM "Tool Bar(&T)",                ID_VIEW_TOOLBAR
+        MENUITEM "Status Bar(&S)",              ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Extension\t[",                ID_VIEW_EXTENSION
+        MENUITEM "Reduction\t]",                ID_VIEW_REDUCTION
+        MENUITEM "Move\tSpace",                 ID_VIEW_MOVE
+        MENUITEM "Monster All View in Map\tShift + A", ID_MONSTER_ALL_VIEW
+        MENUITEM "Monster Select View in Map\tShift + V", 
+                                                ID_MONSTER_SELECT_VIEW
+        MENUITEM "Monster Plus Range View in Map\tShift + R", 
+                                                ID_MONSTER_PLUS_RANGE_VIEW
+    END
+    POPUP "Window"
+    BEGIN
+        MENUITEM "Monster List\tCtrl + M",      ID_WINDOW_MONSTER_LIST
+        MENUITEM "In Map Monster\tCtrl + I",    ID_IN_MAP_MONSTER
+    END
+    POPUP "Help(&H)"
+    BEGIN
+        MENUITEM "RegenTool Info(&A)...",       ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "RegenTool 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "RegenTool 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_REGENTOOL_FORM DIALOGEX 0, 0, 572, 417
+STYLE WS_CHILD
+FONT 9, "굴림"
+BEGIN
+    CONTROL         "",IDC_MAPIMAGE,"Static",SS_BITMAP,7,28,369,371,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "M_A_View",IDC_M_A_VIEW,391,27,50,14
+    PUSHBUTTON      "M_View",IDC_M_VIEW,446,27,50,14
+    PUSHBUTTON      "M_R_View",IDC_M_R_VIEW,502,27,50,14
+    LTEXT           "Attain Map Monster List",IDC_STATIC,391,299,78,8
+    COMBOBOX        IDC_MAPCOMBO,7,9,95,144,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Map Select",IDC_STATIC,108,13,38,8
+    LTEXT           "Map Name : ",IDC_STATIC,232,13,44,8
+    LTEXT           "MapName",IDC_MAP_NAME,279,13,35,8
+    CONTROL         "Check1",IDC_SELECT_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,391,383,15,14
+    CONTROL         "Check2",IDC_MSELECTNOAREA_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,407,383,15,14
+    CONTROL         "Check3",IDC_MSELECTAREA_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,423,383,15,14
+    CONTROL         "Check4",IDC_DELETE_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,439,383,15,14
+    CONTROL         "Check5",IDC_ZOOMIN_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,455,383,15,14
+    CONTROL         "Check6",IDC_ZOOMOUT_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,471,383,15,14
+    CONTROL         "Check7",IDC_MOVE_CHK,"Button",BS_AUTOCHECKBOX | 
+                    BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,487,383,15,14
+    SCROLLBAR       IDC_SCROLLBAR1,375,28,10,382,SBS_VERT
+    SCROLLBAR       IDC_SCROLLBAR2,7,399,368,11
+    COMBOBOX        IDC_NPCCOMBO,438,62,121,152,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "----------",IDC_SUBCOMBOTEXT,391,64,35,8
+    CONTROL         "List2",IDC_LIST2,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,391,313,161,36
+    COMBOBOX        IDC_FUNCCOMBO,438,48,121,161,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Func_Kind",IDC_STATIC,391,49,35,8
+    COMBOBOX        IDC_MONCOMBO,438,62,121,152,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Group",IDC_GROUPSTATIC,398,125,20,8
+    EDITTEXT        IDC_GROUPEDIT,448,122,102,14,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_GROUPSPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,541,122,9,
+                    14
+    LTEXT           "GroupName",IDC_GROUPNAMESTATIC,398,140,40,8
+    LTEXT           "GroupProperty",IDC_GROUPPROPERTYSTATIC,398,155,47,8
+    LTEXT           "TargetGroupID",IDC_TARGETGROUPIDSTATIC,398,185,47,8
+    LTEXT           "Condition %",IDC_CONDITIONSTATIC,398,201,39,8
+    LTEXT           "RegenTime",IDC_REGENTIMESTATIC,398,216,38,8
+    EDITTEXT        IDC_GROUPNAMEEDIT,448,137,102,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_GROUPPROPERTYEDIT,448,152,102,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin3",IDC_GROUPPROPERTYSPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,541,152,9,
+                    14
+    EDITTEXT        IDC_TARGETGROUPIDEDIT,448,182,102,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin4",IDC_TARGETGROUPIDSPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,541,182,9,
+                    14
+    EDITTEXT        IDC_CONDITIONEDIT,448,197,102,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin5",IDC_CONDITIONSPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,541,197,9,
+                    14
+    EDITTEXT        IDC_REGENTIMEEDIT,448,212,102,14,ES_CENTER | 
+                    ES_AUTOHSCROLL
+    CONTROL         "Spin6",IDC_REGENTIMESPIN,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS | UDS_NOTHOUSANDS | UDS_HOTTRACK,541,212,9,
+                    14
+    GROUPBOX        "Condition 1",IDC_CONDITION1GROUP,394,112,160,57,BS_LEFT
+    GROUPBOX        "Condition 2",IDC_CONDITION2GROUP,394,172,160,57
+    PUSHBUTTON      "Condition1 / Condition2 OK!!!",IDC_CONDITIONALLOK,389,
+                    250,170,14
+    GROUPBOX        "",IDC_ALLCONDITIONGROUP,389,104,170,146
+    PUSHBUTTON      "List View",IDC_LISTVIEW,389,268,85,14
+    PUSHBUTTON      "Delete Group",IDC_DELETEGROUP,474,268,85,14
+    PUSHBUTTON      "Add Condition",IDC_ADDCONDITION,394,228,160,14
+    PUSHBUTTON      "<<-- Extend -->>",IDC_EXTEND,391,11,161,14
+    GROUPBOX        "MonsterGrade",IDC_STATIC,389,79,170,26
+    CONTROL         "BasicMon",IDC_GRADE1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,395,91,49,10
+    CONTROL         "BossMon",IDC_GRADE2,"Button",BS_AUTORADIOBUTTON,448,91,
+                    47,10
+    CONTROL         "SpecialMon",IDC_GRADE3,"Button",BS_AUTORADIOBUTTON,500,
+                    91,54,10
+    PUSHBUTTON      "LoadMap",IDC_LOADMAPBTN,334,11,50,14
+END
+
+IDD_MONSTERLIST DIALOGEX 0, 0, 192, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Monster List Dialog"
+FONT 10, "System"
+BEGIN
+    LTEXT           "Select Monster",IDC_STATIC,8,8,50,8
+    LTEXT           "Text",IDC_STATIC,18,20,15,8
+    LTEXT           "Num",IDC_STATIC,18,35,16,8
+    LTEXT           "Selected Monster Date",IDC_STATIC,8,52,75,8
+    LTEXT           "Possesoin Item",IDC_STATIC,8,96,52,8
+    EDITTEXT        IDC_EDIT1,43,17,85,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,43,33,40,56,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,88,33,40,56,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "O K",IDC_BUTTON2,135,17,50,12
+    PUSHBUTTON      "O K",IDC_BUTTON3,135,33,50,12
+    EDITTEXT        IDC_EDIT2,13,65,80,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT3,93,65,42,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT4,135,65,50,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT5,13,77,80,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6,93,77,42,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7,135,77,50,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST1,13,106,172,95,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_DLGMODALFRAME
+END
+
+IDD_INMAP_MONSTER DIALOGEX 0, 0, 192, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "In Map Monster Dialog"
+FONT 10, "System"
+BEGIN
+    LTEXT           "Select Monster",IDC_STATIC,8,8,50,8
+    LTEXT           "Text",IDC_STATIC,18,20,15,8
+    LTEXT           "Num",IDC_STATIC,18,35,16,8
+    LTEXT           "Selected Monster Date",IDC_STATIC,8,52,75,8
+    LTEXT           "Seted Monster Map",IDC_STATIC,8,96,64,8
+    EDITTEXT        IDC_EDIT1,43,17,85,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,43,33,40,56,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,88,33,40,56,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "O K",IDC_BUTTON2,135,17,50,12
+    PUSHBUTTON      "O K",IDC_BUTTON3,135,33,50,12
+    EDITTEXT        IDC_EDIT2,13,65,80,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT3,93,65,42,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT4,135,65,50,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT5,13,77,80,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6,93,77,42,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7,135,77,50,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LISTBOX         IDC_LIST1,13,106,172,95,LBS_SORT | LBS_MULTIPLESEL | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_DLGMODALFRAME
+END
+
+IDD_MONSTERLISTVIEW DIALOG DISCARDABLE  0, 0, 316, 172
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MonsterListView"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_MONSTERLIST,7,7,302,141,LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Save",IDC_SAVEOK,178,151,65,14
+    PUSHBUTTON      "Close View",IDC_CLOSEVIEW,244,151,65,14
+    LTEXT           "Total Regen Count :",IDC_STATIC,9,151,65,8
+    LTEXT           "",IDC_TOTMONCOUNT,76,151,44,8
+END
+
+IDD_MAPSELECTDLG DIALOG DISCARDABLE  0, 0, 114, 58
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_SELECTMAP,13,18,88,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,7,37,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,57,37,50,14
+    GROUPBOX        "MapSelect",IDC_STATIC,7,7,100,44
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "RegenTool MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "RegenTool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "RegenTool.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "RegenTool 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_REGENTOOL_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 565
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 410
+    END
+
+    IDD_MONSTERLIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_INMAP_MONSTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_MONSTERLISTVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_MAPSELECTDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 107
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "RegenTool\n\nRegenT\n\n\nRegenTool.Document\nRegenT Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "RegenTool"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "새 문서를 작성합니다\n새 파일"
+    ID_FILE_OPEN            "기존 문서를 엽니다\n열기"
+    ID_FILE_CLOSE           "현재 열린 문서를 닫습니다\n닫기"
+    ID_FILE_SAVE            "현재 열린 문서를 저장합니다\n저장"
+    ID_FILE_SAVE_AS         "현재 열린 문서를 다른 이름으로 저장합니다\n다른 이름으로 저장"
+    ID_FILE_PAGE_SETUP      "인쇄 옵션을 변경합니다\n쪽 설정"
+    ID_FILE_PRINT_SETUP     "프린터와 인쇄 옵션을 변경합니다\n인쇄 설정"
+    ID_FILE_PRINT           "현재 열린 문서를 인쇄합니다\n인쇄"
+    ID_FILE_PRINT_PREVIEW   "쪽 전체를 표시합니다\n인쇄 미리 보기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "프로그램 정보와 버전 정보, 저작권 정보를 표시합니다\n정보"
+    ID_APP_EXIT             "응용 프로그램을 종료하기 위해 문서를 저장할 것인지 묻습니다\n종료"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE2       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE3       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE4       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE5       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE6       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE7       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE8       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE9       "이 문서를 엽니다"
+    ID_FILE_MRU_FILE10      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE11      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE12      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE13      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE14      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE15      "이 문서를 엽니다"
+    ID_FILE_MRU_FILE16      "이 문서를 엽니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "다음 창으로 전환합니다\n다음 창"
+    ID_PREV_PANE            "이전 창으로 전환합니다\n이전 창"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "현재 열린 창을 나눕니다\n나누기"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "선택 부분을 지웁니다\n지우기"
+    ID_EDIT_CLEAR_ALL       "모든 것을 지웁니다\n모두 지우기"
+    ID_EDIT_COPY            "선택 부분을 복사하여 클립보드에 넣습니다\n복사"
+    ID_EDIT_CUT             "선택 부분을 잘라내어 클립보드에 넣습니다\n잘라내기"
+    ID_EDIT_FIND            "지정한 문자열을 찾습니다\n찾기"
+    ID_EDIT_PASTE           "클립보드의 내용을 붙여 넣습니다\n붙여넣기"
+    ID_EDIT_REPEAT          "마지막으로 실행한 동작을 반복합니다\n반복"
+    ID_EDIT_REPLACE         "지정한 문자열을 다른 문자열로 바꿉니다\n바꾸기"
+    ID_EDIT_SELECT_ALL      "문서 전체를 선택합니다\n전체 선택"
+    ID_EDIT_UNDO            "마지막으로 한 동작을 취소합니다\n실행 취소"
+    ID_EDIT_REDO            "이전에 취소한 동작을 다시 수행합니다\n다시 실행"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "도구 모음을 보이거나 감춥니다\n도구 모음 전환"
+    ID_VIEW_STATUS_BAR      "상태 표시줄을 표시하거나 감춥니다\n상태 표시줄 전환"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다\n미리 보기 취소"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\RegenTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#include "l.kor\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

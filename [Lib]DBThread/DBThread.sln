@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DBThread", "DBThread.vcproj", "{48BA920F-78B7-4473-B098-5A1E82B0E64A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SolutionUniqueID = {91488976-A836-46B7-94A7-46E04F54621B}
+		SccProjectUniqueName1 = DBThread.vcproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{48BA920F-78B7-4473-B098-5A1E82B0E64A}.Debug.ActiveCfg = Debug|Win32
+		{48BA920F-78B7-4473-B098-5A1E82B0E64A}.Debug.Build.0 = Debug|Win32
+		{48BA920F-78B7-4473-B098-5A1E82B0E64A}.Release.ActiveCfg = Release|Win32
+		{48BA920F-78B7-4473-B098-5A1E82B0E64A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

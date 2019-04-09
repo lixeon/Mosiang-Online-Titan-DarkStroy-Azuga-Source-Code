@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 4DyuchiGX_Render - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/Script1.res" /d "_DEBUG" "D:\4dyuchigx\4DYUCHIGX_RENDER\Script1.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C8.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "MY4DYUCHIGX_RENDER_EXPORTS" /FR"Debug/" /Fp"Debug/4DyuchiGX_Render.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\4dyuchigx\4DYUCHIGX_RENDER\VLMeshObject.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3dx8.lib d3d8.lib /nologo /base:"0x64000000" /dll /incremental:yes /pdb:"../../4DyuchiDLL/4DyuchiGX_Debug/4DyuchiGXRenderer.pdb" /map:"../../4DyuchiDLL/4DyuchiGX_Debug/4DyuchiGXRenderer.map" /debug /machine:I386 /nodefaultlib:"LIBMMT.LIB" /def:".\4DyuchiGX_Render.def" /out:"../../4dyuchiDLL/4DyuchiGX_debug/4DyuchiGXRenderer.dll" /implib:"Debug/4DyuchiGXRenderer.lib" /pdbtype:sept 
+.\Debug\dllmain.obj
+.\Debug\factory.obj
+.\Debug\hashsearch.obj
+.\Debug\LMMeshObject.obj
+.\Debug\font.obj
+.\Debug\FontCache.obj
+.\Debug\FontHash.obj
+.\Debug\FontObject.obj
+.\Debug\PLMeshObject.obj
+.\Debug\VLMeshObject.obj
+.\Debug\VLSMeshObject.obj
+.\Debug\Base_facegroup.obj
+.\Debug\BaseFontObject.obj
+.\Debug\BaseMeshObject.obj
+.\Debug\CTexture.obj
+.\Debug\d3dtexture.obj
+.\Debug\IndexBuffer.obj
+.\Debug\LMFaceGRoup.obj
+.\Debug\RenderTexture.obj
+.\Debug\VertexBuffer.obj
+.\Debug\VLFaceGroup.obj
+.\Debug\HFieldManager.obj
+.\Debug\HFieldObject.obj
+.\Debug\3DSprite.obj
+.\Debug\BiiBoard.obj
+.\Debug\ImmMeshObject.obj
+.\Debug\circle.obj
+.\Debug\d3d_helper.obj
+.\Debug\image.obj
+.\Debug\TIF.OBJ
+.\Debug\VariableBuffer.obj
+.\Debug\CoD3DDevice.obj
+.\Debug\D3DResourceBufferHeap.obj
+.\Debug\D3DResourceManager.obj
+.\Debug\IBCache.obj
+.\Debug\IBHeap.obj
+.\Debug\MaterialManager.obj
+.\Debug\RenderTexturePool.obj
+.\Debug\StaticD3DResourcePool.obj
+.\Debug\StaticIBPool.obj
+.\Debug\StaticVBPool.obj
+.\Debug\texture_manager.obj
+.\Debug\VBCache.obj
+.\Debug\VBHeap.obj
+.\Debug\RenderQ.obj
+.\Debug\RenderTriBuffer.obj
+.\Debug\SpriteBuffer.obj
+.\Debug\TextBuffer.obj
+.\Debug\ProjectionLight.obj
+.\Debug\Script1.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+VLMeshObject.cpp
+D:\4dyuchigx\4DYUCHIGX_RENDER\VLMeshObject.cpp(190) : warning C4102: 'lb_render' : unreferenced label
+D:\4dyuchigx\4DYUCHIGX_RENDER\VLMeshObject.cpp(585) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DYUCHIGX_RENDER\VLMeshObject.cpp(708) : warning C4102: 'lb_return' : unreferenced label
+D:\4dyuchigx\4DYUCHIGX_RENDER\VLMeshObject.cpp(644) : warning C4102: 'lb_render' : unreferenced label
+Linking...
+   Creating library Debug/4DyuchiGXRenderer.lib and object Debug/4DyuchiGXRenderer.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CF.tmp" with contents
+[
+/nologo /o"Debug/4DyuchiGX_Render.bsc" 
+.\Debug\dllmain.sbr
+.\Debug\factory.sbr
+.\Debug\hashsearch.sbr
+.\Debug\LMMeshObject.sbr
+.\Debug\font.sbr
+.\Debug\FontCache.sbr
+.\Debug\FontHash.sbr
+.\Debug\FontObject.sbr
+.\Debug\PLMeshObject.sbr
+.\Debug\VLMeshObject.sbr
+.\Debug\VLSMeshObject.sbr
+.\Debug\Base_facegroup.sbr
+.\Debug\BaseFontObject.sbr
+.\Debug\BaseMeshObject.sbr
+.\Debug\CTexture.sbr
+.\Debug\d3dtexture.sbr
+.\Debug\IndexBuffer.sbr
+.\Debug\LMFaceGRoup.sbr
+.\Debug\RenderTexture.sbr
+.\Debug\VertexBuffer.sbr
+.\Debug\VLFaceGroup.sbr
+.\Debug\HFieldManager.sbr
+.\Debug\HFieldObject.sbr
+.\Debug\3DSprite.sbr
+.\Debug\BiiBoard.sbr
+.\Debug\ImmMeshObject.sbr
+.\Debug\circle.sbr
+.\Debug\d3d_helper.sbr
+.\Debug\image.sbr
+.\Debug\TIF.SBR
+.\Debug\VariableBuffer.sbr
+.\Debug\CoD3DDevice.sbr
+.\Debug\D3DResourceBufferHeap.sbr
+.\Debug\D3DResourceManager.sbr
+.\Debug\IBCache.sbr
+.\Debug\IBHeap.sbr
+.\Debug\MaterialManager.sbr
+.\Debug\RenderTexturePool.sbr
+.\Debug\StaticD3DResourcePool.sbr
+.\Debug\StaticIBPool.sbr
+.\Debug\StaticVBPool.sbr
+.\Debug\texture_manager.sbr
+.\Debug\VBCache.sbr
+.\Debug\VBHeap.sbr
+.\Debug\RenderQ.sbr
+.\Debug\RenderTriBuffer.sbr
+.\Debug\SpriteBuffer.sbr
+.\Debug\TextBuffer.sbr
+.\Debug\ProjectionLight.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CF.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+4DyuchiGXRenderer.dll - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

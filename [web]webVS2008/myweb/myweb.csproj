@@ -1,0 +1,1595 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0072A5BE-980C-48AD-9D96-DF77818FDCC0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>myweb</RootNamespace>
+    <AssemblyName>myweb</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.2.2106.29420, Culture=neutral, PublicKeyToken=4f86767c9b519a06" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\admincp.aspx" />
+    <Content Include="admin\Common\CSS\Default.CSS" />
+    <Content Include="admin\Common\CSS\menuStyle2003.css" />
+    <Content Include="admin\Common\CSS\menuStyleXP.css" />
+    <Content Include="admin\Common\Images\Demo\about.gif" />
+    <Content Include="admin\Common\Images\Demo\gouwu.gif" />
+    <Content Include="admin\Common\Images\Demo\Logo.gif" />
+    <Content Include="admin\Common\Images\Demo\ToolBarMenu.gif" />
+    <Content Include="admin\Common\Images\Office2003\arrow_down.gif" />
+    <Content Include="admin\Common\Images\Office2003\arrow_right.gif" />
+    <Content Include="admin\Common\Images\Office2003\gray.gif" />
+    <Content Include="admin\Common\Images\Office2003\group_background.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_clipboard.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_copy.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_cut.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_documentMap.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_exchangeFolder.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_fileSearch.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_find.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_font.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_headerFooter.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_help.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_mailRecipient.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_normal.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_outline.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_paragraph.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_paste.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_printPreview.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_routingRecipient.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_save.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_saveAsWebPage.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_tableOfContents.gif" />
+    <Content Include="admin\Common\Images\Office2003\icon_thumbnails.gif" />
+    <Content Include="admin\Common\Images\Office2003\ToolBarHeadLine.gif" />
+    <Content Include="admin\Common\Images\Office2003\toolbar_top_background.gif" />
+    <Content Include="admin\Common\Images\Office2003\toolbar_top_background1.gif" />
+    <Content Include="admin\Common\Images\Office2003\top_group_background.gif" />
+    <Content Include="admin\Common\Images\Office2003\top_group_outbackground.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\arrow_down.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\arrow_right.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\background.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\gray.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_addExistingItem.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_addExistingItem_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_addNewItem.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_addNewItem_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_CloseSolution.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_CloseSolution_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_completeWord.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_completeWord_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_copy.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_copy_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_cut.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_cut_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_delete.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_delete_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_file.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_fileFromWeb.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_fileFromWeb_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_file_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_listMembers.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_listMembers_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_new.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_new_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_open.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_OpenSolution.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_OpenSolution_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_open_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_parameterInfo.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_parameterInfo_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_paste.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_paste_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_project.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_projectFromWeb.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_projectFromWeb_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\icon_project_over.gif" />
+    <Content Include="admin\Common\Images\OfficeXP\ToolBarHeadLine.gif" />
+    <Content Include="admin\Common\JavaScript\Menu.js" />
+    <Content Include="admin\cpadmin.aspx" />
+    <Content Include="admin\cpagent.aspx" />
+    <Content Include="admin\cpagentlog.aspx" />
+    <Content Include="admin\cpalipay.aspx" />
+    <Content Include="admin\cpbuylog.aspx" />
+    <Content Include="admin\cpcharacter.aspx" />
+    <Content Include="admin\cpcharactercreatename.aspx" />
+    <Content Include="admin\cpdownload.aspx" />
+    <Content Include="admin\cpfunset.aspx" />
+    <Content Include="admin\cpgold.aspx" />
+    <Content Include="admin\cpguild.aspx" />
+    <Content Include="admin\cpincome.aspx" />
+    <Content Include="admin\cpitem.aspx" />
+    <Content Include="admin\cpitemtype.aspx" />
+    <Content Include="admin\cplink.aspx" />
+    <Content Include="admin\cplog.aspx" />
+    <Content Include="admin\cploginlog.aspx" />
+    <Content Include="admin\cpmaintenance.aspx" />
+    <Content Include="admin\cpmember.aspx" />
+    <Content Include="admin\cpnews.aspx" />
+    <Content Include="admin\cpnewstype.aspx" />
+    <Content Include="admin\cpnotice.aspx" />
+    <Content Include="admin\cpoperip.aspx" />
+    <Content Include="admin\cpregister.aspx" />
+    <Content Include="admin\cpsecurity.aspx" />
+    <Content Include="admin\cpsell.aspx" />
+    <Content Include="admin\cpserverinfo.aspx" />
+    <Content Include="admin\cpsql.aspx" />
+    <Content Include="admin\cptoolsip.aspx" />
+    <Content Include="admin\cpviewcharacter.aspx" />
+    <Content Include="admin\cpviewmember.aspx" />
+    <Content Include="admin\cpwebconfig.aspx" />
+    <Content Include="agent_alex_sky\account.aspx" />
+    <Content Include="agent_alex_sky\Common\CSS\Default.CSS" />
+    <Content Include="agent_alex_sky\Common\CSS\menuStyle2003.css" />
+    <Content Include="agent_alex_sky\Common\CSS\menuStyleXP.css" />
+    <Content Include="agent_alex_sky\Common\Images\Demo\about.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Demo\gouwu.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Demo\Logo.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Demo\ToolBarMenu.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\arrow_down.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\arrow_right.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\gray.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\group_background.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_clipboard.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_copy.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_cut.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_documentMap.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_exchangeFolder.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_fileSearch.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_find.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_font.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_headerFooter.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_help.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_mailRecipient.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_normal.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_outline.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_paragraph.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_paste.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_printPreview.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_routingRecipient.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_save.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_saveAsWebPage.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_tableOfContents.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\icon_thumbnails.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\ToolBarHeadLine.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\toolbar_top_background.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\toolbar_top_background1.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\top_group_background.gif" />
+    <Content Include="agent_alex_sky\Common\Images\Office2003\top_group_outbackground.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\arrow_down.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\arrow_right.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\background.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\gray.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_addExistingItem.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_addExistingItem_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_addNewItem.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_addNewItem_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_CloseSolution.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_CloseSolution_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_completeWord.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_completeWord_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_copy.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_copy_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_cut.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_cut_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_delete.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_delete_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_file.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_fileFromWeb.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_fileFromWeb_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_file_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_listMembers.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_listMembers_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_new.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_new_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_open.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_OpenSolution.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_OpenSolution_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_open_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_parameterInfo.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_parameterInfo_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_paste.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_paste_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_project.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_projectFromWeb.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_projectFromWeb_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\icon_project_over.gif" />
+    <Content Include="agent_alex_sky\Common\Images\OfficeXP\ToolBarHeadLine.gif" />
+    <Content Include="agent_alex_sky\Common\JavaScript\Menu.js" />
+    <Content Include="agent_alex_sky\default.aspx" />
+    <Content Include="agent_alex_sky\gold.aspx" />
+    <Content Include="agent_alex_sky\log.aspx" />
+    <Content Include="agent_alex_sky\searchuserid.aspx" />
+    <Content Include="agent_alex_sky\viewcharacter.aspx" />
+    <Content Include="config\country-ipv4-twsg.lst" />
+    <Content Include="config\country-ipv4.lst" />
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="web\addpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\admincp.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpadmin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpagent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpagentlog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpalipay.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpbuylog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpcharacter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpcharactercreatename.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpdownload.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpfunset.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpgold.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpguild.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpincome.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpitem.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpitemtype.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cplink.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cplog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cploginlog.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpmaintenance.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpmember.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpnews.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpnewstype.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpnotice.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpoperip.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cppsuser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cppublicsale.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpregister.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpsecurity.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpsell.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpserverinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpsql.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cptoolsip.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpviewcharacter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpviewmember.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\cpwebconfig.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\admin\viewonlinecount.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\account.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\gold.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\log.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\searchuserid.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\viewcharacter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agent\_default.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\agreement.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\AliPay.cs" />
+    <Compile Include="web\Alipay_Notify.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Alipay_Return.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\AllowIP.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_addpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_agent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_bank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_changeinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_characterreset.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_clearpk.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_commendgift.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_commendlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_default.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_download.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_forgetpassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_goldtomoney.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_guild.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_hero.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_itemlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_modifychaname.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_modifypassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_newslist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_pay.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_petlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_psinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_publicsale.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_register.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_resetpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_shop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_skilllevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_viewagent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\baby_viewnews.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\bank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\buy.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\changeinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\characterreset.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\clearpk.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\commendgift.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\commendlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\addpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\agent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\agentlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\agentmenu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\agenttop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\baby_agentlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\baby_login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\baby_memberfun.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\baby_top.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\bank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\changeinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\chareset.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\clearpk.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\commendgift.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\commendlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\cpfoot.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\cpmenu.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\cptop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\donaterank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\download.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\foot.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\forgotpassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\goldtomoney.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\guild.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\hero.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\itemlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\itemtogold.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\memberfun.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\menudownloadlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\menunewslist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\menunewstypelist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\modifychaname.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\modifypassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\newagentlist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\newslist.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\newslist1.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\pay.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\petlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\psinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\publicsale.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\register.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\resetpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\shop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\skilllevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\smalltop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\top.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\control\viewnews.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\DataProviders.cs" />
+    <Compile Include="web\donaterank.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\download.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\forgetpassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\Global.cs" />
+    <Compile Include="web\goldtomoney.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\guild.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\hero.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\itemlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\itemtogold.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\login.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\modifychaname.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\modifypassword.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\notice.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\pay.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\petlevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\psinfo.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\register.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\resetpoint.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\shop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\skilllevelup.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\system.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\tool.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\tw.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uniteguild.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\uniteserver.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\VerifyCode.cs" />
+    <Compile Include="web\VerifyCodePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\viewagent.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\viewnews.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\WebLogic.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="web\XmlControl.cs" />
+    <Compile Include="web\_Default.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.htm" />
+    <Content Include="addpoint.aspx" />
+    <Content Include="agentlist.aspx" />
+    <Content Include="agreement.aspx" />
+    <Content Include="Alipay_Notify.aspx" />
+    <Content Include="Alipay_Return.aspx" />
+    <Content Include="bank.aspx" />
+    <Content Include="buy.aspx" />
+    <Content Include="changeinfo.aspx" />
+    <Content Include="characterreset.aspx" />
+    <Content Include="clearpk.aspx" />
+    <Content Include="commendgift.aspx" />
+    <Content Include="commendlist.aspx" />
+    <Content Include="config\agentmenu.config" />
+    <Content Include="config\config.config" />
+    <Content Include="config\cpmenu.config" />
+    <Content Include="config\cpmenu_kf.config" />
+    <Content Include="config\menu.config" />
+    <Content Include="control\addpoint.ascx" />
+    <Content Include="control\agent.ascx" />
+    <Content Include="control\agentlist.ascx" />
+    <Content Include="control\agentmenu.ascx" />
+    <Content Include="control\agenttop.ascx" />
+    <Content Include="control\bank.ascx" />
+    <Content Include="control\changeinfo.ascx" />
+    <Content Include="control\chareset.ascx" />
+    <Content Include="control\clearpk.ascx" />
+    <Content Include="control\commendgift.ascx" />
+    <Content Include="control\commendlist.ascx" />
+    <Content Include="control\cpfoot.ascx" />
+    <Content Include="control\cpmenu.ascx" />
+    <Content Include="control\cptop.ascx" />
+    <Content Include="control\download.ascx" />
+    <Content Include="control\foot.ascx" />
+    <Content Include="control\forgotpassword.ascx" />
+    <Content Include="control\goldtomoney.ascx" />
+    <Content Include="control\guild.ascx" />
+    <Content Include="control\hero.ascx" />
+    <Content Include="control\itemtogold.ascx" />
+    <Content Include="control\link.ascx" />
+    <Content Include="control\login.ascx" />
+    <Content Include="control\memberfun.ascx" />
+    <Content Include="control\menudownloadlist.ascx" />
+    <Content Include="control\menuhero.ascx" />
+    <Content Include="control\menunewslist.ascx" />
+    <Content Include="control\menunewstypelist.ascx" />
+    <Content Include="control\modifychaname.ascx" />
+    <Content Include="control\modifypassword.ascx" />
+    <Content Include="control\newagentlist.ascx" />
+    <Content Include="control\newslist.ascx" />
+    <Content Include="control\pay.ascx" />
+    <Content Include="control\petlevelup.ascx" />
+    <Content Include="control\register.ascx" />
+    <Content Include="control\resetpoint.ascx" />
+    <Content Include="control\shop.ascx" />
+    <Content Include="control\skilllevelup.ascx" />
+    <Content Include="control\smalltop.ascx" />
+    <Content Include="control\top.ascx" />
+    <Content Include="control\viewnews.ascx" />
+    <Content Include="control\复件 newagentlist.ascx" />
+    <Content Include="control\复件 pay.ascx" />
+    <Content Include="default2.htm" />
+    <Content Include="default_.htm" />
+    <Content Include="download.aspx" />
+    <Content Include="FCKeditor\editor\css\behaviors\disablehandles.htc" />
+    <Content Include="FCKeditor\editor\css\behaviors\showtableborders.htc" />
+    <Content Include="FCKeditor\editor\css\fck_editorarea.css" />
+    <Content Include="FCKeditor\editor\css\fck_internal.css" />
+    <Content Include="FCKeditor\editor\css\fck_showtableborders_gecko.css" />
+    <Content Include="FCKeditor\editor\css\images\fck_anchor.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_flashlogo.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_hiddenfield.gif" />
+    <Content Include="FCKeditor\editor\css\images\fck_pagebreak.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\fcknumericfield.htc" />
+    <Content Include="FCKeditor\editor\dialog\common\fck_dialog_common.css" />
+    <Content Include="FCKeditor\editor\dialog\common\fck_dialog_common.js" />
+    <Content Include="FCKeditor\editor\dialog\common\images\locked.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\images\reset.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\images\unlocked.gif" />
+    <Content Include="FCKeditor\editor\dialog\common\moz-bindings.xml" />
+    <Content Include="FCKeditor\editor\dialog\fck_about.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_about\logo_fckeditor.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_about\logo_fredck.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_anchor.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_button.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_checkbox.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_colorselector.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_docprops.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_docprops\fck_document_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_find.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash\fck_flash.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_flash\fck_flash_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_form.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_hiddenfield.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_image.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_image\fck_image.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_image\fck_image_preview.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_link.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_link\fck_link.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_listprop.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_paste.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_radiobutton.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_replace.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_select.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_select\fck_select.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_smiley.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_source.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_specialchar.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\blank.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\controls.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\controlWindow.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellchecker.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellChecker.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\spellerStyle.css" />
+    <Content Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\wordWindow.js" />
+    <Content Include="FCKeditor\editor\dialog\fck_table.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_tablecell.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_template.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template1.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template2.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_template\images\template3.gif" />
+    <Content Include="FCKeditor\editor\dialog\fck_textarea.html" />
+    <Content Include="FCKeditor\editor\dialog\fck_textfield.html" />
+    <Content Include="FCKeditor\editor\fckdebug.html" />
+    <Content Include="FCKeditor\editor\fckdialog.html" />
+    <Content Include="FCKeditor\editor\fckeditor.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\browser.css" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\browser.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\connectors\aspx\connector.aspx" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmactualfolder.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmcreatefolder.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmfolders.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmresourceslist.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmresourcetype.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\frmupload.html" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\ButtonArrow.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\Folder.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\Folder32.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\FolderOpened.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\FolderOpened32.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\FolderUp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\ai.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\avi.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\bmp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\cs.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\default.icon.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\dll.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\doc.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\exe.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\fla.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\gif.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\htm.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\html.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\jpg.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\js.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\mdb.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\mp3.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\pdf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\png.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\ppt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\rdp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\swf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\swt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\txt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\vsd.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\xls.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\xml.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\32\zip.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\ai.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\avi.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\bmp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\cs.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\default.icon.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\dll.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\doc.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\exe.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\fla.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\gif.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\htm.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\html.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\jpg.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\js.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\mdb.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\mp3.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\pdf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\png.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\ppt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\rdp.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\swf.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\swt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\txt.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\vsd.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\xls.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\xml.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\icons\zip.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\images\spacer.gif" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\js\common.js" />
+    <Content Include="FCKeditor\editor\filemanager\browser\default_.aspx\js\fckxml.js" />
+    <Content Include="FCKeditor\editor\filemanager\upload\aspx\upload.xml" />
+    <Content Include="FCKeditor\editor\images\anchor.gif" />
+    <Content Include="FCKeditor\editor\images\arrow_ltr.gif" />
+    <Content Include="FCKeditor\editor\images\arrow_rtl.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\angel_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\angry_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\broken_heart.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\cake.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\confused_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\cry_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\devil_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\embaressed_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\envelope.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\heart.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\kiss.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\lightbulb.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\omg_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\regular_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\sad_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\shades_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\teeth_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\thumbs_down.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\thumbs_up.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\tounge_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\whatchutalkingabout_smile.gif" />
+    <Content Include="FCKeditor\editor\images\smiley\msn\wink_smile.gif" />
+    <Content Include="FCKeditor\editor\images\spacer.gif" />
+    <Content Include="FCKeditor\editor\js\fckeditorcode_gecko.js" />
+    <Content Include="FCKeditor\editor\js\fckeditorcode_ie.js" />
+    <Content Include="FCKeditor\editor\lang\af.js" />
+    <Content Include="FCKeditor\editor\lang\ar.js" />
+    <Content Include="FCKeditor\editor\lang\bg.js" />
+    <Content Include="FCKeditor\editor\lang\bn.js" />
+    <Content Include="FCKeditor\editor\lang\bs.js" />
+    <Content Include="FCKeditor\editor\lang\ca.js" />
+    <Content Include="FCKeditor\editor\lang\cs.js" />
+    <Content Include="FCKeditor\editor\lang\da.js" />
+    <Content Include="FCKeditor\editor\lang\de.js" />
+    <Content Include="FCKeditor\editor\lang\el.js" />
+    <Content Include="FCKeditor\editor\lang\en-au.js" />
+    <Content Include="FCKeditor\editor\lang\en-ca.js" />
+    <Content Include="FCKeditor\editor\lang\en-uk.js" />
+    <Content Include="FCKeditor\editor\lang\en.js" />
+    <Content Include="FCKeditor\editor\lang\eo.js" />
+    <Content Include="FCKeditor\editor\lang\es.js" />
+    <Content Include="FCKeditor\editor\lang\et.js" />
+    <Content Include="FCKeditor\editor\lang\eu.js" />
+    <Content Include="FCKeditor\editor\lang\fa.js" />
+    <Content Include="FCKeditor\editor\lang\fi.js" />
+    <Content Include="FCKeditor\editor\lang\fo.js" />
+    <Content Include="FCKeditor\editor\lang\fr.js" />
+    <Content Include="FCKeditor\editor\lang\gl.js" />
+    <Content Include="FCKeditor\editor\lang\he.js" />
+    <Content Include="FCKeditor\editor\lang\hi.js" />
+    <Content Include="FCKeditor\editor\lang\hr.js" />
+    <Content Include="FCKeditor\editor\lang\hu.js" />
+    <Content Include="FCKeditor\editor\lang\it.js" />
+    <Content Include="FCKeditor\editor\lang\ja.js" />
+    <Content Include="FCKeditor\editor\lang\km.js" />
+    <Content Include="FCKeditor\editor\lang\ko.js" />
+    <Content Include="FCKeditor\editor\lang\lt.js" />
+    <Content Include="FCKeditor\editor\lang\lv.js" />
+    <Content Include="FCKeditor\editor\lang\mn.js" />
+    <Content Include="FCKeditor\editor\lang\ms.js" />
+    <Content Include="FCKeditor\editor\lang\nb.js" />
+    <Content Include="FCKeditor\editor\lang\nl.js" />
+    <Content Include="FCKeditor\editor\lang\no.js" />
+    <Content Include="FCKeditor\editor\lang\pl.js" />
+    <Content Include="FCKeditor\editor\lang\pt-br.js" />
+    <Content Include="FCKeditor\editor\lang\pt.js" />
+    <Content Include="FCKeditor\editor\lang\ro.js" />
+    <Content Include="FCKeditor\editor\lang\ru.js" />
+    <Content Include="FCKeditor\editor\lang\sk.js" />
+    <Content Include="FCKeditor\editor\lang\sl.js" />
+    <Content Include="FCKeditor\editor\lang\sr-latn.js" />
+    <Content Include="FCKeditor\editor\lang\sr.js" />
+    <Content Include="FCKeditor\editor\lang\sv.js" />
+    <Content Include="FCKeditor\editor\lang\th.js" />
+    <Content Include="FCKeditor\editor\lang\tr.js" />
+    <Content Include="FCKeditor\editor\lang\uk.js" />
+    <Content Include="FCKeditor\editor\lang\vi.js" />
+    <Content Include="FCKeditor\editor\lang\zh-cn.js" />
+    <Content Include="FCKeditor\editor\lang\zh.js" />
+    <Content Include="FCKeditor\editor\lang\_getfontformat.html" />
+    <Content Include="FCKeditor\editor\plugins\autogrow\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\fck_placeholder.html" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\de.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\en.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\fr.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\it.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\lang\pl.js" />
+    <Content Include="FCKeditor\editor\plugins\placeholder\placeholder.gif" />
+    <Content Include="FCKeditor\editor\plugins\simplecommands\fckplugin.js" />
+    <Content Include="FCKeditor\editor\plugins\tablecommands\fckplugin.js" />
+    <Content Include="FCKeditor\editor\skins\default\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\default\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\default\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\default\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\office2003\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.bg.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\office2003\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_dialog.css" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_editor.css" />
+    <Content Include="FCKeditor\editor\skins\silver\fck_strip.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.arrowright.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.buttonarrow.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.buttonbg.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.collapse.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.end.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.expand.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.separator.gif" />
+    <Content Include="FCKeditor\editor\skins\silver\images\toolbar.start.gif" />
+    <Content Include="FCKeditor\editor\skins\_fckviewstrips.html" />
+    <Content Include="FCKeditor\fckconfig.js" />
+    <Content Include="FCKeditor\fckeditor.js" />
+    <Content Include="FCKeditor\fckstyles.xml" />
+    <Content Include="FCKeditor\fcktemplates.xml" />
+    <Content Include="forgetpassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="goldtomoney.aspx" />
+    <Content Include="guild.aspx" />
+    <Content Include="hero.aspx" />
+    <Content Include="images\0925179.jpg" />
+    <Content Include="images\1019581733.jpg" />
+    <Content Include="images\1117238334_80960.jpg" />
+    <Content Include="images\admin\admincp.css" />
+    <Content Include="images\admin\bg_list.gif" />
+    <Content Include="images\admin\cplogo.gif" />
+    <Content Include="images\admin\menu_add.gif" />
+    <Content Include="images\admin\menu_reduce.gif" />
+    <Content Include="images\arrow.gif" />
+    <Content Include="images\arrow2.gif" />
+    <Content Include="images\bg.gif" />
+    <Content Include="images\bg1.gif" />
+    <Content Include="images\bgline.gif" />
+    <Content Include="images\bgline1.gif" />
+    <Content Include="images\bg_btn.gif" />
+    <Content Include="images\bg_btn_buy.gif" />
+    <Content Include="images\bg_col.gif" />
+    <Content Include="images\bg_login.gif" />
+    <Content Include="images\bg_logincol.gif" />
+    <Content Include="images\bg_page.gif" />
+    <Content Include="images\bg_secondmenu.gif" />
+    <Content Include="images\bg_tips.gif" />
+    <Content Include="images\bg_tipstext.gif" />
+    <Content Include="images\bg_userwelcom.gif" />
+    <Content Include="images\bot_bg.gif" />
+    <Content Include="images\bot_bg1.gif" />
+    <Content Include="images\box_bg.jpg" />
+    <Content Include="images\box_bottom_blue.gif" />
+    <Content Include="images\box_bottom_yellow.gif" />
+    <Content Include="images\box_bottom_yellow.jpg" />
+    <Content Include="images\box_center_blue.gif" />
+    <Content Include="images\box_center_blue.jpg" />
+    <Content Include="images\box_center_z.gif" />
+    <Content Include="images\box_center_z.jpg" />
+    <Content Include="images\box_top2_blue.gif" />
+    <Content Include="images\box_top_blue.gif" />
+    <Content Include="images\box_top_yellow.gif" />
+    <Content Include="images\btnLogin.gif" />
+    <Content Include="images\btn_forget.gif" />
+    <Content Include="images\btn_login.gif" />
+    <Content Include="images\btn_reg.gif" />
+    <Content Include="images\button_homepage.jpg" />
+    <Content Include="images\center_bg.gif" />
+    <Content Include="images\center_bg.jpg" />
+    <Content Include="images\click.htm" />
+    <Content Include="images\col_bbs.gif" />
+    <Content Include="images\col_bbs.jpg" />
+    <Content Include="images\col_bg.gif" />
+    <Content Include="images\col_buy.gif" />
+    <Content Include="images\col_download.gif" />
+    <Content Include="images\col_login.gif" />
+    <Content Include="images\cplogo.gif" />
+    <Content Include="images\download.gif" />
+    <Content Include="images\faq_01.jpg" />
+    <Content Include="images\faq_02.jpg" />
+    <Content Include="images\faq_03.jpg" />
+    <Content Include="images\faq_04.jpg" />
+    <Content Include="images\foa.css" />
+    <Content Include="images\footer.gif" />
+    <Content Include="images\frame.gif" />
+    <Content Include="images\gold_bottom_blue.jpg" />
+    <Content Include="images\gold_center_blue.jpg" />
+    <Content Include="images\gold_top2_blue.jpg" />
+    <Content Include="images\gold_top_blue.jpg" />
+    <Content Include="images\head.html" />
+    <Content Include="images\head_01.gif" />
+    <Content Include="images\head_01.jpg" />
+    <Content Include="images\head_010.jpg" />
+    <Content Include="images\head_011.jpg" />
+    <Content Include="images\head_012.jpg" />
+    <Content Include="images\head_013.jpg" />
+    <Content Include="images\head_014.jpg" />
+    <Content Include="images\head_015.gif" />
+    <Content Include="images\head_015.jpg" />
+    <Content Include="images\head_02.gif" />
+    <Content Include="images\head_02.jpg" />
+    <Content Include="images\head_06_bg_gezi.jpg" />
+    <Content Include="images\head_06_bg_hua.jpg" />
+    <Content Include="images\icon_leftmenu_blue.gif" />
+    <Content Include="images\icon_leftmenu_blue1.gif" />
+    <Content Include="images\icon_leftmenu_purple.gif" />
+    <Content Include="images\icon_leftmenu_purple1.gif" />
+    <Content Include="images\icon_leftmenu_red.gif" />
+    <Content Include="images\icon_leftmenu_red1.gif" />
+    <Content Include="images\icon_leftmenu_red2.gif" />
+    <Content Include="images\icon_step.gif" />
+    <Content Include="images\item\10102.jpg" />
+    <Content Include="images\item\10103.jpg" />
+    <Content Include="images\item\10124.jpg" />
+    <Content Include="images\item\10125.jpg" />
+    <Content Include="images\item\10126.jpg" />
+    <Content Include="images\item\10127.jpg" />
+    <Content Include="images\item\10130.jpg" />
+    <Content Include="images\item\10131.jpg" />
+    <Content Include="images\item\10138.jpg" />
+    <Content Include="images\item\10139.jpg" />
+    <Content Include="images\item\10140.jpg" />
+    <Content Include="images\item\10141.jpg" />
+    <Content Include="images\item\10142.jpg" />
+    <Content Include="images\item\10143.jpg" />
+    <Content Include="images\item\10164.jpg" />
+    <Content Include="images\item\10165.jpg" />
+    <Content Include="images\item\10166.jpg" />
+    <Content Include="images\item\10167.jpg" />
+    <Content Include="images\item\10170.jpg" />
+    <Content Include="images\item\10171.jpg" />
+    <Content Include="images\item\10176.jpg" />
+    <Content Include="images\item\10177.jpg" />
+    <Content Include="images\item\10178.jpg" />
+    <Content Include="images\item\10179.jpg" />
+    <Content Include="images\item\10180.jpg" />
+    <Content Include="images\item\10181.jpg" />
+    <Content Include="images\item\10182.jpg" />
+    <Content Include="images\item\10183.jpg" />
+    <Content Include="images\item\10400.jpg" />
+    <Content Include="images\item\10401.jpg" />
+    <Content Include="images\item\10402.jpg" />
+    <Content Include="images\item\10403.jpg" />
+    <Content Include="images\item\10404.jpg" />
+    <Content Include="images\item\10406.jpg" />
+    <Content Include="images\item\10407.jpg" />
+    <Content Include="images\item\10408.jpg" />
+    <Content Include="images\item\10409.jpg" />
+    <Content Include="images\item\10411.jpg" />
+    <Content Include="images\item\10412.jpg" />
+    <Content Include="images\item\10413.jpg" />
+    <Content Include="images\item\10414.jpg" />
+    <Content Include="images\item\10416.jpg" />
+    <Content Include="images\item\10500.jpg" />
+    <Content Include="images\item\10501.jpg" />
+    <Content Include="images\item\10600.jpg" />
+    <Content Include="images\item\10601.jpg" />
+    <Content Include="images\item\10802.jpg" />
+    <Content Include="images\item\10805.jpg" />
+    <Content Include="images\item\10808.jpg" />
+    <Content Include="images\item\10811.jpg" />
+    <Content Include="images\item\10814.jpg" />
+    <Content Include="images\item\10817.jpg" />
+    <Content Include="images\item\10820.jpg" />
+    <Content Include="images\item\10823.jpg" />
+    <Content Include="images\item\10826.jpg" />
+    <Content Include="images\item\11220.jpg" />
+    <Content Include="images\item\13210.jpg" />
+    <Content Include="images\item\15210.jpg" />
+    <Content Include="images\item\17210.jpg" />
+    <Content Include="images\item\19210.jpg" />
+    <Content Include="images\item\21210.jpg" />
+    <Content Include="images\item\29012.jpg" />
+    <Content Include="images\item\30012.jpg" />
+    <Content Include="images\item\31012.jpg" />
+    <Content Include="images\item\32012.jpg" />
+    <Content Include="images\item\33012.jpg" />
+    <Content Include="images\item\35004.jpg" />
+    <Content Include="images\item\35005.jpg" />
+    <Content Include="images\item\37089.jpg" />
+    <Content Include="images\item\37099.jpg" />
+    <Content Include="images\item\37109.jpg" />
+    <Content Include="images\item\37119.jpg" />
+    <Content Include="images\item\37120.jpg" />
+    <Content Include="images\item\37185.jpg" />
+    <Content Include="images\item\37195.jpg" />
+    <Content Include="images\item\37205.jpg" />
+    <Content Include="images\item\37215.jpg" />
+    <Content Include="images\item\37216.jpg" />
+    <Content Include="images\item\40000.jpg" />
+    <Content Include="images\item\40001.jpg" />
+    <Content Include="images\item\40002.jpg" />
+    <Content Include="images\item\40003.jpg" />
+    <Content Include="images\item\40004.jpg" />
+    <Content Include="images\item\40005.jpg" />
+    <Content Include="images\item\40006.jpg" />
+    <Content Include="images\item\40007.jpg" />
+    <Content Include="images\item\40012.jpg" />
+    <Content Include="images\item\40013.jpg" />
+    <Content Include="images\item\40014.jpg" />
+    <Content Include="images\item\40015.jpg" />
+    <Content Include="images\item\40016.jpg" />
+    <Content Include="images\item\40017.jpg" />
+    <Content Include="images\item\40018.jpg" />
+    <Content Include="images\item\40019.jpg" />
+    <Content Include="images\item\40040.jpg" />
+    <Content Include="images\item\40041.jpg" />
+    <Content Include="images\item\40042.jpg" />
+    <Content Include="images\item\40043.jpg" />
+    <Content Include="images\item\40046.jpg" />
+    <Content Include="images\item\40047.jpg" />
+    <Content Include="images\item\40052.jpg" />
+    <Content Include="images\item\40053.jpg" />
+    <Content Include="images\item\40054.jpg" />
+    <Content Include="images\item\40056.jpg" />
+    <Content Include="images\item\40057.jpg" />
+    <Content Include="images\item\40058.jpg" />
+    <Content Include="images\item\40059.jpg" />
+    <Content Include="images\item\50105.jpg" />
+    <Content Include="images\item\53032.JPG" />
+    <Content Include="images\item\53223.JPG" />
+    <Content Include="images\item\53372.jpg" />
+    <Content Include="images\item\55113.jpg" />
+    <Content Include="images\item\55114.jpg" />
+    <Content Include="images\item\55115.jpg" />
+    <Content Include="images\item\55116.jpg" />
+    <Content Include="images\item\55120.jpg" />
+    <Content Include="images\item\55121.jpg" />
+    <Content Include="images\item\55122.jpg" />
+    <Content Include="images\item\55123.jpg" />
+    <Content Include="images\item\55124.jpg" />
+    <Content Include="images\item\55125.jpg" />
+    <Content Include="images\item\55126.jpg" />
+    <Content Include="images\item\55127.jpg" />
+    <Content Include="images\item\55128.jpg" />
+    <Content Include="images\item\55132.jpg" />
+    <Content Include="images\item\55133.jpg" />
+    <Content Include="images\item\55138.jpg" />
+    <Content Include="images\item\55139.jpg" />
+    <Content Include="images\item\55140.jpg" />
+    <Content Include="images\item\55141.jpg" />
+    <Content Include="images\item\55146.jpg" />
+    <Content Include="images\item\55147.jpg" />
+    <Content Include="images\item\55165.jpg" />
+    <Content Include="images\item\55303.jpg" />
+    <Content Include="images\item\55321.jpg" />
+    <Content Include="images\item\55322.jpg" />
+    <Content Include="images\item\55331.jpg" />
+    <Content Include="images\item\55341.jpg" />
+    <Content Include="images\item\55351.jpg" />
+    <Content Include="images\item\55352.jpg" />
+    <Content Include="images\item\55354.jpg" />
+    <Content Include="images\item\55355.jpg" />
+    <Content Include="images\item\55357.jpg" />
+    <Content Include="images\item\55358.jpg" />
+    <Content Include="images\item\55359.jpg" />
+    <Content Include="images\item\55360.jpg" />
+    <Content Include="images\item\55361.jpg" />
+    <Content Include="images\item\55364.jpg" />
+    <Content Include="images\item\55365.jpg" />
+    <Content Include="images\item\55382.jpg" />
+    <Content Include="images\item\55407.jpg" />
+    <Content Include="images\item\55408.jpg" />
+    <Content Include="images\item\55409.jpg" />
+    <Content Include="images\item\55410.jpg" />
+    <Content Include="images\item\55411.jpg" />
+    <Content Include="images\item\55412.jpg" />
+    <Content Include="images\item\55501.jpg" />
+    <Content Include="images\item\55502.jpg" />
+    <Content Include="images\item\55521.jpg" />
+    <Content Include="images\item\55528.jpg" />
+    <Content Include="images\item\55529.jpg" />
+    <Content Include="images\item\55530.jpg" />
+    <Content Include="images\item\55531.jpg" />
+    <Content Include="images\item\55532.jpg" />
+    <Content Include="images\item\55535.jpg" />
+    <Content Include="images\item\55536.jpg" />
+    <Content Include="images\item\55538.jpg" />
+    <Content Include="images\item\55540.jpg" />
+    <Content Include="images\item\55548.jpg" />
+    <Content Include="images\item\55556.jpg" />
+    <Content Include="images\item\55557.jpg" />
+    <Content Include="images\item\55559.jpg" />
+    <Content Include="images\item\55560.jpg" />
+    <Content Include="images\item\55561.jpg" />
+    <Content Include="images\item\55601.jpg" />
+    <Content Include="images\item\55621.jpg" />
+    <Content Include="images\item\55622.jpg" />
+    <Content Include="images\item\55631.jpg" />
+    <Content Include="images\item\55633.jpg" />
+    <Content Include="images\item\55634.jpg" />
+    <Content Include="images\item\55635.jpg" />
+    <Content Include="images\item\55636.jpg" />
+    <Content Include="images\item\55637.jpg" />
+    <Content Include="images\item\55638.jpg" />
+    <Content Include="images\item\55640.jpg" />
+    <Content Include="images\item\55641.jpg" />
+    <Content Include="images\item\55642.jpg" />
+    <Content Include="images\item\55646.jpg" />
+    <Content Include="images\item\55901.jpg" />
+    <Content Include="images\item\55902.jpg" />
+    <Content Include="images\item\55903.jpg" />
+    <Content Include="images\item\55904.jpg" />
+    <Content Include="images\item\55908.jpg" />
+    <Content Include="images\item\55909.jpg" />
+    <Content Include="images\item\56047.jpg" />
+    <Content Include="images\item\56048.jpg" />
+    <Content Include="images\item\57501.jpg" />
+    <Content Include="images\item\57504.jpg" />
+    <Content Include="images\item\57508.jpg" />
+    <Content Include="images\item\57516.jpg" />
+    <Content Include="images\item\57518.jpg" />
+    <Content Include="images\item\57520.jpg" />
+    <Content Include="images\item\57522.jpg" />
+    <Content Include="images\item\57524.jpg" />
+    <Content Include="images\item\57526.jpg" />
+    <Content Include="images\item\57542.jpg" />
+    <Content Include="images\item\57543.jpg" />
+    <Content Include="images\item\57544.jpg" />
+    <Content Include="images\item\57548.jpg" />
+    <Content Include="images\item\57557.jpg" />
+    <Content Include="images\item\57558.jpg" />
+    <Content Include="images\item\57562.jpg" />
+    <Content Include="images\item\57563.jpg" />
+    <Content Include="images\item\57566.jpg" />
+    <Content Include="images\item\57567.jpg" />
+    <Content Include="images\item\57568.jpg" />
+    <Content Include="images\item\57569.jpg" />
+    <Content Include="images\item\57572.jpg" />
+    <Content Include="images\item\57595.jpg" />
+    <Content Include="images\item\57596.jpg" />
+    <Content Include="images\item\57597.jpg" />
+    <Content Include="images\item\57598.jpg" />
+    <Content Include="images\item\57603.jpg" />
+    <Content Include="images\item\57617.jpg" />
+    <Content Include="images\item\57619.jpg" />
+    <Content Include="images\item\57621.jpg" />
+    <Content Include="images\item\57623.jpg" />
+    <Content Include="images\item\57625.jpg" />
+    <Content Include="images\item\57627.jpg" />
+    <Content Include="images\item\57629.jpg" />
+    <Content Include="images\item\57631.jpg" />
+    <Content Include="images\item\57633.jpg" />
+    <Content Include="images\item\57635.jpg" />
+    <Content Include="images\item\57637.jpg" />
+    <Content Include="images\item\57639.jpg" />
+    <Content Include="images\item\57640.jpg" />
+    <Content Include="images\item\57641.jpg" />
+    <Content Include="images\item\57643.jpg" />
+    <Content Include="images\item\57644.jpg" />
+    <Content Include="images\item\57645.jpg" />
+    <Content Include="images\item\57646.jpg" />
+    <Content Include="images\item\57655.jpg" />
+    <Content Include="images\item\57658.jpg" />
+    <Content Include="images\item\57661.jpg" />
+    <Content Include="images\item\57664.jpg" />
+    <Content Include="images\item\57666.jpg" />
+    <Content Include="images\item\57669.jpg" />
+    <Content Include="images\item\57670.jpg" />
+    <Content Include="images\item\57673.jpg" />
+    <Content Include="images\item\57674.jpg" />
+    <Content Include="images\item\57676.jpg" />
+    <Content Include="images\item\57677.jpg" />
+    <Content Include="images\item\57678.jpg" />
+    <Content Include="images\item\57679.jpg" />
+    <Content Include="images\item\57680.jpg" />
+    <Content Include="images\item\57682.jpg" />
+    <Content Include="images\item\57683.jpg" />
+    <Content Include="images\item\57688.jpg" />
+    <Content Include="images\item\57689.jpg" />
+    <Content Include="images\item\57691.jpg" />
+    <Content Include="images\item\57692.jpg" />
+    <Content Include="images\item\57694.jpg" />
+    <Content Include="images\item\57696.jpg" />
+    <Content Include="images\item\57739.jpg" />
+    <Content Include="images\item\57741.jpg" />
+    <Content Include="images\item\57743.jpg" />
+    <Content Include="images\item\57745.jpg" />
+    <Content Include="images\item\57747.jpg" />
+    <Content Include="images\item\57749.jpg" />
+    <Content Include="images\item\57750.jpg" />
+    <Content Include="images\item\57751.jpg" />
+    <Content Include="images\item\57752.jpg" />
+    <Content Include="images\item\57753.jpg" />
+    <Content Include="images\item\57754.jpg" />
+    <Content Include="images\item\57755.jpg" />
+    <Content Include="images\item\57756.jpg" />
+    <Content Include="images\item\57757.jpg" />
+    <Content Include="images\item\57758.jpg" />
+    <Content Include="images\item\57759.jpg" />
+    <Content Include="images\item\57760.jpg" />
+    <Content Include="images\item\57761.jpg" />
+    <Content Include="images\item\57762.jpg" />
+    <Content Include="images\item\57763.jpg" />
+    <Content Include="images\item\57764.jpg" />
+    <Content Include="images\item\57765.jpg" />
+    <Content Include="images\item\57766.jpg" />
+    <Content Include="images\item\57769.jpg" />
+    <Content Include="images\item\57785.jpg" />
+    <Content Include="images\item\57786.jpg" />
+    <Content Include="images\item\57789.jpg" />
+    <Content Include="images\item\57790.jpg" />
+    <Content Include="images\item\57793.jpg" />
+    <Content Include="images\item\57794.jpg" />
+    <Content Include="images\item\57795.jpg" />
+    <Content Include="images\item\57810.jpg" />
+    <Content Include="images\item\57860.jpg" />
+    <Content Include="images\item\57910.jpg" />
+    <Content Include="images\item\57965.jpg" />
+    <Content Include="images\item\57966.jpg" />
+    <Content Include="images\item\57969.jpg" />
+    <Content Include="images\item\57982.jpg" />
+    <Content Include="images\item\57987.jpg" />
+    <Content Include="images\item\57992.jpg" />
+    <Content Include="images\item\57997.jpg" />
+    <Content Include="images\item\nopic.jpg" />
+    <Content Include="images\left_06_peizhi_bottom.jpg" />
+    <Content Include="images\left_06_peizhi_up.jpg" />
+    <Content Include="images\login.jpg" />
+    <Content Include="images\loginBg.gif" />
+    <Content Include="images\login_1.jpg" />
+    <Content Include="images\login_2.jpg" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="images\main_title_282i.gif" />
+    <Content Include="images\more.gif" />
+    <Content Include="images\news_06_middle_01.jpg" />
+    <Content Include="images\news_06_middle_02.jpg" />
+    <Content Include="images\news_06_middle_03.jpg" />
+    <Content Include="images\news_06_middle_04.jpg" />
+    <Content Include="images\news_06_middle_05.jpg" />
+    <Content Include="images\news_06_middle_07.jpg" />
+    <Content Include="images\notice_bg.gif" />
+    <Content Include="images\press_line.gif" />
+    <Content Include="images\style.css" />
+    <Content Include="images\Top_1.gif" />
+    <Content Include="images\Top_10.gif" />
+    <Content Include="images\Top_2.gif" />
+    <Content Include="images\Top_3.gif" />
+    <Content Include="images\Top_4.gif" />
+    <Content Include="images\Top_5.gif" />
+    <Content Include="images\Top_6.gif" />
+    <Content Include="images\Top_7.gif" />
+    <Content Include="images\Top_8.gif" />
+    <Content Include="images\Top_9.gif" />
+    <Content Include="images\top_line_addpoint.jpg" />
+    <Content Include="images\top_line_bank.jpg" />
+    <Content Include="images\top_line_changeinfo.jpg" />
+    <Content Include="images\top_line_clearpk.jpg" />
+    <Content Include="images\top_line_clearstate.jpg" />
+    <Content Include="images\top_line_commend.jpg" />
+    <Content Include="images\top_line_commendlist.jpg" />
+    <Content Include="images\top_line_download.jpg" />
+    <Content Include="images\top_line_forgetpassword.jpg" />
+    <Content Include="images\top_line_goldtomoney.jpg" />
+    <Content Include="images\top_line_guild.jpg" />
+    <Content Include="images\top_line_hero.jpg" />
+    <Content Include="images\top_line_itemtogold.jpg" />
+    <Content Include="images\top_line_login.jpg" />
+    <Content Include="images\top_line_modifychaname.jpg" />
+    <Content Include="images\top_line_modifypassword.jpg" />
+    <Content Include="images\top_line_newslist.jpg" />
+    <Content Include="images\top_line_notice.jpg" />
+    <Content Include="images\top_line_notice1.jpg" />
+    <Content Include="images\top_line_pay.jpg" />
+    <Content Include="images\top_line_petlvup.jpg" />
+    <Content Include="images\top_line_register.jpg" />
+    <Content Include="images\top_line_reset.jpg" />
+    <Content Include="images\top_line_resetpoint.jpg" />
+    <Content Include="images\top_line_sell.jpg" />
+    <Content Include="images\top_line_shop.jpg" />
+    <Content Include="images\top_line_skilllvup.jpg" />
+    <Content Include="images\top_line_viewnews.jpg" />
+    <Content Include="images\VerifyCode.jpg" />
+    <Content Include="itemtogold.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="modifychaname.aspx" />
+    <Content Include="modifypassword.aspx" />
+    <Content Include="newslist.aspx" />
+    <Content Include="notice.aspx" />
+    <Content Include="notice1.aspx" />
+    <Content Include="pay.aspx" />
+    <Content Include="petlevelup.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="resetpoint.aspx" />
+    <Content Include="shop.aspx" />
+    <Content Include="skilllevelup.aspx" />
+    <Content Include="tw.aspx" />
+    <Content Include="VerifyCode.aspx" />
+    <Content Include="view9sonline4count.aspx" />
+    <Content Include="viewagent.aspx" />
+    <Content Include="viewnews.aspx" />
+    <Content Include="web.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ChannelInfo.bin" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.cfm" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.php" />
+    <None Include="FCKeditor\editor\dialog\fck_spellerpages\spellerpages\server-scripts\spellchecker.pl" />
+    <None Include="ItemList.bin" />
+    <None Include="QuestScript.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images\item\ibmibm\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50218</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

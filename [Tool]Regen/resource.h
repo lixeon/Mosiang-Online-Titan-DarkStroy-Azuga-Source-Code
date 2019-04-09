@@ -1,0 +1,119 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by RegenTool.rc
+//
+#define IDC_SAVEOK                      3
+#define IDD_ABOUTBOX                    100
+#define IDD_REGENTOOL_FORM              101
+#define IDR_MAINFRAME                   128
+#define IDR_REGENTTYPE                  129
+#define IDD_MONSTERLIST                 130
+#define IDD_INMAP_MONSTER               131
+#define IDB_DELETE_ON                   144
+#define IDB_DELETE_PRESS                145
+#define IDB_MONSTERSELECTAREA_ON        146
+#define IDB_MONSTERSELECTAREA_PRESS     147
+#define IDB_MONSTERSELECTNOAREA_ON      148
+#define IDB_MONSTERSELECTNOAREA_PRESS   149
+#define IDB_MOVE_ON                     150
+#define IDB_MOVE_PRESS                  151
+#define IDB_SELECT_ON                   152
+#define IDB_SELECT_PRESS                153
+#define IDB_ZOOMIN_ON                   154
+#define IDB_ZOOMIN_PRESS                155
+#define IDB_ZOOMOUT_PRESS               156
+#define IDB_ZOOMOUT_ON                  157
+#define IDB_NANJU                       158
+#define IDB_BITMAP1                     162
+#define IDD_MONSTERLISTVIEW             163
+#define IDD_MAPSELECTDLG                165
+#define IDC_M_A_VIEW                    1002
+#define IDC_BUTTON2                     1003
+#define IDC_BUTTON3                     1004
+#define IDC_LIST1                       1006
+#define IDC_EDIT1                       1007
+#define IDC_EDIT2                       1008
+#define IDC_EDIT3                       1009
+#define IDC_EDIT4                       1010
+#define IDC_EDIT5                       1011
+#define IDC_EDIT6                       1012
+#define IDC_COMBO1                      1020
+#define IDC_COMBO2                      1021
+#define IDC_EDIT7                       1022
+#define IDC_MAPIMAGE                    1023
+#define IDC_M_VIEW                      1024
+#define IDC_M_R_VIEW                    1025
+#define IDC_MAP_NAME                    1026
+#define IDC_SELECT_CHK                  1027
+#define IDC_MSELECTNOAREA_CHK           1028
+#define IDC_MSELECTAREA_CHK             1029
+#define IDC_DELETE_CHK                  1030
+#define IDC_ZOOMIN_CHK                  1031
+#define IDC_ZOOMOUT_CHK                 1032
+#define IDC_MOVE_CHK                    1033
+#define IDC_SCROLLBAR1                  1041
+#define IDC_SCROLLBAR2                  1042
+#define IDC_NPCCOMBO                    1043
+#define IDC_MAPCOMBO                    1044
+#define IDC_LIST2                       1045
+#define IDC_FUNCCOMBO                   1052
+#define IDC_SUBCOMBOTEXT                1053
+#define IDC_MONCOMBO                    1054
+#define IDC_GROUPSPIN                   1055
+#define IDC_GROUPSTATIC                 1056
+#define IDC_GROUPPROPERTYSPIN           1058
+#define IDC_TARGETGROUPIDEDIT           1059
+#define IDC_TARGETGROUPIDSPIN           1060
+#define IDC_CONDITIONEDIT               1061
+#define IDC_CONDITIONSPIN               1062
+#define IDC_REGENTIMEEDIT               1063
+#define IDC_REGENTIMESPIN               1064
+#define IDC_CONDITIONALLOK              1067
+#define IDC_LISTVIEW                    1068
+#define IDC_CONDITION1GROUP             1069
+#define IDC_CONDITION2GROUP             1070
+#define IDC_GROUPNAMESTATIC             1071
+#define IDC_GROUPPROPERTYSTATIC         1072
+#define IDC_TARGETGROUPIDSTATIC         1073
+#define IDC_CONDITIONSTATIC             1074
+#define IDC_REGENTIMESTATIC             1075
+#define IDC_GROUPEDIT                   1076
+#define IDC_GROUPNAMEEDIT               1077
+#define IDC_GROUPPROPERTYEDIT           1078
+#define IDC_ALLCONDITIONGROUP           1079
+#define IDC_DELETEGROUP                 1081
+#define IDC_ADDCONDITION                1082
+#define IDC_CLOSEVIEW                   1083
+#define IDC_MONSTERLIST                 1084
+#define IDC_TOTMONCOUNT                 1087
+#define IDC_EXTEND                      1088
+#define IDC_GRADE1                      1089
+#define IDC_GRADE2                      1090
+#define IDC_GRADE3                      1091
+#define IDC_LOADMAPBTN                  1092
+#define IDC_SELECTMAP                   1093
+#define ID_EDIT_SELECT                  32771
+#define ID_EDIT_SET                     32772
+#define ID_EDIT_SETRANGE                32773
+#define ID_EDIT_DELETE                  32774
+#define ID_VIEW_EXTENSION               32775
+#define ID_VIEW_REDUCTION               32776
+#define ID_VIEW_MOVE                    32777
+#define ID_MONSTER_ALL_VIEW             32778
+#define ID_MONSTER_SELECT_VIEW          32779
+#define ID_MONSTER_PLUS_RANGE_VIEW      32780
+#define ID_WINDOW_MONSTER_LIST          32781
+#define ID_IN_MAP_MONSTER               32782
+#define ID_MAPDATA_OPEN                 32784
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_3D_CONTROLS                     1
+#define _APS_NEXT_RESOURCE_VALUE        166
+#define _APS_NEXT_COMMAND_VALUE         32785
+#define _APS_NEXT_CONTROL_VALUE         1094
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif
